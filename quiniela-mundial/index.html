@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Titles -->
+  <title>Quiniela Mundialista Compartida ⚽🏆</title>
+  <meta name="description" content="Juego interactivo de quiniela mundialista para predecir marcadores en grupo. Multiperfil local, ranking dinámico y estadísticas en tiempo real.">
+  
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏆</text></svg>">
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/styles.css?v=9">
+</head>
+<body>
+
+  <!-- Canvas de Celebración (Confeti) -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <div class="app-wrapper">
+
+    <!-- === PANTALLA DE AUTENTICACIÓN (LOGIN / REGISTRO) === -->
+    <div class="profiles-overlay" id="profile-overlay" style="z-index: 2000; backdrop-filter: blur(16px); background: rgba(10, 25, 41, 0.95); display: flex; align-items: center; justify-content: center; flex-direction: column;">
+      <script>
+        if (localStorage.getItem("quiniela_active_profile_v8")) {
+          document.getElementById("profile-overlay").style.setProperty("display", "none", "important");
+        }
+      </script>
+      
+      <div class="auth-container" style="width: 100%; max-width: 400px; padding: 32px 24px; border-radius: 16px; background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5); box-sizing: border-box;">
+        
+        <div style="text-align: center; margin-bottom: 24px;">
+          <span style="font-size: 40px; filter: drop-shadow(0 0 12px var(--primary));">🏆</span>
+          <h2 style="font-size: 24px; font-weight: 700; color: #FFF; margin: 10px 0 4px 0; font-family: var(--font-title);">Quiniela Mundial</h2>
+          <p style="font-size: 13px; color: var(--text-muted); margin: 0;">Ingresa para guardar tus pronósticos</p>
+        </div>
+
+        <!-- Tabs de autenticación -->
+        <div style="display: flex; gap: 8px; border-bottom: 1px solid var(--border-light); margin-bottom: 20px; padding-bottom: 8px;">
+          <button type="button" id="tab-auth-login" class="tab-btn active" style="flex: 1; padding: 8px; border-radius: 6px; font-weight: 600; font-size: 13px; cursor: pointer; background: transparent; border: none; color: var(--text-muted); transition: all 0.2s;">Iniciar Sesión</button>
+          <button type="button" id="tab-auth-signup" class="tab-btn" style="flex: 1; padding: 8px; border-radius: 6px; font-weight: 600; font-size: 13px; cursor: pointer; background: transparent; border: none; color: var(--text-muted); transition: all 0.2s;">Registrarse</button>
+        </div>
+
+        <!-- Formulario de Iniciar Sesión -->
+        <form id="form-auth-login" style="display: flex; flex-direction: column; gap: 14px;">
+          <div class="form-group">
+            <label for="login-group-id" style="font-size: 12px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 6px;">ID del Grupo (Opcional)</label>
+            <input type="text" id="login-group-id" placeholder="Ej: mango_fc" style="width: 100%; text-transform: lowercase; font-family: monospace;">
+          </div>
+          <div class="form-group">
+            <label for="login-username" style="font-size: 12px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 6px;">Nombre de Usuario</label>
+            <input type="text" id="login-username" required style="width: 100%;" autocomplete="username">
+          </div>
+          <div class="form-group">
+            <label for="login-password" style="font-size: 12px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 6px;">Contraseña</label>
+            <input type="password" id="login-password" required style="width: 100%;" autocomplete="current-password">
+          </div>
+          <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; margin-top: 6px; background: linear-gradient(135deg, var(--primary), #b8860b); height: 44px; font-size: 14px; font-weight: 600;">
+            🚀 Entrar a la Quiniela
+          </button>
+        </form>
+
+        <!-- Formulario de Registro -->
+        <form id="form-auth-signup" style="display: none; flex-direction: column; gap: 14px;">
+          <div class="form-group">
+            <label for="signup-group-id" style="font-size: 12px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 6px;">ID del Grupo (Opcional)</label>
+            <input type="text" id="signup-group-id" placeholder="Ej: mango_fc" style="width: 100%; text-transform: lowercase; font-family: monospace;">
+          </div>
+          <div class="form-group">
+            <label for="signup-username" style="font-size: 12px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 6px;">Crea tu Nombre de Usuario</label>
+            <input type="text" id="signup-username" required style="width: 100%;" autocomplete="username">
+          </div>
+          <div class="form-group">
+            <label for="signup-password" style="font-size: 12px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 6px;">Contraseña</label>
+            <input type="password" id="signup-password" required style="width: 100%;" autocomplete="new-password">
+          </div>
+          <div class="form-group">
+            <label style="font-size: 12px; font-weight: 600; color: var(--text-muted); display: block; margin-bottom: 6px;">Elige tu Avatar Emojional</label>
+            <div id="signup-avatar-selector" style="display: flex; gap: 8px; justify-content: space-between;">
+              <span class="avatar-option active" style="font-size: 24px; cursor: pointer; padding: 6px; border-radius: 50%; border: 2px solid var(--primary); transition: all 0.2s; background: rgba(255,255,255,0.05);">⚽</span>
+              <span class="avatar-option" style="font-size: 24px; cursor: pointer; padding: 6px; border-radius: 50%; border: 2px solid transparent; transition: all 0.2s; background: rgba(255,255,255,0.05);">🦊</span>
+              <span class="avatar-option" style="font-size: 24px; cursor: pointer; padding: 6px; border-radius: 50%; border: 2px solid transparent; transition: all 0.2s; background: rgba(255,255,255,0.05);">⚡</span>
+              <span class="avatar-option" style="font-size: 24px; cursor: pointer; padding: 6px; border-radius: 50%; border: 2px solid transparent; transition: all 0.2s; background: rgba(255,255,255,0.05);">🔥</span>
+              <span class="avatar-option" style="font-size: 24px; cursor: pointer; padding: 6px; border-radius: 50%; border: 2px solid transparent; transition: all 0.2s; background: rgba(255,255,255,0.05);">🌟</span>
+              <span class="avatar-option" style="font-size: 24px; cursor: pointer; padding: 6px; border-radius: 50%; border: 2px solid transparent; transition: all 0.2s; background: rgba(255,255,255,0.05);">🦁</span>
+            </div>
+          </div>
+          <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; margin-top: 6px; background: linear-gradient(135deg, var(--accent-green), #047857); height: 44px; font-size: 14px; font-weight: 600;">
+            ✨ Crear Cuenta & Entrar
+          </button>
+        </form>
+
+      </div>
+    </div>
+
+    <!-- === CABECERA DE LA APLICACIÓN === -->
+    <header class="app-header">
+      <div class="logo-block">
+        <span class="logo-emoji">🏆</span>
+        <div class="logo-titles">
+          <h1>Quiniela Mundial</h1>
+          <span>Predicciones con Amigos</span>
+        </div>
+      </div>
+
+      <!-- Marcador de Puntos Activo -->
+      <div class="live-scoreboard" style="gap: 15px;">
+        <div class="player-score-block leader" id="score-block-active">
+          <span class="score-avatar" id="header-avatar-active">👤</span>
+          <span class="score-name" id="header-name-active">Cargando...</span>
+          <span class="score-val" id="header-val-active">0</span>
+        </div>
+      </div>
+
+      <!-- Navegación -->
+      <nav class="nav-tabs" aria-label="Navegación principal">
+        <button class="tab-btn active" data-view="predictions" id="tab-predictions">
+          ⚽ Predicciones
+        </button>
+        <button class="tab-btn" data-view="comparison" id="tab-comparison">
+          🏆 Ranking Global
+        </button>
+        <button class="tab-btn" data-view="admin" id="tab-admin">
+          ⚙️ Administrar
+        </button>
+        <button class="tab-btn" data-view="settings" id="tab-settings">
+          👤 Ajustes
+        </button>
+      </nav>
+
+      <!-- Pill Indicador de Quién Juega -->
+      <div class="profile-pill" id="active-profile-pill" title="Hacer click para cambiar perfil">
+        <span class="profile-pill-avatar" id="active-avatar-pill">🦁</span>
+        <span class="profile-pill-name" id="active-name-pill">Luis</span>
+        <span style="font-size: 10px; color: var(--primary);">▼</span>
+      </div>
+    </header>
+
+    <!-- === CONTENEDOR DE VISTAS PRINCIPALES === -->
+    <main class="content-container">
+
+      <!-- VISTA: Predicciones -->
+      <section class="view-section active" id="view-predictions" aria-labelledby="heading-predictions">
+        <h2 style="display: none;" id="heading-predictions">Predicciones</h2>
+        <div class="sub-header-bar">
+          <div class="stage-filters" id="stage-filters-container">
+            <!-- Dinámico -->
+          </div>
+          <div id="current-user-editing-msg">
+            ✍️ Editando pronósticos de Luis
+          </div>
+        </div>
+        <div class="advanced-filters-bar">
+          <div class="filter-group search-filter">
+            <span class="filter-icon">🔍</span>
+            <input type="text" id="filter-search-team" placeholder="Buscar país (ej. Argentina)...">
+          </div>
+          <div class="filter-group-row">
+            <div class="filter-group">
+              <span class="filter-icon">🏆</span>
+              <select id="filter-select-group">
+                <option value="">Todos los Grupos</option>
+                <option value="Grupo A">Grupo A</option>
+                <option value="Grupo B">Grupo B</option>
+                <option value="Grupo C">Grupo C</option>
+                <option value="Grupo D">Grupo D</option>
+                <option value="Grupo E">Grupo E</option>
+                <option value="Grupo F">Grupo F</option>
+                <option value="Grupo G">Grupo G</option>
+                <option value="Grupo H">Grupo H</option>
+                <option value="Grupo I">Grupo I</option>
+                <option value="Grupo J">Grupo J</option>
+                <option value="Grupo K">Grupo K</option>
+                <option value="Grupo L">Grupo L</option>
+              </select>
+            </div>
+            <div class="filter-group">
+              <span class="filter-icon">🚦</span>
+              <select id="filter-select-status">
+                <option value="">Todos los Estados</option>
+                <option value="pending">⏳ Pendientes</option>
+                <option value="locked">🔒 Cerrados</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="matches-grid" id="predictions-matches-grid">
+          <!-- Dinámico -->
+        </div>
+
+        <!-- Botón para volver al inicio -->
+        <div style="text-align: center; margin: 30px 0 10px 0; width: 100%;">
+          <button id="btn-back-to-top" class="btn-primary" style="background: rgba(255, 255, 255, 0.04); border: 1px solid var(--border-light); color: var(--text-main); box-shadow: none; display: inline-flex; align-items: center; gap: 8px; justify-content: center; height: 38px; font-size: 12px; font-weight: 600; cursor: pointer; transition: var(--transition-fast);">
+            ⬆️ Volver al Inicio de la Página
+          </button>
+        </div>
+      </section>
+
+      <!-- VISTA: Ranking Global -->
+      <section class="view-section" id="view-comparison" aria-labelledby="heading-comparison">
+        <div class="sub-header-bar">
+          <h2 class="section-title" id="heading-comparison" style="font-size: 22px; margin: 0;">🏆 Ranking Global</h2>
+          <div style="font-size: 11px; color: var(--text-muted);">
+            Se muestran todos los jugadores activos en tu dispositivo / sesión.
+          </div>
+        </div>
+
+        <div class="comparison-table-container">
+          <table class="h2h-table" id="leaderboard-table">
+            <thead>
+              <tr>
+                <th style="width: 50px; text-align: center;">Pos</th>
+                <th>Jugador</th>
+                <th style="text-align: right;">Puntos</th>
+              </tr>
+            </thead>
+            <tbody id="leaderboard-table-body">
+              <!-- Dinámico -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- VISTA: Administrador (Resultados) -->
+      <section class="view-section" id="view-admin" aria-labelledby="heading-admin">
+        <div class="sub-header-bar">
+          <div>
+            <h2 class="section-title" id="heading-admin" style="font-size: 22px; margin: 0;">🛠️ Administrador de Resultados</h2>
+            <p style="font-size: 12px; color: var(--text-muted); margin-top: 4px;">
+              Ingresa los marcadores reales para calcular los puntos de forma inmediata.
+            </p>
+          </div>
+          <button class="btn-primary" id="btn-reset-system" style="background: var(--accent-red); color: #FFF; box-shadow: none;">
+            🗑️ Reiniciar Todo
+          </button>
+        </div>
+
+        <div class="admin-card">
+          <h3 class="section-title" style="font-size: 14px; margin-bottom: 12px; color: var(--primary);">📝 Resultados Oficiales de Partidos</h3>
+          <div id="admin-matches-list">
+            <!-- Dinámico -->
+          </div>
+        </div>
+
+        <!-- Conexión con Google Sheets (Exclusivo para el Organizador/Administrador) -->
+        <div class="config-card" id="sheets-config-card" style="border: 1px solid rgba(16, 185, 129, 0.3); background: rgba(16, 185, 129, 0.01); margin-top: 20px;">
+          <h3 class="section-title" style="font-size: 16px; margin-bottom: 12px; color: var(--accent-green); display: flex; align-items: center; gap: 8px;">
+            <span>📊 Base de Datos Google Sheets (Opcional)</span>
+          </h3>
+          <p style="font-size: 11px; color: var(--text-muted); line-height: 1.5; margin-bottom: 14px;">
+            <strong>[Rol: Organizador]</strong> Guarda el historial de pronósticos gratis en tu propia hoja de cálculo. Sigue la guía interactiva de abajo para copiar e instalar el código de Apps Script, luego vincula la URL generada.
+          </p>
+          <form id="sheets-config-form" style="display: flex; flex-direction: column; gap: 10px;">
+            <div class="form-group" style="margin-bottom: 4px;">
+              <label for="input-sheets-url" style="font-weight: 600; display: block; margin-bottom: 6px;">URL de la Aplicación Web (Google Apps Script)</label>
+              <input type="url" id="input-sheets-url" placeholder="https://script.google.com/macros/s/.../exec" style="font-family: monospace; font-size: 11px; width: 100%;" autocomplete="off">
+            </div>
+            <button type="submit" class="btn-primary" style="width: 100%; background: linear-gradient(135deg, var(--accent-green), #047857); justify-content: center; box-shadow: 0 4px 12px rgba(16, 185, 129, 0.15);">
+              💾 Vincular Hoja de Cálculo
+            </button>
+          </form>
+          <div id="sheets-status-msg" style="font-size: 11px; margin-top: 12px; font-weight: 500; text-align: center; color: var(--text-muted);">
+            Estado: <strong style="color: var(--accent-green);" id="current-sheets-status-label">Desconectado</strong>
+          </div>
+
+          <!-- Bloque colapsable premium con código de Apps Script -->
+          <details style="margin-top: 16px; border: 1px solid rgba(16, 185, 129, 0.2); border-radius: 8px; background: rgba(0, 0, 0, 0.2); overflow: hidden; font-size: 12px;">
+            <summary style="padding: 10px 14px; font-weight: 600; color: var(--accent-green); cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none;">
+              <span>📋 Ver Código & Instrucciones de Instalación</span>
+              <span class="details-arrow" style="transition: transform 0.2s; font-size: 10px;">▼</span>
+            </summary>
+            <div style="padding: 14px; border-top: 1px solid rgba(16, 185, 129, 0.15); background: rgba(0, 0, 0, 0.15);">
+              <p style="font-size: 11px; color: var(--text-muted); margin-bottom: 8px; line-height: 1.4;">
+                Copia este código e instálalo en tu Google Sheet para conectar la base de datos en tiempo real:
+              </p>
+              
+              <div style="position: relative; margin-bottom: 12px;">
+                <textarea id="apps-script-code" readonly style="width: 100%; height: 180px; font-family: monospace; font-size: 10px; background: var(--bg-surface); color: #e2e8f0; border: 1px solid var(--border-light); border-radius: 6px; padding: 10px; resize: none; line-height: 1.4; box-sizing: border-box;"></textarea>
+                <button id="btn-copy-script" type="button" class="btn-primary" style="position: absolute; right: 8px; bottom: 8px; padding: 6px 12px; font-size: 11px; background: rgba(16, 185, 129, 0.85); border: none; box-shadow: none; height: auto; z-index: 10;">
+                  📋 Copiar Código
+                </button>
+              </div>
+              
+              <h4 style="font-size: 11px; color: var(--primary); margin: 10px 0 6px 0; font-weight: 600;">🛠️ Guía Rápida de Configuración (3 Clics):</h4>
+              <ol style="font-size: 11px; color: var(--text-muted); padding-left: 18px; margin: 0; line-height: 1.6; display: flex; flex-direction: column; gap: 4px;">
+                <li>Crea una nueva hoja en <a href="https://sheets.google.com" target="_blank" style="color: var(--accent-blue); text-decoration: none;">Google Sheets</a>.</li>
+                <li>En el menú superior, ve a <strong>Extensiones ➡️ Apps Script</strong>, borra el código que haya y pega el código copiado arriba.</li>
+                <li>Haz clic en el botón azul <strong>Implementar ➡️ Nueva implementación</strong> (arriba a la derecha).</li>
+                <li>Haz clic en el engranaje de configuración y selecciona <strong>Aplicación web</strong>.</li>
+                <li>Configura exactamente lo siguiente:
+                  <ul style="padding-left: 16px; margin: 2px 0; list-style-type: circle;">
+                    <li><strong>Ejecutar como:</strong> <em>Yo (tu_correo@gmail.com)</em></li>
+                    <li><strong>Quién tiene acceso:</strong> <em style="color: var(--primary);">Cualquier persona</em> (fundamental para que tus amigos registren datos).</li>
+                  </ul>
+                </li>
+                <li>Haz clic en <strong>Implementar</strong>, autoriza los permisos en tu cuenta de Google y copia la <strong>URL de la aplicación web</strong> generada (termina en <code>/exec</code>).</li>
+                <li>¡Pega esa URL arriba en esta tarjeta y haz clic en Vincular!</li>
+              </ol>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- VISTA: Ajustes (Configuración) -->
+      <section class="view-section" id="view-settings" aria-labelledby="heading-settings">
+        <h2 style="display: none;" id="heading-settings">Ajustes</h2>
+        <div class="config-grid">
+          
+          <!-- Editar nombres -->
+          <div class="config-card">
+            <h3 class="section-title" style="font-size: 16px; margin-bottom: 16px;">👤 Mi Perfil</h3>
+            <form id="profiles-config-form">
+              <div class="form-group">
+                <label for="input-name-active">Tu Nombre</label>
+                <input type="text" id="input-name-active" required autocomplete="off">
+              </div>
+              <button type="submit" class="btn-primary" style="width: 100%;">💾 Guardar Cambios</button>
+            </form>
+          </div>
+
+          <!-- Sincronización rápida -->
+          <div class="config-card">
+            <h3 class="section-title" style="font-size: 16px; margin-bottom: 16px;">🔄 Compartir / Respaldar Predicciones</h3>
+            <p style="font-size: 11px; color: var(--text-muted); line-height: 1.5; margin-bottom: 16px;">
+              ¿Juegan en computadoras distintas? Descarga tus pronósticos como archivo y envíaselo a tus amigos para que lo importen en la pestaña de ajustes.
+            </p>
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+              <button class="btn-primary" id="btn-export-predictions" style="background: transparent; border: 1px solid var(--border-light); color: var(--text-main); box-shadow: none; justify-content: center;">
+                📤 Exportar Mis Pronósticos JSON
+              </button>
+              
+              <div style="border: 1px dashed var(--border-light); border-radius: 10px; padding: 12px; text-align: center; cursor: pointer; transition: var(--transition-fast);" id="drop-zone-predictions">
+                <span style="font-size: 12px; font-weight: 600;">📥 Cargar Archivo de Amigos</span>
+                <input type="file" id="import-predictions-file" style="display: none;" accept=".json">
+              </div>
+            </div>
+          </div>
+
+          <!-- Grupo de Quiniela ID -->
+          <div class="config-card" style="border: 1px solid rgba(214, 175, 55, 0.3); background: rgba(214, 175, 55, 0.01);">
+            <h3 class="section-title" style="font-size: 16px; margin-bottom: 12px; color: var(--primary); display: flex; align-items: center; gap: 8px;">
+              <span>👥 Mi Grupo de Quiniela</span>
+            </h3>
+            <p style="font-size: 11px; color: var(--text-muted); line-height: 1.5; margin-bottom: 14px;">
+              ¿Quieres jugar con amigos lejanos? Define un <strong>ID de Quiniela Único</strong>. Todos los que usen el mismo ID compartirán el mismo ranking y predicciones en tiempo real sobre la nube.
+            </p>
+            <form id="group-config-form" style="display: flex; flex-direction: column; gap: 10px;">
+              <div class="form-group" style="margin-bottom: 4px;">
+                <label for="input-group-id" style="font-weight: 600; display: block; margin-bottom: 6px;">ID Único del Grupo</label>
+                <input type="text" id="input-group-id" placeholder="Ej: 123 o grupo_cristobal" style="text-transform: lowercase; font-family: monospace; letter-spacing: 1px; width: 100%;" autocomplete="off">
+              </div>
+              <button type="submit" class="btn-primary" style="width: 100%; background: linear-gradient(135deg, var(--primary), #b8860b); justify-content: center; box-shadow: 0 4px 12px rgba(214, 175, 55, 0.15);">
+                🔗 Conectarse / Unirse al Grupo
+              </button>
+            </form>
+            <div id="group-status-msg" style="font-size: 11px; margin-top: 12px; font-weight: 500; text-align: center; color: var(--text-muted);">
+              Estado: <strong style="color: var(--primary);" id="current-group-id-label">Cargando grupo...</strong>
+            </div>
+          </div>
+
+          <!-- Tarjeta de Donación -->
+          <div class="config-card" style="border: 1px solid rgba(255, 196, 57, 0.3); background: rgba(255, 196, 57, 0.01); display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <h3 class="section-title" style="font-size: 16px; margin-bottom: 12px; color: #ffc439; display: flex; align-items: center; gap: 8px;">
+                <span>☕ Apoya el Proyecto</span>
+              </h3>
+              <p style="font-size: 11px; color: var(--text-muted); line-height: 1.5; margin-bottom: 14px;">
+                ¿Te gusta la Quiniela? Si esta aplicación te ayuda a divertirte y competir con tus amigos, considera apoyar su desarrollo con una pequeña donación para mantener los servidores activos y libres de publicidad.
+              </p>
+            </div>
+            <a href="https://paypal.me/JaqueKadis" target="_blank" class="btn-primary" style="background: linear-gradient(135deg, #ffc439, #e0a800); color: #000; justify-content: center; font-weight: 700; box-shadow: 0 4px 12px rgba(255, 196, 57, 0.2); text-decoration: none; text-align: center; height: 38px; display: flex; align-items: center; border: none; font-size: 13px;">
+              💛 Invítame un Café vía PayPal
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer style="text-align: center; padding: 32px 16px; color: var(--text-muted); font-size: 13px; border-top: 2px solid var(--border-light); margin-top: auto; font-family: var(--font-title); font-weight: 600;">
+      Hecho con pasión por <strong style="color: var(--primary);">Luis Jaque</strong><br>
+      <span style="font-size: 11px; font-weight: 400; opacity: 0.8; margin-top: 6px; display: inline-block;">Contacto: <a href="mailto:luisjaquekadis@gmail.com" style="color: var(--accent-blue); text-decoration: none;">luisjaquekadis@gmail.com</a> • ☕ <a href="https://paypal.me/JaqueKadis" target="_blank" style="color: #ffc439; text-decoration: none; font-weight: 600;">Apoyar Proyecto (PayPal)</a></span>
+    </footer>
+
+  </div>
+
+  <!-- === ESTRUCTURA PARA EL ONBOARDING INTERACTIVO === -->
+  <div id="onboarding-tooltip" class="onboarding-tooltip" style="display: none;">
+    <div class="onboarding-tooltip-header">
+      <span id="onboarding-emoji" class="onboarding-tooltip-emoji">💡</span>
+      <h4 id="onboarding-title" class="onboarding-tooltip-title">Paso de Onboarding</h4>
+    </div>
+    <p id="onboarding-text" class="onboarding-tooltip-text">Texto de ayuda guiada para el usuario.</p>
+    <div class="onboarding-tooltip-footer">
+      <span id="onboarding-steps" class="onboarding-tooltip-steps">1 / 5</span>
+      <div class="onboarding-tooltip-buttons">
+        <button id="btn-onboarding-skip" class="btn-primary" style="background: transparent; border: 1px solid rgba(255,255,255,0.15); color: var(--text-muted); box-shadow: none; height: 30px; font-size: 11px;">Saltar</button>
+        <button id="btn-onboarding-next" class="btn-primary" style="height: 30px; font-size: 11px;">Siguiente ➡️</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+
+  <!-- Scripts -->
+  <script src="js/database.js?v=9.1"></script>
+  <script src="js/profiles.js?v=9.1"></script>
+  <script src="js/app.js?v=9.1"></script>
+</body>
+</html>

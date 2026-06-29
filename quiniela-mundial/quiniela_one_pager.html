@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiniela Mundial 2026 - One Pager</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+            margin: 0;
+            padding: 40px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #38bdf8;
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #94a3b8;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .section {
+            background: rgba(30, 41, 59, 0.7);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .section h2 {
+            color: #a78bfa;
+            margin-top: 0;
+            border-bottom: 2px solid #334155;
+            padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .feature-item {
+            background: rgba(15, 23, 42, 0.8);
+            padding: 20px;
+            border-radius: 12px;
+        }
+
+        .feature-item h3 {
+            margin-top: 0;
+            color: #34d399;
+        }
+
+        .image-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            border-radius: 12px;
+            max-width: 45%;
+            object-fit: cover;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+            border: 1px solid #334155;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 10px;
+        }
+
+        ul li::before {
+            content: '⚽';
+            position: absolute;
+            left: 0;
+            top: 2px;
+            font-size: 0.9em;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        @media print {
+            body { background: white; color: black; padding: 20px; }
+            .section { background: white; border: 1px solid #e2e8f0; box-shadow: none; break-inside: avoid; }
+            h1 { color: #0284c7; }
+            .section h2 { color: #6d28d9; border-bottom-color: #e2e8f0; }
+            .feature-item { background: #f8fafc; border: 1px solid #e2e8f0; }
+            .feature-item h3 { color: #059669; }
+            .highlight-box { color: white; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            .image-container img { max-width: 48%; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Quiniela Mundial 2026</h1>
+    <div class="subtitle">Una experiencia interactiva y autónoma para vivir la Copa del Mundo</div>
+
+    <div class="container">
+        
+        <div class="image-container">
+            <img src="/Users/luisjaquekadis/.gemini/antigravity-ide/brain/173fe79f-ac81-4407-b9d7-783cf75848a1/predictions_dashboard_1781215358201.png" alt="Dashboard">
+            <img src="/Users/luisjaquekadis/.gemini/antigravity-ide/brain/173fe79f-ac81-4407-b9d7-783cf75848a1/espn_live_sync_1781215349897.png" alt="ESPN Sync">
+        </div>
+
+        <div class="section">
+            <h2>✨ Características Principales</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <h3>📡 Marcadores ESPN en Vivo</h3>
+                    <p>Conexión nativa a ESPN. Los partidos se actualizan solos conforme caen los goles, re-calculando el ranking de los usuarios al instante.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>☁️ Gestión 100% Cloud</h3>
+                    <p>Base de datos en Firebase. Modifica fechas, equipos o estadios sin volver a subir código. Arquitectura descentralizada y robusta.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>🎯 Puntuación Inteligente</h3>
+                    <p>+3 puntos por marcador exacto y +1 punto por adivinar la tendencia (ganador o empate). Cálculos infalibles en tiempo real.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>👥 Multijugador Privado</h3>
+                    <p>Grupos cerrados, perfiles seguros y un ranking interactivo donde la competencia no se detiene ni un segundo.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🛠 Tecnología y Mantenimiento</h2>
+            <ul>
+                <li><strong>Frontend:</strong> HTML/CSS/JS moderno (PWA) con micro-interacciones.</li>
+                <li><strong>Backend:</strong> Firebase Firestore + Scripts en Python para actualizaciones de datos masivas.</li>
+                <li><strong>Cero Mantenimiento Operativo:</strong> Gracias a la nueva jerarquía de datos, el administrador no necesita tocar Netlify. ¡Todo se controla remotamente!</li>
+            </ul>
+        </div>
+
+        <div class="highlight-box">
+            La plataforma definitiva, escalable a cientos de usuarios a costo cero, lista para el Mundial 2026.
+        </div>
+    </div>
+</body>
+</html>

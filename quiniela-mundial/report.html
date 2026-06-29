@@ -1,0 +1,626 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Reporte de Quiniela Mundial</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 40px auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1 { color: #1a1a1a; border-bottom: 2px solid #a3e635; padding-bottom: 10px; }
+        h2 { color: #2c3e50; margin-top: 30px; }
+        p { text-align: justify; }
+        code { background: #f4f4f4; padding: 2px 5px; border-radius: 4px; font-family: monospace; }
+        pre { background: #f4f4f4; padding: 15px; border-radius: 8px; overflow-x: auto; }
+        blockquote { border-left: 4px solid #a3e635; margin: 0; padding-left: 15px; color: #555; background: #f9f9f9; padding: 10px; }
+        img { max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .page-break { page-break-before: always; }
+        .header-logo { text-align: center; margin-bottom: 40px; }
+        .header-logo h1 { border: none; font-size: 36px; margin: 0; color: #1b1e24; }
+        .header-logo p { text-align: center; color: #777; font-size: 14px; }
+        .image-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px; }
+        .image-card { width: 45%; text-align: center; }
+        .image-card img { max-width: 100%; height: auto; border: 2px solid #a3e635; border-radius: 12px; }
+        .image-card p { font-weight: bold; margin-top: 5px; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="header-logo">
+        <h1>🏆 Reporte Ejecutivo: Quiniela Mundial 2026</h1>
+        <p>Resumen Arquitectónico e Identidad Visual</p>
+    </div>
+<div class='section'>
+<h2>Arquitectura General</h2>
+<h1>Quiniela Mundial 2026 - Architecture One-Pager</h1>
+<p>La <strong>Quiniela Mundial 2026</strong> es una aplicación web progresiva (PWA) de alto rendimiento, diseñada para competencias de pronósticos deportivos en tiempo real. Su arquitectura está orientada a la <strong>velocidad extrema, bajo costo operativo (Serverless) y resiliencia offline</strong>.</p>
+<h2>1. Stack Tecnológico</h2>
+<blockquote>
+<p>[!TIP]
+La aplicación evita intencionalmente frameworks pesados (como React o Angular) para garantizar tiempos de carga sub-segundo, incluso en redes móviles lentas.</p>
+</blockquote>
+<ul>
+<li><strong>Frontend:</strong> Vanilla JavaScript (ES6+), HTML5, y CSS3 (Diseño Neo-Brutalista Oscuro).</li>
+<li><strong>Backend / Sincronización:</strong> Firebase Firestore (BaaS).</li>
+<li><strong>Live Scores:</strong> Python Scripts (Extracción ESPN) + JSON estático.</li>
+<li><strong>Hosting:</strong> Netlify (CDN Global).</li>
+</ul>
+<h2>2. Arquitectura de Datos: "Local-First" + Reactividad</h2>
+<p>El núcleo del sistema es la clase <code>QuinielaStorage</code> (<code>profiles.js</code>), que actúa como un puente inteligente entre la interfaz y la nube. </p>
+<pre><code class="language-mermaid">graph TD
+    UI[Interfaz de Usuario / DOM] --&gt; |Lee y Escribe instantáneamente| LS[(LocalStorage)]
+    LS --&gt; |Dispara| Sync[Capa de Sincronización]
+    Sync --&gt; |Push: Guarda cambios| FB[(Firebase Firestore)]
+    FB --&gt; |Pull: onSnapshot Listeners| Sync
+    Sync --&gt; |Actualiza si hay diferencias| LS
+</code></pre>
+<ol>
+<li><strong>Velocidad Local:</strong> Todas las acciones del usuario (guardar pronósticos, calcular puntos) leen y escriben <strong>primero</strong> en el <code>localStorage</code> del navegador. Esto asegura que la interfaz nunca se quede "pensando".</li>
+<li><strong>Listeners Reactivos:</strong> En segundo plano, conexiones silenciosas de Firebase (<code>onSnapshot</code>) escuchan cambios realizados por <em>otros</em> usuarios. Si alguien más hace un cambio, Firebase envía una notificación al cliente, se actualiza la caché local y la UI se repinta al instante.</li>
+</ol>
+<h2>3. Modelo Multigrupo (Multi-tenant)</h2>
+<p>La base de datos en Firestore está estructurada jerárquicamente para soportar múltiples "salas" o "grupos" privados de forma aislada.</p>
+<pre><code class="language-text">Firestore Root
+└── groups/
+    ├── default/
+    │   ├── profiles/ {Jaque: {...}, Kimi: {...}}
+    │   ├── predictions/ {Jaque: {...}, Kimi: {...}}
+    │   └── misc/
+    ├── mango_fc/
+    │   ├── profiles/ ...
+    │   └── predictions/ ...
+</code></pre>
+<p>Cuando un usuario hace login indicando un ID de grupo, la aplicación purga su caché local y se suscribe únicamente a la rama de Firestore correspondiente a ese grupo.</p>
+<h2>4. Ingesta de Marcadores en Vivo (ESPN)</h2>
+<p>Para evitar reventar las cuotas de lectura de Firebase (Firebase Quotas) preguntando por resultados en vivo cada segundo, la aplicación utiliza una <strong>arquitectura híbrida de bajo costo</strong>:</p>
+<ol>
+<li><strong>El Motor Python:</strong> Un script (<code>sync_api_espn.py</code>) consulta la API pública de ESPN y compila el calendario oficial y los goles en un archivo estático hiper-ligero: <code>api/2026.json</code>.</li>
+<li><strong>Polling Estático:</strong> El cliente (navegador) hace peticiones cada 30 segundos a este archivo JSON estático alojado en Netlify.</li>
+<li><strong>Escritura Unidireccional:</strong> Si el cliente detecta un resultado nuevo en el JSON, lo sube a Firebase (<code>updateCloudKey</code>) para que todos los usuarios del grupo recalculen sus puntos automáticamente.</li>
+</ol>
+<blockquote>
+<p>[!IMPORTANT]
+<strong>Gestión de Puntos:</strong> La función <code>recalculateAllPoints()</code> recalcula los puntajes de <strong>todos los usuarios del grupo desde cero</strong> cada vez que se detecta un cambio en un marcador oficial o un nuevo pronóstico. Esto garantiza que nadie se desincronice jamás de la tabla general.</p>
+</blockquote>
+</div>
+<div class='section'>
+<h2>Resumen de la Migración a onSnapshot</h2>
+<h1>Resumen de Cambios: Optimización de Firebase</h1>
+<p>He completado exitosamente la migración del sistema de consultas de Firebase para proteger tu cuota de lecturas. </p>
+<h2>¿Qué cambió?</h2>
+<blockquote>
+<p>[!TIP]
+<strong>De "Preguntar" a "Escuchar"</strong>
+Anteriormente, cada usuario de la aplicación "golpeaba" la puerta de Firebase cada 8 segundos para ver si había cambios (<code>setInterval</code>). Si tenías 10 usuarios conectados por 1 hora, eso generaba <strong>4,500 solicitudes</strong> a la base de datos (incluso si nadie había modificado nada).</p>
+<p>Ahora, la aplicación usa <code>onSnapshot</code>. Esto significa que Firebase mantiene un canal silencioso abierto y <strong>solo envía datos cuando alguien realmente guarda un pronóstico o cambia un marcador</strong>. Esto reduce el consumo de cuota en un ~99% cuando la app está inactiva.</p>
+</blockquote>
+<h3>Archivos Modificados</h3>
+<ul>
+<li><a href="file:///Users/luisjaquekadis/.gemini/antigravity-ide/scratch/quiniela-mundial/js/profiles.js">profiles.js</a>: Se agregó el método <code>listenToCloudChanges()</code> que crea conexiones inteligentes a las colecciones de <code>profiles</code>, <code>predictions</code> y <code>matches</code>.</li>
+<li><a href="file:///Users/luisjaquekadis/.gemini/antigravity-ide/scratch/quiniela-mundial/js/app.js">app.js</a>: Se eliminó el "polling" agresivo de 8 segundos y se conectó la interfaz visual a los nuevos "listeners" de Firebase. Además, se implementó un chequeo ligero y separado cada 30 segundos exclusivamente para buscar actualizaciones oficiales de ESPN (sin gastar cuota de Firebase).</li>
+</ul>
+<h2>Estado de las Tareas</h2>
+<p>Todas las tareas descritas en el archivo de planificación han sido completadas satisfactoriamente y el archivo <code>quiniela_mundial_deploy_final.zip</code> en tu escritorio ya contiene todas estas mejoras arquitectónicas.</p>
+</div>
+<div class='section'>
+<h2>Tareas Ejecutadas</h2>
+<h1>Tareas Post-Recuperación de Firebase</h1>
+<p>A continuación se detallan las tareas que deben realizarse y verificarse una vez que Firebase levante la restricción de "Quota Exceeded" (Límite de cuota excedido).</p>
+<ul>
+<li><code>[x]</code> <strong>Verificar la Sincronización Inicial (No Bloqueante)</strong></li>
+<li>Comprobar que la aplicación descarga correctamente los perfiles y predicciones desde la nube al cargar la página.</li>
+<li>
+<p>Asegurarse de que el enfoque no bloqueante que implementamos sigue permitiendo una carga rápida de la interfaz visual antes de que lleguen los datos.</p>
+</li>
+<li>
+<p><code>[x]</code> <strong>Sincronización de Nuevos Perfiles Locales</strong></p>
+</li>
+<li>
+<p>Si los usuarios crearon cuentas o hicieron predicciones mientras Firebase estaba caído (guardado en <code>localStorage</code>), verificar que el sistema "auto-sane" la nube subiendo esos perfiles faltantes sin sobrescribir los datos de otros.</p>
+</li>
+<li>
+<p><code>[x]</code> <strong>Verificar Sincronización de Pronósticos (Predicciones)</strong></p>
+</li>
+<li>Validar que al guardar un pronóstico, la petición a Firebase Firestore se complete exitosamente.</li>
+<li>
+<p>Confirmar que los cambios realizados en un dispositivo (ej. teléfono) se reflejen automáticamente en otro dispositivo (ej. computadora) gracias al polling en segundo plano.</p>
+</li>
+<li>
+<p><code>[x]</code> <strong>Probar la Funcionalidad de Grupos (<code>joinGroup</code>)</strong></p>
+</li>
+<li>Iniciar sesión utilizando un ID de grupo específico (ej. <code>mango_fc</code>).</li>
+<li>
+<p>Verificar que el sistema limpia correctamente el almacenamiento local y descarga exclusivamente los datos de ese grupo desde Firebase sin quedarse colgado en "Conectando al Grupo...".</p>
+</li>
+<li>
+<p><code>[x]</code> <strong>Optimizar el Polling en Segundo Plano</strong></p>
+</li>
+<li>Actualmente, la aplicación hace "polling" (pregunta a Firebase por cambios) cada 8 segundos (<code>setInterval</code> en <code>app.js</code>).</li>
+<li>
+<p><em>Tarea:</em> Evaluar si esta frecuencia es la causante principal del exceso de cuota. Considerar cambiar este mecanismo por <strong>Snapshot Listeners</strong> nativos de Firebase (<code>onSnapshot</code>), los cuales son mucho más eficientes en consumo de cuota porque solo consumen lecturas cuando hay un cambio real en la base de datos.</p>
+</li>
+<li>
+<p><code>[x]</code> <strong>Validar Integración de Marcadores ESPN en la Nube</strong></p>
+</li>
+<li>Verificar que la función <code>syncOfficialResults()</code> logre actualizar el documento central de <code>matches</code> en Firebase con los resultados en vivo de ESPN.</li>
+<li>Asegurarse de que esta subida no pise de forma destructiva las estructuras base del JSON.</li>
+</ul>
+</div>
+<div class='section'>
+<h2>Opciones de Diseño de Logo</h2>
+<h1>Opciones de Logo "Neo-Brutalista"</h1>
+<p>Aquí tienes 5 conceptos diferentes para el ícono de la app, todos manteniendo la paleta de colores y el estilo geométrico rudo ("Neo-Brutalismo") de tu interfaz.</p>
+<pre><code class="language-carousel">![Opción 1: La Letra Q](/Users/luisjaquekadis/.gemini/antigravity-ide/brain/66adacc2-31b3-478a-96eb-d0d8b5eef791/quiniela_option_1_q_1781277545562.png)
+**Opción 1: Letra Q**
+Un diseño tipográfico súper minimalista donde el centro de la 'Q' es el balón. Muy de estilo e-sports.
+&lt;!-- slide --&gt;
+![Opción 2: El Acierto](/Users/luisjaquekadis/.gemini/antigravity-ide/brain/66adacc2-31b3-478a-96eb-d0d8b5eef791/quiniela_option_2_checkmark_1781277557165.png)
+**Opción 2: El Acierto**
+Representa directamente el núcleo del juego: predecir correctamente. El &quot;checkmark&quot; gigante corta dinámicamente el balón.
+&lt;!-- slide --&gt;
+![Opción 3: El Calendario](/Users/luisjaquekadis/.gemini/antigravity-ide/brain/66adacc2-31b3-478a-96eb-d0d8b5eef791/quiniela_option_3_calendar_1781277566793.png)
+**Opción 3: El Calendario Furtivo**
+Un balón rompiendo a través de un calendario diario. Evoca la emoción de que el &quot;Día del Partido&quot; por fin llegó.
+&lt;!-- slide --&gt;
+![Opción 4: El Ticket Dorado](/Users/luisjaquekadis/.gemini/antigravity-ide/brain/66adacc2-31b3-478a-96eb-d0d8b5eef791/quiniela_option_4_ticket_1781277578058.png)
+**Opción 4: Ticket VIP / Boleto de Apuesta**
+Transforma la app visualmente en tu boleto de entrada exclusivo a la competencia.
+&lt;!-- slide --&gt;
+![Opción 5: El Mundo Gira](/Users/luisjaquekadis/.gemini/antigravity-ide/brain/66adacc2-31b3-478a-96eb-d0d8b5eef791/quiniela_option_5_globe_1781277587511.png)
+**Opción 5: El Mundo en Juego**
+Un diseño muy elegante donde el globo terráqueo se mapea sutilmente sobre los parches del balón (haciendo alusión al Mundial).
+</code></pre>
+<p>¿Cuál concepto te gusta más para refinarlo?</p>
+</div>
+<div class='section'>
+<h2>Reporte Detallado de Usuarios y Pronósticos</h2>
+<p><strong>Total de Grupos:</strong> 6<br />
+<strong>Total de Usuarios:</strong> 46<br />
+<strong>Total de Pronósticos Individuales:</strong> 829</p>
+<h1>Reporte Detallado de Usuarios y Pronósticos</h1>
+<h2>Grupo: <code>default</code></h2>
+<table>
+<thead>
+<tr>
+<th>Usuario (ID)</th>
+<th>Nombre</th>
+<th>Rol</th>
+<th>Puntos</th>
+<th>Partidos Pronosticados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jaque</td>
+<td><strong>Jaque</strong></td>
+<td>👑 Admin</td>
+<td>3</td>
+<td>2</td>
+</tr>
+<tr>
+<td>user1</td>
+<td><strong>Jugador 1</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>2</td>
+</tr>
+<tr>
+<td>user_1780350033940</td>
+<td><strong>test</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780352297883</td>
+<td><strong>Dferrigny</strong></td>
+<td>👤 Usuario</td>
+<td>4</td>
+<td>72</td>
+</tr>
+<tr>
+<td>user_1780353476105</td>
+<td><strong>JoseRaulGN</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780360014405</td>
+<td><strong>franoviedo</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780360020637</td>
+<td><strong>franoviedo7</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780360025683</td>
+<td><strong>franoviedo_</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780360033961</td>
+<td><strong>foviedocalles</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780360080661</td>
+<td><strong>foviedo7</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780360089959</td>
+<td><strong>foviedocalles7</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780360097520</td>
+<td><strong>foviedoc7</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780360112166</td>
+<td><strong>franoviedoc7</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780360287210</td>
+<td><strong>fran_ql</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780360322040</td>
+<td><strong>francisco_ql</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780360597895</td>
+<td><strong>Francisco_reql</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780360618241</td>
+<td><strong>franoviedoc</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780360665012</td>
+<td><strong>Kimi</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780362444285</td>
+<td><strong>justvilo</strong></td>
+<td>👤 Usuario</td>
+<td>4</td>
+<td>72</td>
+</tr>
+<tr>
+<td>user_1780362464579</td>
+<td><strong>justviloo</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780512478774</td>
+<td><strong>Rossana</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780617667101</td>
+<td><strong>TEST123</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780663674882</td>
+<td><strong>cconde7</strong></td>
+<td>👤 Usuario</td>
+<td>1</td>
+<td>71</td>
+</tr>
+<tr>
+<td>user_1781151609800</td>
+<td><strong>Milame</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h2>Grupo: <code>mango_ef</code></h2>
+<table>
+<thead>
+<tr>
+<th>Usuario (ID)</th>
+<th>Nombre</th>
+<th>Rol</th>
+<th>Puntos</th>
+<th>Partidos Pronosticados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jaque</td>
+<td><strong>Jaque</strong></td>
+<td>👑 Admin</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h2>Grupo: <code>mango_fc</code></h2>
+<table>
+<thead>
+<tr>
+<th>Usuario (ID)</th>
+<th>Nombre</th>
+<th>Rol</th>
+<th>Puntos</th>
+<th>Partidos Pronosticados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jaque</td>
+<td><strong>Jaque</strong></td>
+<td>👑 Admin</td>
+<td>4</td>
+<td>30</td>
+</tr>
+<tr>
+<td>user1</td>
+<td><strong>Jugador 1</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>2</td>
+</tr>
+<tr>
+<td>user_1780350033940</td>
+<td><strong>test</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780352297883</td>
+<td><strong>Dferrigny</strong></td>
+<td>👤 Usuario</td>
+<td>4</td>
+<td>72</td>
+</tr>
+<tr>
+<td>user_1780360322040</td>
+<td><strong>francisco_ql</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780360597895</td>
+<td><strong>Francisco_reql</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780360665012</td>
+<td><strong>Kimi</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780512478774</td>
+<td><strong>Rossana</strong></td>
+<td>👤 Usuario</td>
+<td>3</td>
+<td>18</td>
+</tr>
+<tr>
+<td>user_1780617667101</td>
+<td><strong>TEST123</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780623106525</td>
+<td><strong>carlosgallany</strong></td>
+<td>👤 Usuario</td>
+<td>4</td>
+<td>72</td>
+</tr>
+<tr>
+<td>user_1780623352742</td>
+<td><strong>justvilo</strong></td>
+<td>👤 Usuario</td>
+<td>2</td>
+<td>72</td>
+</tr>
+<tr>
+<td>user_1780623636644</td>
+<td><strong>venechope</strong></td>
+<td>👤 Usuario</td>
+<td>1</td>
+<td>54</td>
+</tr>
+<tr>
+<td>user_1780663674882</td>
+<td><strong>cconde7</strong></td>
+<td>👤 Usuario</td>
+<td>1</td>
+<td>71</td>
+</tr>
+<tr>
+<td>user_1780843972606</td>
+<td><strong>kikinho</strong></td>
+<td>👤 Usuario</td>
+<td>2</td>
+<td>71</td>
+</tr>
+<tr>
+<td>user_1781152453257</td>
+<td><strong>luisvalorg</strong></td>
+<td>👤 Usuario</td>
+<td>1</td>
+<td>72</td>
+</tr>
+<tr>
+<td>user_1781176156637</td>
+<td><strong>DiegoMonYep</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>user_1781188115363</td>
+<td><strong>deivid</strong></td>
+<td>👤 Usuario</td>
+<td>4</td>
+<td>72</td>
+</tr>
+</tbody>
+</table>
+<h2>Grupo: <code>mango_fe</code></h2>
+<table>
+<thead>
+<tr>
+<th>Usuario (ID)</th>
+<th>Nombre</th>
+<th>Rol</th>
+<th>Puntos</th>
+<th>Partidos Pronosticados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jaque</td>
+<td><strong>Jaque</strong></td>
+<td>👑 Admin</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h2>Grupo: <code>venechope</code></h2>
+<table>
+<thead>
+<tr>
+<th>Usuario (ID)</th>
+<th>Nombre</th>
+<th>Rol</th>
+<th>Puntos</th>
+<th>Partidos Pronosticados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jaque</td>
+<td><strong>Jaque</strong></td>
+<td>👑 Admin</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>user_1780623636644</td>
+<td><strong>venechope</strong></td>
+<td>👤 Usuario</td>
+<td>0</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h2>Grupo: <code>venecoteam</code></h2>
+<table>
+<thead>
+<tr>
+<th>Usuario (ID)</th>
+<th>Nombre</th>
+<th>Rol</th>
+<th>Puntos</th>
+<th>Partidos Pronosticados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jaque</td>
+<td><strong>Jaque</strong></td>
+<td>👑 Admin</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+    <div class="page-break"></div>
+    <h2>Propuestas de Identidad Visual (Neo-Brutalismo)</h2>
+    <p>A continuación se presentan los conceptos de diseño propuestos para el isotipo de la aplicación, respetando la paleta de colores de la interfaz gráfica y los bordes duros característicos del Neo-Brutalismo.</p>
+    <div class="image-grid">
+
+        <div class="image-card">
+            <img src="file:///Users/luisjaquekadis/.gemini/antigravity-ide/brain/66adacc2-31b3-478a-96eb-d0d8b5eef791/quiniela_option_1_q_1781277545562.png" alt="Opción 1: La Letra Q">
+            <p>Opción 1: La Letra Q</p>
+        </div>
+        
+        <div class="image-card">
+            <img src="file:///Users/luisjaquekadis/.gemini/antigravity-ide/brain/66adacc2-31b3-478a-96eb-d0d8b5eef791/quiniela_option_2_checkmark_1781277557165.png" alt="Opción 2: El Acierto">
+            <p>Opción 2: El Acierto</p>
+        </div>
+        
+        <div class="image-card">
+            <img src="file:///Users/luisjaquekadis/.gemini/antigravity-ide/brain/66adacc2-31b3-478a-96eb-d0d8b5eef791/quiniela_option_3_calendar_1781277566793.png" alt="Opción 3: El Calendario Furtivo">
+            <p>Opción 3: El Calendario Furtivo</p>
+        </div>
+        
+        <div class="image-card">
+            <img src="file:///Users/luisjaquekadis/.gemini/antigravity-ide/brain/66adacc2-31b3-478a-96eb-d0d8b5eef791/quiniela_option_4_ticket_1781277578058.png" alt="Opción 4: Ticket VIP">
+            <p>Opción 4: Ticket VIP</p>
+        </div>
+        
+        <div class="image-card">
+            <img src="file:///Users/luisjaquekadis/.gemini/antigravity-ide/brain/66adacc2-31b3-478a-96eb-d0d8b5eef791/quiniela_option_5_globe_1781277587511.png" alt="Opción 5: El Mundo en Juego">
+            <p>Opción 5: El Mundo en Juego</p>
+        </div>
+        
+    </div>
+</body>
+</html>

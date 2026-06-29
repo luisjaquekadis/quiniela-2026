@@ -1,0 +1,23 @@
+{
+  "name": "quiniela-mundial-compartida",
+  "version": "1.0.0",
+  "description": "Una quiniela de fútbol interactiva de diseño premium para jugar y predecir marcadores en pareja.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -l 8080",
+    "serve": "npx serve -l 8080"
+  },
+  "keywords": [
+    "quiniela",
+    "mundial",
+    "futbol",
+    "parejas",
+    "juego"
+  ],
+  "author": "Antigravity Soccer Sweepstakes",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
