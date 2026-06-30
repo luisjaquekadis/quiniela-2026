@@ -2075,7 +2075,9 @@
       },
       "utcDate": "2026-06-30T17:00Z",
       "homeFlagCode": "ci",
-      "awayFlagCode": "no"
+      "awayFlagCode": "no",
+      "realHomeScore": 1,
+      "realAwayScore": 2
     },
     {
       "id": "m78",
