@@ -1,0 +1,58 @@
+# Dependencies
+node_modules/
+jspm_packages/
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Sensitive data - NEVER commit these
+firebase_backup.json
+espn_scores.json
+id_mapping.json
+jsonbin_dump.json
+*.pptx
+*.zip
+
+# One-off scripts
+fix_*.py
+recover_*.py
+reset_*.py
+update_*.py
+migrate_*.py
+find_*.py
+kill_*.py
+copy_*.py
+read_*.py
+sync_*.py
+push_*.py
+export_*.py
+daemon_*.py
+upload_*.py
+check_*.py
+extract_*.py
+apply_*.py
+proactive_*.py
+test_*.js
+
+# Keep these specific files (use ! to un-ignore)
+!generate_api.py
+!github_cron_updater.py
+
+# Netlify
+.netlify/
+
+# Reports
+report.html
+quiniela_one_pager.html
