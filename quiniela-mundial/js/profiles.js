@@ -655,7 +655,8 @@ class QuinielaStorage {
                 ...(cm.homeTeam && { homeTeam: cm.homeTeam }),
                 ...(cm.awayTeam && { awayTeam: cm.awayTeam }),
                 ...(cm.homeFlagCode && { homeFlagCode: cm.homeFlagCode }),
-                ...(cm.awayFlagCode && { awayFlagCode: cm.awayFlagCode })
+                ...(cm.awayFlagCode && { awayFlagCode: cm.awayFlagCode }),
+                ...(cm.recommendation && { recommendation: cm.recommendation })
               };
             }
             return lm;
