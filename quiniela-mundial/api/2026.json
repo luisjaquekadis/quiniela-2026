@@ -1957,13 +1957,13 @@
       "stadium": "Gillette Stadium (Boston)",
       "recommendation": {
         "homeScore": 0,
-        "awayScore": 0,
+        "awayScore": 2,
         "probability": {
-          "home": 30,
-          "draw": 39,
-          "away": 31
+          "home": 22,
+          "draw": 28,
+          "away": 50
         },
-        "rationale": "Choque de estilos muy parejo entre Sudáfrica y Canadá. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
+        "rationale": "Canadá llega con más ritmo y jerarquía tras una fase de grupos sólida. Sudáfrica clasificó como mejor tercero y le costará sostener el nivel contra un rival más profundo en todas las líneas."
       },
       "utcDate": "2026-06-28T19:00Z",
       "homeFlagCode": "za",
@@ -1983,14 +1983,14 @@
       "time": "13:00",
       "stadium": "Arrowhead Stadium (Kansas City)",
       "recommendation": {
-        "homeScore": 1,
+        "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 37,
-          "draw": 30,
-          "away": 33
+          "home": 52,
+          "draw": 25,
+          "away": 23
         },
-        "rationale": "Choque de estilos muy parejo entre Brasil y Japón. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
+        "rationale": "Brasil es favorito por peso histórico y talento individual, pero Japón ha demostrado en mundiales recientes que puede competirle de igual a igual. Un duelo trabado que Brasil debería resolver con experiencia."
       },
       "utcDate": "2026-06-29T17:00Z",
       "homeFlagCode": "br",
@@ -2010,18 +2010,20 @@
       "time": "16:30",
       "stadium": "BC Place (Vancouver)",
       "recommendation": {
-        "homeScore": 1,
-        "awayScore": 1,
+        "homeScore": 2,
+        "awayScore": 0,
         "probability": {
-          "home": 32,
-          "draw": 35,
-          "away": 33
+          "home": 58,
+          "draw": 23,
+          "away": 19
         },
-        "rationale": "Choque de estilos muy parejo entre Alemania y Paraguay. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
+        "rationale": "Alemania fue la máquina goleadora de la fase de grupos y en casa será demoledor. Paraguay se ha caracterizado por la garra, pero le falta profundidad ofensiva para inquietar a los alemanes."
       },
       "utcDate": "2026-06-29T20:30Z",
       "homeFlagCode": "de",
-      "awayFlagCode": "py"
+      "awayFlagCode": "py",
+      "realHomeScore": 1,
+      "realAwayScore": 1
     },
     {
       "id": "m81",
@@ -2035,18 +2037,20 @@
       "time": "21:00",
       "stadium": "NRG Stadium (Houston)",
       "recommendation": {
-        "homeScore": 2,
-        "awayScore": 2,
+        "homeScore": 1,
+        "awayScore": 0,
         "probability": {
-          "home": 38,
-          "draw": 39,
-          "away": 23
+          "home": 45,
+          "draw": 30,
+          "away": 25
         },
-        "rationale": "Choque de estilos muy parejo entre Países Bajos y Marruecos. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
+        "rationale": "Duelo táctico entre dos selecciones de alto nivel defensivo. Países Bajos tiene la ventaja del juego posicional y la experiencia en fases eliminatorias. Marruecos buscará repetir la hazaña de Qatar 2022."
       },
       "utcDate": "2026-06-30T01:00Z",
       "homeFlagCode": "nl",
-      "awayFlagCode": "ma"
+      "awayFlagCode": "ma",
+      "realHomeScore": 1,
+      "realAwayScore": 1
     },
     {
       "id": "m74",
@@ -2060,14 +2064,14 @@
       "time": "13:00",
       "stadium": "BMO Field (Toronto)",
       "recommendation": {
-        "homeScore": 2,
+        "homeScore": 1,
         "awayScore": 2,
         "probability": {
-          "home": 34,
-          "draw": 34,
-          "away": 32
+          "home": 28,
+          "draw": 27,
+          "away": 45
         },
-        "rationale": "Choque de estilos muy parejo entre Costa de Marfil y Noruega. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
+        "rationale": "Noruega llega con Haaland como principal amenaza goleadora del torneo. Costa de Marfil tiene velocidad en las bandas pero le cuesta crear juego contra defensas organizadas."
       },
       "utcDate": "2026-06-30T17:00Z",
       "homeFlagCode": "ci",
@@ -2085,14 +2089,14 @@
       "time": "17:00",
       "stadium": "Estadio Azteca (Ciudad de México)",
       "recommendation": {
-        "homeScore": 1,
+        "homeScore": 3,
         "awayScore": 1,
         "probability": {
-          "home": 36,
-          "draw": 34,
-          "away": 30
+          "home": 60,
+          "draw": 22,
+          "away": 18
         },
-        "rationale": "Choque de estilos muy parejo entre Francia y Suecia. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
+        "rationale": "Francia es una de las grandes favoritas al título con una profundidad de plantilla incomparable. Suecia dio la sorpresa clasificando pero el salto de calidad contra Les Bleus será evidente."
       },
       "utcDate": "2026-06-30T21:00Z",
       "homeFlagCode": "fr",
@@ -2110,14 +2114,14 @@
       "time": "21:00",
       "stadium": "Estadio BBVA (Monterrey)",
       "recommendation": {
-        "homeScore": 0,
-        "awayScore": 0,
+        "homeScore": 1,
+        "awayScore": 1,
         "probability": {
           "home": 35,
           "draw": 31,
           "away": 34
         },
-        "rationale": "Choque de estilos muy parejo entre México y Ecuador. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
+        "rationale": "Partido parejo entre dos selecciones de nivel similar. México jugando de local en EE.UU. contará con apoyo masivo de la afición. Ecuador confía en su velocidad en transiciones rápidas."
       },
       "utcDate": "2026-07-01T01:00Z",
       "homeFlagCode": "mx",
@@ -2135,14 +2139,14 @@
       "time": "12:00",
       "stadium": "SoFi Stadium (Los Angeles)",
       "recommendation": {
-        "homeScore": 1,
-        "awayScore": 1,
+        "homeScore": 2,
+        "awayScore": 0,
         "probability": {
-          "home": 33,
-          "draw": 35,
-          "away": 32
+          "home": 62,
+          "draw": 21,
+          "away": 17
         },
-        "rationale": "Choque de estilos muy parejo entre Inglaterra y RD Congo. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
+        "rationale": "Inglaterra parte como amplio favorito por su jerarquía Premier League. RD Congo fue la gran sorpresa clasificando pero enfrentar a los ingleses en eliminación directa es otro nivel de exigencia."
       },
       "utcDate": "2026-07-01T16:00Z",
       "homeFlagCode": "gb-eng",
@@ -2161,13 +2165,13 @@
       "stadium": "Estadio Akron (Guadalajara)",
       "recommendation": {
         "homeScore": 1,
-        "awayScore": 1,
+        "awayScore": 0,
         "probability": {
-          "home": 37,
-          "draw": 31,
-          "away": 32
+          "home": 42,
+          "draw": 29,
+          "away": 29
         },
-        "rationale": "Choque de estilos muy parejo entre Bélgica y Senegal. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
+        "rationale": "Bélgica busca reivindicarse tras generaciones de talento sin títulos. Senegal es la potencia africana mejor organizada tácticamente y puede dar problemas con su presión alta."
       },
       "utcDate": "2026-07-01T20:00Z",
       "homeFlagCode": "be",
@@ -2186,13 +2190,13 @@
       "stadium": "MetLife Stadium (New York/New Jersey)",
       "recommendation": {
         "homeScore": 2,
-        "awayScore": 2,
+        "awayScore": 1,
         "probability": {
-          "home": 38,
-          "draw": 31,
-          "away": 31
+          "home": 48,
+          "draw": 27,
+          "away": 25
         },
-        "rationale": "Choque de estilos muy parejo entre EE.UU. y Bosnia y Herzegovina. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
+        "rationale": "EE.UU. jugando de local tendrá el factor cancha a su favor. Bosnia tiene calidad individual pero le cuesta mantener la concentración en partidos largos. La intensidad americana debería prevalecer."
       },
       "utcDate": "2026-07-02T00:00Z",
       "homeFlagCode": "us",
@@ -2210,14 +2214,14 @@
       "time": "15:00",
       "stadium": "Hard Rock Stadium (Miami)",
       "recommendation": {
-        "homeScore": 1,
-        "awayScore": 1,
+        "homeScore": 2,
+        "awayScore": 0,
         "probability": {
-          "home": 38,
-          "draw": 30,
-          "away": 32
+          "home": 58,
+          "draw": 24,
+          "away": 18
         },
-        "rationale": "Choque de estilos muy parejo entre España y Austria. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
+        "rationale": "España con su tiki-taka renovado y la camada de jóvenes que brilló en la Euro 2024 es favorita clara. Austria juega agresiva pero le costará mantener el balón contra el mediocampo español."
       },
       "utcDate": "2026-07-02T19:00Z",
       "homeFlagCode": "es",
@@ -2236,13 +2240,13 @@
       "stadium": "AT&T Stadium (Dallas)",
       "recommendation": {
         "homeScore": 1,
-        "awayScore": 1,
+        "awayScore": 0,
         "probability": {
-          "home": 34,
+          "home": 43,
           "draw": 30,
-          "away": 36
+          "away": 27
         },
-        "rationale": "Choque de estilos muy parejo entre Portugal y Croacia. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
+        "rationale": "Choque de alto calibre entre dos selecciones con talento generacional. Portugal confía en su nueva generación post-Cristiano. Croacia sigue siendo peligrosa en eliminatorias pero el relevo generacional pesa."
       },
       "utcDate": "2026-07-02T23:00Z",
       "homeFlagCode": "pt",
@@ -2261,13 +2265,13 @@
       "stadium": "Mercedes-Benz Stadium (Atlanta)",
       "recommendation": {
         "homeScore": 2,
-        "awayScore": 2,
+        "awayScore": 1,
         "probability": {
-          "home": 31,
-          "draw": 36,
-          "away": 33
+          "home": 45,
+          "draw": 28,
+          "away": 27
         },
-        "rationale": "Choque de estilos muy parejo entre Suiza y Argelia. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
+        "rationale": "Suiza es una selección extremadamente fiable en mundiales con su estructura táctica europea. Argelia tiene individualidades desequilibrantes pero le falta regularidad en torneos FIFA."
       },
       "utcDate": "2026-07-03T03:00Z",
       "homeFlagCode": "ch",
@@ -2286,13 +2290,13 @@
       "stadium": "Lincoln Financial Field (Philadelphia)",
       "recommendation": {
         "homeScore": 0,
-        "awayScore": 0,
+        "awayScore": 1,
         "probability": {
-          "home": 36,
-          "draw": 37,
-          "away": 27
+          "home": 30,
+          "draw": 29,
+          "away": 41
         },
-        "rationale": "Choque de estilos muy parejo entre Australia y Egipto. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
+        "rationale": "Egipto llega con más hambre y organización táctica bajo Salah como referente absoluto. Australia compite siempre pero le falta el gen competitivo en fases de eliminación directa."
       },
       "utcDate": "2026-07-03T18:00Z",
       "homeFlagCode": "au",
@@ -2310,14 +2314,14 @@
       "time": "18:00",
       "stadium": "Lumen Field (Seattle)",
       "recommendation": {
-        "homeScore": 1,
-        "awayScore": 1,
+        "homeScore": 3,
+        "awayScore": 0,
         "probability": {
-          "home": 38,
-          "draw": 35,
-          "away": 27
+          "home": 78,
+          "draw": 14,
+          "away": 8
         },
-        "rationale": "Choque de estilos muy parejo entre Argentina y Cabo Verde. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
+        "rationale": "Argentina es la campeona defensora y la máxima favorita al título. Cabo Verde es la gran cenicienta del torneo y aunque competirá, la diferencia de jerarquía es abismal."
       },
       "utcDate": "2026-07-03T22:00Z",
       "homeFlagCode": "ar",
@@ -2335,14 +2339,14 @@
       "time": "21:30",
       "stadium": "Levi's Stadium (San Francisco)",
       "recommendation": {
-        "homeScore": 0,
-        "awayScore": 0,
+        "homeScore": 2,
+        "awayScore": 1,
         "probability": {
-          "home": 32,
-          "draw": 31,
-          "away": 37
+          "home": 48,
+          "draw": 27,
+          "away": 25
         },
-        "rationale": "Choque de estilos muy parejo entre Colombia y Ghana. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
+        "rationale": "Colombia llega con una generación dorada renovada y la ilusión de todo un continente. Ghana tiene velocidad y potencia física pero Colombia debería imponerse con su capacidad técnica."
       },
       "utcDate": "2026-07-04T01:30Z",
       "homeFlagCode": "co",
