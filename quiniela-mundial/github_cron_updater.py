@@ -61,7 +61,8 @@ def fetch_and_push():
             data = json.loads(resp.read().decode())
             for event in data.get("events", []):
                 status = event["status"]["type"]["description"]
-                if status == "Full Time":
+                is_completed = event["status"]["type"].get("completed", False)
+                if status == "Full Time" or "Final" in status or is_completed:
                     comp = event["competitions"][0]
                     h = ""; a = ""; h_score = 0; a_score = 0
                     for c in comp["competitors"]:
