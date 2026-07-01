@@ -2183,7 +2183,9 @@
       },
       "utcDate": "2026-07-01T20:00Z",
       "homeFlagCode": "be",
-      "awayFlagCode": "sn"
+      "awayFlagCode": "sn",
+      "realHomeScore": 3,
+      "realAwayScore": 2
     },
     {
       "id": "m75",
