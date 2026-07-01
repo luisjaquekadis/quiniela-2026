@@ -2129,7 +2129,9 @@
       },
       "utcDate": "2026-07-01T01:00Z",
       "homeFlagCode": "mx",
-      "awayFlagCode": "ec"
+      "awayFlagCode": "ec",
+      "realHomeScore": 2,
+      "realAwayScore": 0
     },
     {
       "id": "m79",
