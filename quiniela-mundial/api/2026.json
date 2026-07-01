@@ -2156,7 +2156,9 @@
       },
       "utcDate": "2026-07-01T16:00Z",
       "homeFlagCode": "gb-eng",
-      "awayFlagCode": "cd"
+      "awayFlagCode": "cd",
+      "realHomeScore": 2,
+      "realAwayScore": 1
     },
     {
       "id": "m86",
