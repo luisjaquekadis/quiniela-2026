@@ -2210,7 +2210,9 @@
       },
       "utcDate": "2026-07-02T00:00Z",
       "homeFlagCode": "us",
-      "awayFlagCode": "ba"
+      "awayFlagCode": "ba",
+      "realHomeScore": 2,
+      "realAwayScore": 0
     },
     {
       "id": "m76",
