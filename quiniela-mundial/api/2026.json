@@ -2237,7 +2237,9 @@
       },
       "utcDate": "2026-07-02T19:00Z",
       "homeFlagCode": "es",
-      "awayFlagCode": "at"
+      "awayFlagCode": "at",
+      "realHomeScore": 3,
+      "realAwayScore": 0
     },
     {
       "id": "m83",
