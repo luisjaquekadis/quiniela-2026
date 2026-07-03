@@ -2318,7 +2318,9 @@
       },
       "utcDate": "2026-07-03T18:00Z",
       "homeFlagCode": "au",
-      "awayFlagCode": "eg"
+      "awayFlagCode": "eg",
+      "realHomeScore": 1,
+      "realAwayScore": 1
     },
     {
       "id": "m84",
