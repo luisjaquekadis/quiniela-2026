@@ -2291,7 +2291,9 @@
       },
       "utcDate": "2026-07-03T03:00Z",
       "homeFlagCode": "ch",
-      "awayFlagCode": "dz"
+      "awayFlagCode": "dz",
+      "realHomeScore": 2,
+      "realAwayScore": 0
     },
     {
       "id": "m80",
