@@ -2264,7 +2264,9 @@
       },
       "utcDate": "2026-07-02T23:00Z",
       "homeFlagCode": "pt",
-      "awayFlagCode": "hr"
+      "awayFlagCode": "hr",
+      "realHomeScore": 2,
+      "realAwayScore": 1
     },
     {
       "id": "m87",
