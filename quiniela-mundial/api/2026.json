@@ -2399,7 +2399,9 @@
       },
       "utcDate": "2026-07-04T17:00:00Z",
       "homeFlagCode": "ca",
-      "awayFlagCode": "ma"
+      "awayFlagCode": "ma",
+      "realHomeScore": 0,
+      "realAwayScore": 3
     },
     {
       "id": "m91",
@@ -2579,9 +2581,9 @@
     {
       "id": "m97",
       "homeTeam": "Round of 16 1 Winner",
-      "awayTeam": "Round of 16 2 Winner",
+      "awayTeam": "Marruecos",
       "homeFlag": "⭐",
-      "awayFlag": "⭐",
+      "awayFlag": "🇲🇦",
       "stage": "Cuartos de Final",
       "group": null,
       "date": "9 de Julio 2026",
@@ -2599,7 +2601,7 @@
       },
       "utcDate": "2026-07-09T17:00:00Z",
       "homeFlagCode": "un",
-      "awayFlagCode": "un"
+      "awayFlagCode": "ma"
     },
     {
       "id": "m99",
