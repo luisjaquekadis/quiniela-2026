@@ -2345,7 +2345,9 @@
       },
       "utcDate": "2026-07-03T22:00Z",
       "homeFlagCode": "ar",
-      "awayFlagCode": "cv"
+      "awayFlagCode": "cv",
+      "realHomeScore": 3,
+      "realAwayScore": 2
     },
     {
       "id": "m88",
@@ -2370,7 +2372,9 @@
       },
       "utcDate": "2026-07-04T01:30Z",
       "homeFlagCode": "co",
-      "awayFlagCode": "gh"
+      "awayFlagCode": "gh",
+      "realHomeScore": 1,
+      "realAwayScore": 0
     },
     {
       "id": "m89",
@@ -2574,8 +2578,8 @@
     },
     {
       "id": "m97",
-      "homeTeam": "Ganador Octavos 1",
-      "awayTeam": "Ganador Octavos 2",
+      "homeTeam": "Round of 16 1 Winner",
+      "awayTeam": "Round of 16 2 Winner",
       "homeFlag": "⭐",
       "awayFlag": "⭐",
       "stage": "Cuartos de Final",
@@ -2599,8 +2603,8 @@
     },
     {
       "id": "m99",
-      "homeTeam": "Ganador Octavos 3",
-      "awayTeam": "Ganador Octavos 4",
+      "homeTeam": "Round of 16 5 Winner",
+      "awayTeam": "Round of 16 6 Winner",
       "homeFlag": "⭐",
       "awayFlag": "⭐",
       "stage": "Cuartos de Final",
@@ -2624,8 +2628,8 @@
     },
     {
       "id": "m98",
-      "homeTeam": "Ganador Octavos 5",
-      "awayTeam": "Ganador Octavos 6",
+      "homeTeam": "Round of 16 3 Winner",
+      "awayTeam": "Round of 16 4 Winner",
       "homeFlag": "⭐",
       "awayFlag": "⭐",
       "stage": "Cuartos de Final",
@@ -2649,8 +2653,8 @@
     },
     {
       "id": "m100",
-      "homeTeam": "Ganador Octavos 7",
-      "awayTeam": "Ganador Octavos 8",
+      "homeTeam": "Round of 16 7 Winner",
+      "awayTeam": "Round of 16 8 Winner",
       "homeFlag": "⭐",
       "awayFlag": "⭐",
       "stage": "Cuartos de Final",
