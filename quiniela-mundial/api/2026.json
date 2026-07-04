@@ -2374,10 +2374,10 @@
     },
     {
       "id": "m89",
-      "homeTeam": "Ganador 16vos 1",
-      "awayTeam": "Ganador 16vos 2",
-      "homeFlag": "⚔️",
-      "awayFlag": "⚔️",
+      "homeTeam": "Canadá",
+      "awayTeam": "Noruega",
+      "homeFlag": "🇨🇦",
+      "awayFlag": "🇳🇴",
       "stage": "Octavos de Final",
       "group": null,
       "date": "4 de Julio 2026",
@@ -2394,15 +2394,15 @@
         "rationale": "Choque de estilos muy parejo entre Ganador 16vos 1 y Ganador 16vos 2. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
       },
       "utcDate": "2026-07-04T17:00:00Z",
-      "homeFlagCode": "un",
-      "awayFlagCode": "un"
+      "homeFlagCode": "ca",
+      "awayFlagCode": "no"
     },
     {
       "id": "m91",
-      "homeTeam": "Ganador 16vos 3",
-      "awayTeam": "Ganador 16vos 4",
-      "homeFlag": "⚔️",
-      "awayFlag": "⚔️",
+      "homeTeam": "Brasil",
+      "awayTeam": "Francia",
+      "homeFlag": "🇧🇷",
+      "awayFlag": "🇫🇷",
       "stage": "Octavos de Final",
       "group": null,
       "date": "4 de Julio 2026",
@@ -2419,15 +2419,15 @@
         "rationale": "Choque de estilos muy parejo entre Ganador 16vos 3 y Ganador 16vos 4. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
       },
       "utcDate": "2026-07-04T21:00:00Z",
-      "homeFlagCode": "un",
-      "awayFlagCode": "un"
+      "homeFlagCode": "br",
+      "awayFlagCode": "fr"
     },
     {
       "id": "m93",
-      "homeTeam": "Ganador 16vos 5",
-      "awayTeam": "Ganador 16vos 6",
-      "homeFlag": "⚔️",
-      "awayFlag": "⚔️",
+      "homeTeam": "Marruecos",
+      "awayTeam": "México",
+      "homeFlag": "🇲🇦",
+      "awayFlag": "🇲🇽",
       "stage": "Octavos de Final",
       "group": null,
       "date": "5 de Julio 2026",
@@ -2444,15 +2444,15 @@
         "rationale": "Choque de estilos muy parejo entre Ganador 16vos 5 y Ganador 16vos 6. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
       },
       "utcDate": "2026-07-05T23:00:00Z",
-      "homeFlagCode": "un",
-      "awayFlagCode": "un"
+      "homeFlagCode": "ma",
+      "awayFlagCode": "mx"
     },
     {
       "id": "m95",
-      "homeTeam": "Ganador 16vos 7",
-      "awayTeam": "Ganador 16vos 8",
-      "homeFlag": "⚔️",
-      "awayFlag": "⚔️",
+      "homeTeam": "Paraguay",
+      "awayTeam": "Bélgica",
+      "homeFlag": "🇵🇾",
+      "awayFlag": "🇳🇿",
       "stage": "Octavos de Final",
       "group": null,
       "date": "5 de Julio 2026",
@@ -2469,15 +2469,15 @@
         "rationale": "Choque de estilos muy parejo entre Ganador 16vos 7 y Ganador 16vos 8. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
       },
       "utcDate": "2026-07-06T03:00:00Z",
-      "homeFlagCode": "un",
-      "awayFlagCode": "un"
+      "homeFlagCode": "py",
+      "awayFlagCode": "be"
     },
     {
       "id": "m90",
-      "homeTeam": "Ganador 16vos 9",
-      "awayTeam": "Ganador 16vos 10",
-      "homeFlag": "⚔️",
-      "awayFlag": "⚔️",
+      "homeTeam": "EE.UU.",
+      "awayTeam": "España",
+      "homeFlag": "🇺🇸",
+      "awayFlag": "🇺🇾",
       "stage": "Octavos de Final",
       "group": null,
       "date": "6 de Julio 2026",
@@ -2494,15 +2494,15 @@
         "rationale": "Choque de estilos muy parejo entre Ganador 16vos 9 y Ganador 16vos 10. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
       },
       "utcDate": "2026-07-06T17:00:00Z",
-      "homeFlagCode": "un",
-      "awayFlagCode": "un"
+      "homeFlagCode": "us",
+      "awayFlagCode": "es"
     },
     {
       "id": "m92",
-      "homeTeam": "Ganador 16vos 11",
-      "awayTeam": "Ganador 16vos 12",
-      "homeFlag": "⚔️",
-      "awayFlag": "⚔️",
+      "homeTeam": "Inglaterra",
+      "awayTeam": "Egipto",
+      "homeFlag": "🇵🇦",
+      "awayFlag": "🇪🇬",
       "stage": "Octavos de Final",
       "group": null,
       "date": "6 de Julio 2026",
@@ -2519,14 +2519,14 @@
         "rationale": "Choque de estilos muy parejo entre Ganador 16vos 11 y Ganador 16vos 12. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
       },
       "utcDate": "2026-07-06T22:00:00Z",
-      "homeFlagCode": "un",
-      "awayFlagCode": "un"
+      "homeFlagCode": "gb-eng",
+      "awayFlagCode": "eg"
     },
     {
       "id": "m94",
-      "homeTeam": "Ganador 16vos 13",
+      "homeTeam": "Portugal",
       "awayTeam": "Ganador 16vos 14",
-      "homeFlag": "⚔️",
+      "homeFlag": "🇵🇹",
       "awayFlag": "⚔️",
       "stage": "Octavos de Final",
       "group": null,
@@ -2544,14 +2544,14 @@
         "rationale": "Choque de estilos muy parejo entre Ganador 16vos 13 y Ganador 16vos 14. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
       },
       "utcDate": "2026-07-08T00:00:00Z",
-      "homeFlagCode": "un",
+      "homeFlagCode": "pt",
       "awayFlagCode": "un"
     },
     {
       "id": "m96",
-      "homeTeam": "Ganador 16vos 15",
+      "homeTeam": "Suiza",
       "awayTeam": "Ganador 16vos 16",
-      "homeFlag": "⚔️",
+      "homeFlag": "🇨🇦",
       "awayFlag": "⚔️",
       "stage": "Octavos de Final",
       "group": null,
@@ -2569,7 +2569,7 @@
         "rationale": "Choque de estilos muy parejo entre Ganador 16vos 15 y Ganador 16vos 16. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
       },
       "utcDate": "2026-07-08T02:00:00Z",
-      "homeFlagCode": "un",
+      "homeFlagCode": "ch",
       "awayFlagCode": "un"
     },
     {
