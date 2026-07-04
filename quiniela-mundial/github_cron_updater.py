@@ -78,6 +78,29 @@ def fetch_and_push():
             
     print(f"Found {len(espn_scores)} completed matches on ESPN.")
     
+    # ---------------------------------------------------------
+    # NEW: Fetch future matches to dynamically update the bracket
+    # ---------------------------------------------------------
+    try:
+        future_url = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260709-20260719"
+        future_req = urllib.request.Request(future_url, headers={"User-Agent": "Mozilla/5.0"})
+        future_resp = urllib.request.urlopen(future_req, timeout=10)
+        future_data = json.loads(future_resp.read().decode())
+        future_matches = []
+        for event in future_data.get("events", []):
+            comp = event["competitions"][0]
+            future_matches.append({
+                "date": comp["date"],
+                "home": comp["competitors"][0]["team"]["displayName"],
+                "away": comp["competitors"][1]["team"]["displayName"]
+            })
+        future_matches.sort(key=lambda x: x["date"])
+    except Exception as e:
+        print("Error fetching future matches:", e)
+        future_matches = []
+    # ---------------------------------------------------------
+
+    
     try:
         with open("api/2026.json", "r") as f:
             local_data = json.load(f)
@@ -98,8 +121,53 @@ def fetch_and_push():
         "Paraguay": "Paraguay", "Portugal": "Portugal", "Qatar": "Qatar", "Saudi Arabia": "Arabia Saudita",
         "Scotland": "Escocia", "Senegal": "Senegal", "South Africa": "Sudáfrica", "South Korea": "Corea del Sur",
         "Spain": "España", "Sweden": "Suecia", "Switzerland": "Suiza", "Tunisia": "Túnez",
-        "Türkiye": "Turquía", "United States": "EE.UU.", "Uruguay": "Uruguay", "Uzbekistan": "Uzbekistán"
+        "Türkiye": "Turquía", "United States": "EE.UU.", "Uruguay": "Uruguay", "Uzbekistan": "Uzbekistán",
+        "Quarterfinal 1 Winner": "Ganador Cuartos 1", "Quarterfinal 2 Winner": "Ganador Cuartos 2",
+        "Quarterfinal 3 Winner": "Ganador Cuartos 3", "Quarterfinal 4 Winner": "Ganador Cuartos 4",
+        "Semifinal 1 Winner": "Ganador Semifinal 1", "Semifinal 2 Winner": "Ganador Semifinal 2",
+        "Semifinal 1 Loser": "Perdedor Semifinal 1", "Semifinal 2 Loser": "Perdedor Semifinal 2"
     }
+    
+    # ---------------------------------------------------------
+    # NEW: Apply future matches to the JSON
+    # ---------------------------------------------------------
+    future_slots = ["m97", "m99", "m98", "m100", "m101", "m102", "m103", "m104"]
+    for i, slot_id in enumerate(future_slots):
+        if i < len(future_matches):
+            fm = future_matches[i]
+            local_h = ESPNDictionary.get(fm["home"], fm["home"])
+            local_a = ESPNDictionary.get(fm["away"], fm["away"])
+            for m in local_data["matches"]:
+                if m["id"] == slot_id:
+                    if m.get("homeTeam") != local_h or m.get("awayTeam") != local_a:
+                        m["homeTeam"] = local_h
+                        m["awayTeam"] = local_a
+                        # Also attempt to map flags if they are known teams
+                        if "Ganador" not in local_h and "Perdedor" not in local_h:
+                            # Try to find flag from other matches
+                            for prev_m in local_data["matches"]:
+                                if prev_m.get("homeTeam") == local_h:
+                                    m["homeFlagCode"] = prev_m.get("homeFlagCode", "")
+                                    m["homeFlag"] = prev_m.get("homeFlag", "")
+                                    break
+                                elif prev_m.get("awayTeam") == local_h:
+                                    m["homeFlagCode"] = prev_m.get("awayFlagCode", "")
+                                    m["homeFlag"] = prev_m.get("awayFlag", "")
+                                    break
+                        if "Ganador" not in local_a and "Perdedor" not in local_a:
+                            for prev_m in local_data["matches"]:
+                                if prev_m.get("homeTeam") == local_a:
+                                    m["awayFlagCode"] = prev_m.get("homeFlagCode", "")
+                                    m["awayFlag"] = prev_m.get("homeFlag", "")
+                                    break
+                                elif prev_m.get("awayTeam") == local_a:
+                                    m["awayFlagCode"] = prev_m.get("awayFlagCode", "")
+                                    m["awayFlag"] = prev_m.get("awayFlag", "")
+                                    break
+                        changed = True
+                        print(f"Updated future slot {slot_id}: {local_h} vs {local_a}")
+                    break
+    # ---------------------------------------------------------
     
     reverse_dict = {v: k for k, v in ESPNDictionary.items()}
     
