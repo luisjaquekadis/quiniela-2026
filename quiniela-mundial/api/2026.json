@@ -2426,7 +2426,9 @@
       },
       "utcDate": "2026-07-04T21:00:00Z",
       "homeFlagCode": "py",
-      "awayFlagCode": "fr"
+      "awayFlagCode": "fr",
+      "realHomeScore": 0,
+      "realAwayScore": 1
     },
     {
       "id": "m93",
@@ -2580,9 +2582,9 @@
     },
     {
       "id": "m97",
-      "homeTeam": "Round of 16 1 Winner",
+      "homeTeam": "Francia",
       "awayTeam": "Marruecos",
-      "homeFlag": "⭐",
+      "homeFlag": "🇫🇷",
       "awayFlag": "🇲🇦",
       "stage": "Cuartos de Final",
       "group": null,
@@ -2600,7 +2602,7 @@
         "rationale": "Choque de estilos muy parejo entre Ganador Octavos 1 y Ganador Octavos 2. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
       },
       "utcDate": "2026-07-09T17:00:00Z",
-      "homeFlagCode": "un",
+      "homeFlagCode": "fr",
       "awayFlagCode": "ma"
     },
     {
