@@ -2507,7 +2507,9 @@
       },
       "utcDate": "2026-07-06T17:00:00Z",
       "homeFlagCode": "pt",
-      "awayFlagCode": "es"
+      "awayFlagCode": "es",
+      "realHomeScore": 0,
+      "realAwayScore": 1
     },
     {
       "id": "m92",
@@ -2611,9 +2613,9 @@
     },
     {
       "id": "m99",
-      "homeTeam": "Round of 16 5 Winner",
+      "homeTeam": "España",
       "awayTeam": "Round of 16 6 Winner",
-      "homeFlag": "⭐",
+      "homeFlag": "🇪🇸",
       "awayFlag": "⭐",
       "stage": "Cuartos de Final",
       "group": null,
@@ -2631,7 +2633,7 @@
         "rationale": "Choque de estilos muy parejo entre Ganador Octavos 3 y Ganador Octavos 4. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
       },
       "utcDate": "2026-07-10T23:00:00Z",
-      "homeFlagCode": "un",
+      "homeFlagCode": "es",
       "awayFlagCode": "un"
     },
     {
