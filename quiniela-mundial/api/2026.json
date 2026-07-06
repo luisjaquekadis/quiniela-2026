@@ -2637,9 +2637,9 @@
     {
       "id": "m98",
       "homeTeam": "Noruega",
-      "awayTeam": "Round of 16 4 Winner",
+      "awayTeam": "Inglaterra",
       "homeFlag": "🇮🇶",
-      "awayFlag": "⭐",
+      "awayFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "stage": "Cuartos de Final",
       "group": null,
       "date": "10 de Julio 2026",
@@ -2657,7 +2657,7 @@
       },
       "utcDate": "2026-07-10T23:00:00Z",
       "homeFlagCode": "no",
-      "awayFlagCode": "un"
+      "awayFlagCode": "gb-eng"
     },
     {
       "id": "m100",
