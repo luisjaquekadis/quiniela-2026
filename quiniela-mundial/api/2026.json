@@ -2480,7 +2480,9 @@
       },
       "utcDate": "2026-07-06T03:00:00Z",
       "homeFlagCode": "mx",
-      "awayFlagCode": "gb-eng"
+      "awayFlagCode": "gb-eng",
+      "realHomeScore": 2,
+      "realAwayScore": 3
     },
     {
       "id": "m90",
