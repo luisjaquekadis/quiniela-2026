@@ -22,11 +22,9 @@ class QuinielaApp {
   }
 
   getFlagUrl(flagCode) {
-    const code = flagCode || 'un';
-    // Bypass adblockers para códigos que suelen ser bloqueados (ar = augmented reality/advertising, at = ad tracking)
-    if (code === 'ar') return 'img/flags/ar.png';
-    if (code === 'at') return 'img/flags/at.png';
-    return `https://flagcdn.com/w40/${code}.png`;
+    if (!flagCode) return `https://flagcdn.com/w40/un.png`;
+    // Use twemoji or emojicdn as fallback for codes blocked by adblockers
+    return `https://flagsapi.com/${flagCode.toUpperCase()}/flat/32.png`;
   }
 
   getScoreOptionsHtml(selectedValue) {
@@ -201,8 +199,8 @@ class QuinielaApp {
         "Usuario", 
         "Partido ID", 
         "Equipos", 
-        "Pronóstico Local", 
-        "Pronóstico Visita", 
+        "Pronóstico Equipo 1", 
+        "Pronóstico Equipo 2", 
         "Etapa"
       ]);
       
@@ -1168,7 +1166,7 @@ class QuinielaApp {
         </div>
         
         <div class="match-teams-layout">
-          <!-- Equipo Local -->
+          <!-- Equipo A -->
           <div class="team-block">
             <img src="${this.getFlagUrl(match.homeFlagCode)}" class="team-flag-img" alt="${match.homeTeam}">
             <span class="team-name">${match.homeTeam}</span>
@@ -1193,7 +1191,7 @@ class QuinielaApp {
             </select>
           </div>
           
-          <!-- Equipo Visita -->
+          <!-- Equipo B -->
           <div class="team-block">
             <img src="${this.getFlagUrl(match.awayFlagCode)}" class="team-flag-img" alt="${match.awayTeam}">
             <span class="team-name">${match.awayTeam}</span>
