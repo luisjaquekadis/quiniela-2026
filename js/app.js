@@ -162,7 +162,7 @@ class QuinielaApp {
       
       if (changed) {
         console.log("⚽ Live scores updated from ESPN!");
-        this.renderMatches(); // Re-render to show live scores
+        this.renderPredictions(); // Re-render to show live scores
       }
     } catch (e) {
       console.error("Error fetching live ESPN scores:", e);
