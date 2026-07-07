@@ -1129,7 +1129,7 @@ class QuinielaApp {
         recommendationHtml = `
           <div class="recommendation-box" style="margin-top: 12px; padding: 12px; background: rgba(16, 185, 129, 0.06); border-radius: 8px; border: 1px solid rgba(16, 185, 129, 0.2); font-size: 12px; line-height: 1.4;">
             <div style="font-weight: 600; color: var(--accent-green); margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
-              <span>🤖 Modelo Predictivo:</span>
+              <span>🔥 Pronóstico Sugerido:</span>
               <strong style="background: rgba(16, 185, 129, 0.15); padding: 2px 8px; border-radius: 4px; font-size: 13px; border: 1px solid rgba(16, 185, 129, 0.4);">${match.recommendation.homeScore} - ${match.recommendation.awayScore}</strong>
             </div>
             <div style="color: var(--text-muted); font-style: italic; margin-bottom: 4px;">"${match.recommendation.rationale}"</div>
