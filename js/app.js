@@ -1669,9 +1669,6 @@ class QuinielaApp {
       tabPreds.click();
     }
   }
-}
-
-const qApp = new QuinielaApp();
 
   // --- LOGICA DE DUELOS PvP ---
   initDuels() {
@@ -1865,4 +1862,7 @@ const qApp = new QuinielaApp();
       btn.disabled = false;
     }
   }
+}
 
+const qApp = new QuinielaApp();
+window.app = qApp; // Ensure it's available globally if needed by onclick handlers
