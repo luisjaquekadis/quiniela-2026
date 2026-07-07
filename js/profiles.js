@@ -811,7 +811,13 @@ class QuinielaStorage {
     // 3. Resultados de partidos: SIEMPRE tomar estructura de api/2026.json
     // Los scores reales NUNCA se guardan en localStorage como fuente de verdad.
     // Vienen exclusivamente de Firebase (official_matches) vía listenToCloudChanges.
-    const matchesFromAPI = await fetchWorldCupData();
+    let matchesFromAPI = [];
+    try {
+      const response = await fetch("api/2026.json");
+      matchesFromAPI = await response.json();
+    } catch (e) {
+      console.error("Error loading matches:", e);
+    }
     if (matchesFromAPI && matchesFromAPI.length > 0) {
       const initializedMatches = matchesFromAPI.map(m => ({
         ...m,
