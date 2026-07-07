@@ -2666,9 +2666,9 @@
     {
       "id": "m100",
       "homeTeam": "Argentina",
-      "awayTeam": "Round of 16 8 Winner",
+      "awayTeam": "Suiza",
       "homeFlag": "🇦🇷",
-      "awayFlag": "⭐",
+      "awayFlag": "🇶🇦",
       "stage": "Cuartos de Final",
       "group": null,
       "date": "11 de Julio 2026",
@@ -2686,7 +2686,7 @@
       },
       "utcDate": "2026-07-12T00:00:00Z",
       "homeFlagCode": "ar",
-      "awayFlagCode": "un"
+      "awayFlagCode": "ch"
     },
     {
       "id": "m101",
