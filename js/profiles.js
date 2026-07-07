@@ -813,7 +813,7 @@ class QuinielaStorage {
     // Vienen exclusivamente de Firebase (official_matches) vía listenToCloudChanges.
     let matchesFromAPI = [];
     try {
-      const response = await fetch("api/2026.json?v=3");
+      const response = await fetch("api/2026.json?v=4");
       matchesFromAPI = await response.json();
     } catch (e) {
       console.error("Error loading matches:", e);

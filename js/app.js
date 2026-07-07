@@ -23,8 +23,8 @@ class QuinielaApp {
 
   getFlagUrl(flagCode) {
     if (!flagCode) return `https://flagcdn.com/w40/un.png`;
-    // Use twemoji or emojicdn as fallback for codes blocked by adblockers
-    return `https://flagsapi.com/${flagCode.toUpperCase()}/flat/32.png`;
+    const code = flagCode.toLowerCase();
+    return `https://flagsapi.com/${code.toUpperCase()}/flat/32.png`;
   }
 
   getScoreOptionsHtml(selectedValue) {

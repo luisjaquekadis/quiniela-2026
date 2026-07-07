@@ -185,7 +185,7 @@
       "stadium": "Lincoln Financial Field (Philadelphia)",
       "utcDate": "2026-06-14T01:00Z",
       "homeFlagCode": "ht",
-      "awayFlagCode": "gb-sct",
+      "awayFlagCode": "gb",
       "realHomeScore": 0,
       "realAwayScore": 1
     },
@@ -589,7 +589,7 @@
       "time": "16:00",
       "stadium": "Lumen Field (Seattle)",
       "utcDate": "2026-06-17T20:00Z",
-      "homeFlagCode": "gb-eng",
+      "homeFlagCode": "gb",
       "awayFlagCode": "hr",
       "realHomeScore": 4,
       "realAwayScore": 2
@@ -805,7 +805,7 @@
       "time": "18:00",
       "stadium": "Estadio Azteca (Ciudad de México)",
       "utcDate": "2026-06-19T22:00Z",
-      "homeFlagCode": "gb-sct",
+      "homeFlagCode": "gb",
       "awayFlagCode": "ma",
       "realHomeScore": 0,
       "realAwayScore": 1
@@ -1237,7 +1237,7 @@
       "time": "16:00",
       "stadium": "Estadio BBVA (Monterrey)",
       "utcDate": "2026-06-23T20:00Z",
-      "homeFlagCode": "gb-eng",
+      "homeFlagCode": "gb",
       "awayFlagCode": "gh",
       "realHomeScore": 0,
       "realAwayScore": 0
@@ -1372,7 +1372,7 @@
       "time": "18:00",
       "stadium": "Hard Rock Stadium (Miami)",
       "utcDate": "2026-06-24T22:00Z",
-      "homeFlagCode": "gb-sct",
+      "homeFlagCode": "gb",
       "awayFlagCode": "br",
       "realHomeScore": 0,
       "realAwayScore": 3
@@ -1805,7 +1805,7 @@
       "stadium": "Lumen Field (Seattle)",
       "utcDate": "2026-06-27T21:00Z",
       "homeFlagCode": "pa",
-      "awayFlagCode": "gb-eng",
+      "awayFlagCode": "gb",
       "realHomeScore": 0,
       "realAwayScore": 2
     },
@@ -2155,7 +2155,7 @@
         "rationale": "Con su hinchada empujando, Inglaterra tiene todas las condiciones para cerrar este partido con un 2-0 convincente."
       },
       "utcDate": "2026-07-01T16:00Z",
-      "homeFlagCode": "gb-eng",
+      "homeFlagCode": "gb",
       "awayFlagCode": "cd",
       "realHomeScore": 2,
       "realAwayScore": 1
@@ -2480,7 +2480,7 @@
       },
       "utcDate": "2026-07-06T03:00:00Z",
       "homeFlagCode": "mx",
-      "awayFlagCode": "gb-eng",
+      "awayFlagCode": "gb",
       "realHomeScore": 2,
       "realAwayScore": 3
     },
@@ -2659,7 +2659,7 @@
       },
       "utcDate": "2026-07-10T23:00:00Z",
       "homeFlagCode": "no",
-      "awayFlagCode": "gb-eng"
+      "awayFlagCode": "gb"
     },
     {
       "id": "m100",
