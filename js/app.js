@@ -1714,7 +1714,8 @@ class QuinielaApp {
 
     // Mostrar mi predicción si existe
     const predDiv = document.getElementById("duel-my-prediction");
-    const predVal = qStorage.getPrediction(this.activeProfileId, matchId);
+    const allPreds = qStorage.getPredictions();
+    const predVal = (allPreds[this.activeProfileId] && allPreds[this.activeProfileId][matchId]) ? allPreds[this.activeProfileId][matchId] : null;
     if (predVal && predVal.home !== null && predVal.away !== null) {
       predDiv.textContent = `${predVal.home} - ${predVal.away}`;
     } else {
