@@ -1078,21 +1078,9 @@ class QuinielaApp {
         }
         
         let duelHtml = "";
-        
-        footerHtml = `
-          <div class="match-card-footer">
-            ${liveScoreHtml}
-            <div class="partner-prediction-row" style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-light); ${liveScoreHtml ? 'margin-top:8px;' : ''}">
-              <span>Estado de tu Pronóstico:</span>
-              <strong>${statusText}</strong>
-            </div>
-          </div>
-        `;
-      } else {
-        // MATCH HAS NOT STARTED YET
-        let duelHtml = "";
         let mNum = parseInt(match.id.replace("m", ""));
-        if (mNum >= 89) {
+        // Solo permitir duelos si el partido es desde octavos (m89) y NO está bloqueado (no ha empezado)
+        if (mNum >= 89 && !isLocked) {
           duelHtml = `
             <button class="btn-duel-trigger" style="margin-top: 12px; width: 100%; background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(16, 185, 129, 0.05)); border: 1px solid var(--accent-green); color: var(--accent-green); padding: 8px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: all 0.2s ease;" onclick="window.app.openDuelModal('${match.id}')">
               ⚔️ Retar a Duelo 1vs1
@@ -1102,7 +1090,8 @@ class QuinielaApp {
         
         footerHtml = `
           <div class="match-card-footer">
-            <div class="partner-prediction-row" style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-light);">
+            ${liveScoreHtml}
+            <div class="partner-prediction-row" style="background: rgba(255,255,255,0.02); border: 1px solid var(--border-light); ${liveScoreHtml ? 'margin-top:8px;' : ''}">
               <span>Estado de tu Pronóstico:</span>
               <strong>${statusText}</strong>
             </div>
