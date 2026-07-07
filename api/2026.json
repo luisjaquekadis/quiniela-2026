@@ -12,11 +12,11 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 61,
-          "draw": 23,
-          "away": 16
+          "home": 31,
+          "draw": 41,
+          "away": 28
         },
-        "rationale": "Fuerzas súper parejas. ¡Un empate 1-1 dejaría a todos contentos!"
+        "rationale": "Aquí no hay claro favorito. Un 1-1 con goles de por medio sería el resultado más justo."
       },
       "date": "11 de Junio 2026",
       "time": "15:00",
@@ -39,11 +39,11 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 63,
-          "draw": 22,
-          "away": 15
+          "home": 49,
+          "draw": 27,
+          "away": 24
         },
-        "rationale": "¡Los astros apuntan a la victoria local! El 1-0 es el resultado favorito."
+        "rationale": "Con su hinchada empujando, Corea del Sur tiene todas las condiciones para cerrar este partido con un 1-0 convincente."
       },
       "date": "11 de Junio 2026",
       "time": "22:00",
@@ -66,11 +66,11 @@
         "homeScore": 2,
         "awayScore": 2,
         "probability": {
-          "home": 37,
-          "draw": 33,
-          "away": 30
+          "home": 28,
+          "draw": 38,
+          "away": 34
         },
-        "rationale": "Fuerzas súper parejas. ¡Un empate 2-2 dejaría a todos contentos!"
+        "rationale": "Dos potencias muy igualadas. El 2-2 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
       "date": "12 de Junio 2026",
       "time": "15:00",
@@ -93,11 +93,11 @@
         "homeScore": 2,
         "awayScore": 0,
         "probability": {
-          "home": 55,
-          "draw": 26,
-          "away": 19
+          "home": 48,
+          "draw": 28,
+          "away": 24
         },
-        "rationale": "El local tiene todas las de ganar en el papel. Un 2-0 suena bastante razonable."
+        "rationale": "Difícil que Paraguay saque algo de acá. El local maneja los hilos y un 2-0 es el desenlace más lógico."
       },
       "date": "12 de Junio 2026",
       "time": "21:00",
@@ -120,11 +120,11 @@
         "homeScore": 1,
         "awayScore": 2,
         "probability": {
-          "home": 14,
-          "draw": 27,
-          "away": 59
+          "home": 24,
+          "draw": 24,
+          "away": 52
         },
-        "rationale": "La visita llega encendida y los números respaldan un triunfo por 1-2."
+        "rationale": "¡Ojo! Suiza llega con un nivel claramente superior. Un 1-2 para los visitantes es la apuesta más razonada."
       },
       "date": "13 de Junio 2026",
       "time": "15:00",
@@ -147,11 +147,11 @@
         "homeScore": 2,
         "awayScore": 0,
         "probability": {
-          "home": 60,
-          "draw": 26,
-          "away": 14
+          "home": 47,
+          "draw": 20,
+          "away": 33
         },
-        "rationale": "Con el apoyo de su hinchada y buen momento, un 2-0 se perfila como la apuesta segura."
+        "rationale": "Brasil llega con todo el hambre del mundo. El 2-0 es el resultado que más se repite en partidos con este nivel de poderío."
       },
       "date": "13 de Junio 2026",
       "time": "18:00",
@@ -174,11 +174,11 @@
         "homeScore": 0,
         "awayScore": 2,
         "probability": {
-          "home": 17,
-          "draw": 25,
-          "away": 58
+          "home": 32,
+          "draw": 23,
+          "away": 45
         },
-        "rationale": "El local sufrirá bastante. Un 0-2 para los visitantes es la tendencia."
+        "rationale": "Sorpresa entre comillas: Escocia debería manejar este partido sin apuros. Un 0-2 visitante es lo más probable."
       },
       "date": "13 de Junio 2026",
       "time": "21:00",
@@ -201,11 +201,11 @@
         "homeScore": 0,
         "awayScore": 2,
         "probability": {
-          "home": 18,
-          "draw": 21,
-          "away": 61
+          "home": 21,
+          "draw": 26,
+          "away": 53
         },
-        "rationale": "Pinta mal para los dueños de casa. El 0-2 visitante es la opción más atractiva."
+        "rationale": "Sorpresa entre comillas: Turquía debería manejar este partido sin apuros. Un 0-2 visitante es lo más probable."
       },
       "date": "14 de Junio 2026",
       "time": "00:00",
@@ -228,11 +228,11 @@
         "homeScore": 3,
         "awayScore": 0,
         "probability": {
-          "home": 84,
-          "draw": 13,
-          "away": 3
+          "home": 47,
+          "draw": 27,
+          "away": 26
         },
-        "rationale": "El local tiene todas las de ganar en el papel. Un 3-0 suena bastante razonable."
+        "rationale": "Difícil que Curazao saque algo de acá. El local maneja los hilos y un 3-0 es el desenlace más lógico."
       },
       "date": "14 de Junio 2026",
       "time": "13:00",
@@ -255,11 +255,11 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 63,
-          "draw": 25,
-          "away": 12
+          "home": 52,
+          "draw": 27,
+          "away": 21
         },
-        "rationale": "¡Los astros apuntan a la victoria local! El 1-0 es el resultado favorito."
+        "rationale": "Favorito: Países Bajos. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
       "date": "14 de Junio 2026",
       "time": "16:00",
@@ -282,11 +282,11 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 11,
-          "draw": 20,
-          "away": 69
+          "home": 36,
+          "draw": 38,
+          "away": 26
         },
-        "rationale": "Fuerzas súper parejas. ¡Un empate 1-1 dejaría a todos contentos!"
+        "rationale": "¡Electrizante partido en perspectiva! Nivel tan parejo que un empate a 1 es la apuesta más equilibrada."
       },
       "date": "14 de Junio 2026",
       "time": "19:00",
@@ -309,11 +309,11 @@
         "homeScore": 2,
         "awayScore": 2,
         "probability": {
-          "home": 32,
-          "draw": 31,
-          "away": 37
+          "home": 29,
+          "draw": 32,
+          "away": 39
         },
-        "rationale": "Fuerzas súper parejas. ¡Un empate 2-2 dejaría a todos contentos!"
+        "rationale": "Dos potencias muy igualadas. El 2-2 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
       "date": "14 de Junio 2026",
       "time": "22:00",
@@ -336,11 +336,11 @@
         "homeScore": 3,
         "awayScore": 0,
         "probability": {
-          "home": 85,
-          "draw": 13,
-          "away": 2
+          "home": 49,
+          "draw": 26,
+          "away": 25
         },
-        "rationale": "La visita la tendrá muy difícil. Todo indica que el local se impondrá por 3-0."
+        "rationale": "Con su hinchada empujando, España tiene todas las condiciones para cerrar este partido con un 3-0 convincente."
       },
       "date": "15 de Junio 2026",
       "time": "12:00",
@@ -363,11 +363,11 @@
         "homeScore": 4,
         "awayScore": 1,
         "probability": {
-          "home": 79,
-          "draw": 16,
-          "away": 5
+          "home": 53,
+          "draw": 22,
+          "away": 25
         },
-        "rationale": "La visita la tendrá muy difícil. Todo indica que el local se impondrá por 4-1."
+        "rationale": "Bélgica llega con todo el hambre del mundo. El 4-1 es el resultado que más se repite en partidos con este nivel de poderío."
       },
       "date": "15 de Junio 2026",
       "time": "15:00",
@@ -390,11 +390,11 @@
         "homeScore": 0,
         "awayScore": 4,
         "probability": {
-          "home": 6,
-          "draw": 20,
-          "away": 74
+          "home": 26,
+          "draw": 24,
+          "away": 50
         },
-        "rationale": "La visita llega encendida y los números respaldan un triunfo por 0-4."
+        "rationale": "¡Ojo! Uruguay llega con un nivel claramente superior. Un 0-4 para los visitantes es la apuesta más razonada."
       },
       "date": "15 de Junio 2026",
       "time": "18:00",
@@ -417,11 +417,11 @@
         "homeScore": 2,
         "awayScore": 2,
         "probability": {
-          "home": 32,
-          "draw": 33,
-          "away": 35
+          "home": 29,
+          "draw": 37,
+          "away": 34
         },
-        "rationale": "Fuerzas súper parejas. ¡Un empate 2-2 dejaría a todos contentos!"
+        "rationale": "Partido de pronóstico complicado — ambos equipos están muy parejos. Un empate 2-2 tiene mucho sentido."
       },
       "date": "15 de Junio 2026",
       "time": "21:00",
@@ -444,11 +444,11 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 57,
-          "draw": 25,
-          "away": 18
+          "home": 33,
+          "draw": 36,
+          "away": 31
         },
-        "rationale": "Fuerzas súper parejas. ¡Un empate 1-1 dejaría a todos contentos!"
+        "rationale": "Dos potencias muy igualadas. El 1-1 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
       "date": "16 de Junio 2026",
       "time": "15:00",
@@ -475,7 +475,7 @@
           "draw": 40,
           "away": 30
         },
-        "rationale": "Dos defensas de hierro. Un empate sin goles es la jugada más conservadora."
+        "rationale": "Partido de alto riesgo en defensa para ambos. Si nadie se anima, el 0-0 sería el resultado más probable."
       },
       "date": "16 de Junio 2026",
       "time": "18:00",
@@ -498,11 +498,11 @@
         "homeScore": 3,
         "awayScore": 1,
         "probability": {
-          "home": 78,
-          "draw": 19,
-          "away": 3
+          "home": 47,
+          "draw": 22,
+          "away": 31
         },
-        "rationale": "La visita la tendrá muy difícil. Todo indica que el local se impondrá por 3-1."
+        "rationale": "Difícil que Argelia saque algo de acá. El local maneja los hilos y un 3-1 es el desenlace más lógico."
       },
       "date": "16 de Junio 2026",
       "time": "21:00",
@@ -526,10 +526,10 @@
         "awayScore": 0,
         "probability": {
           "home": 59,
-          "draw": 25,
-          "away": 16
+          "draw": 27,
+          "away": 14
         },
-        "rationale": "El local tiene todas las de ganar en el papel. Un 2-0 suena bastante razonable."
+        "rationale": "Con su hinchada empujando, Austria tiene todas las condiciones para cerrar este partido con un 2-0 convincente."
       },
       "date": "17 de Junio 2026",
       "time": "00:00",
@@ -552,11 +552,11 @@
         "homeScore": 3,
         "awayScore": 1,
         "probability": {
-          "home": 88,
-          "draw": 2,
-          "away": 10
+          "home": 57,
+          "draw": 20,
+          "away": 23
         },
-        "rationale": "Con el apoyo de su hinchada y buen momento, un 3-1 se perfila como la apuesta segura."
+        "rationale": "Portugal llega con todo el hambre del mundo. El 3-1 es el resultado que más se repite en partidos con este nivel de poderío."
       },
       "date": "17 de Junio 2026",
       "time": "13:00",
@@ -580,10 +580,10 @@
         "awayScore": 0,
         "probability": {
           "home": 60,
-          "draw": 23,
-          "away": 17
+          "draw": 26,
+          "away": 14
         },
-        "rationale": "El local tiene todas las de ganar en el papel. Un 1-0 suena bastante razonable."
+        "rationale": "Con su hinchada empujando, Inglaterra tiene todas las condiciones para cerrar este partido con un 1-0 convincente."
       },
       "date": "17 de Junio 2026",
       "time": "16:00",
@@ -606,11 +606,11 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 61,
-          "draw": 26,
-          "away": 13
+          "home": 48,
+          "draw": 20,
+          "away": 32
         },
-        "rationale": "¡Los astros apuntan a la victoria local! El 1-0 es el resultado favorito."
+        "rationale": "Con su hinchada empujando, Ghana tiene todas las condiciones para cerrar este partido con un 1-0 convincente."
       },
       "date": "17 de Junio 2026",
       "time": "19:00",
@@ -633,11 +633,11 @@
         "homeScore": 0,
         "awayScore": 4,
         "probability": {
-          "home": 6,
-          "draw": 17,
-          "away": 77
+          "home": 17,
+          "draw": 27,
+          "away": 56
         },
-        "rationale": "¡Ojo con la sorpresa visitante! Un 0-4 podría dar el batacazo."
+        "rationale": "El local juega en casa, pero el papel no miente: Colombia es claramente el favorito. El 0-4 tiene sentido."
       },
       "date": "17 de Junio 2026",
       "time": "22:00",
@@ -660,11 +660,11 @@
         "homeScore": 0,
         "awayScore": 0,
         "probability": {
-          "home": 35,
-          "draw": 28,
-          "away": 37
+          "home": 33,
+          "draw": 42,
+          "away": 25
         },
-        "rationale": "Pólvora mojada en ambos lados. El 0-0 es el resultado más probable."
+        "rationale": "Partido de alto riesgo en defensa para ambos. Si nadie se anima, el 0-0 sería el resultado más probable."
       },
       "date": "18 de Junio 2026",
       "time": "12:00",
@@ -687,11 +687,11 @@
         "homeScore": 2,
         "awayScore": 0,
         "probability": {
-          "home": 62,
-          "draw": 20,
-          "away": 18
+          "home": 58,
+          "draw": 27,
+          "away": 15
         },
-        "rationale": "La visita la tendrá muy difícil. Todo indica que el local se impondrá por 2-0."
+        "rationale": "Difícil que Bosnia y Herzegovina saque algo de acá. El local maneja los hilos y un 2-0 es el desenlace más lógico."
       },
       "date": "18 de Junio 2026",
       "time": "15:00",
@@ -714,11 +714,11 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 36,
-          "draw": 30,
-          "away": 34
+          "home": 32,
+          "draw": 42,
+          "away": 26
         },
-        "rationale": "Ninguno va a regalar nada. El 1-1 parece estar escrito en las estrellas."
+        "rationale": "Dos potencias muy igualadas. El 1-1 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
       "date": "18 de Junio 2026",
       "time": "18:00",
@@ -741,11 +741,11 @@
         "homeScore": 2,
         "awayScore": 2,
         "probability": {
-          "home": 40,
-          "draw": 25,
-          "away": 35
+          "home": 31,
+          "draw": 33,
+          "away": 36
         },
-        "rationale": "Fuerzas súper parejas. ¡Un empate 2-2 dejaría a todos contentos!"
+        "rationale": "Dos potencias muy igualadas. El 2-2 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
       "date": "18 de Junio 2026",
       "time": "21:00",
@@ -768,11 +768,11 @@
         "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 63,
-          "draw": 26,
-          "away": 11
+          "home": 51,
+          "draw": 25,
+          "away": 24
         },
-        "rationale": "Con el apoyo de su hinchada y buen momento, un 2-1 se perfila como la apuesta segura."
+        "rationale": "EE.UU. llega con todo el hambre del mundo. El 2-1 es el resultado que más se repite en partidos con este nivel de poderío."
       },
       "date": "19 de Junio 2026",
       "time": "15:00",
@@ -795,11 +795,11 @@
         "homeScore": 0,
         "awayScore": 4,
         "probability": {
-          "home": 5,
-          "draw": 10,
-          "away": 85
+          "home": 19,
+          "draw": 26,
+          "away": 55
         },
-        "rationale": "El local sufrirá bastante. Un 0-4 para los visitantes es la tendencia."
+        "rationale": "Escocia lo intentará, pero la diferencia de nivel habla. El 0-4 a favor de la visita es la tendencia."
       },
       "date": "19 de Junio 2026",
       "time": "18:00",
@@ -822,11 +822,11 @@
         "homeScore": 4,
         "awayScore": 0,
         "probability": {
-          "home": 78,
-          "draw": 13,
-          "away": 9
+          "home": 56,
+          "draw": 27,
+          "away": 17
         },
-        "rationale": "¡Los astros apuntan a la victoria local! El 4-0 es el resultado favorito."
+        "rationale": "Difícil que Haití saque algo de acá. El local maneja los hilos y un 4-0 es el desenlace más lógico."
       },
       "date": "19 de Junio 2026",
       "time": "20:30",
@@ -849,11 +849,11 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 56,
-          "draw": 27,
-          "away": 17
+          "home": 61,
+          "draw": 26,
+          "away": 13
         },
-        "rationale": "El local tiene todas las de ganar en el papel. Un 1-0 suena bastante razonable."
+        "rationale": "Difícil que Paraguay saque algo de acá. El local maneja los hilos y un 1-0 es el desenlace más lógico."
       },
       "date": "19 de Junio 2026",
       "time": "23:00",
@@ -876,11 +876,11 @@
         "homeScore": 4,
         "awayScore": 1,
         "probability": {
-          "home": 74,
-          "draw": 17,
-          "away": 9
+          "home": 47,
+          "draw": 22,
+          "away": 31
         },
-        "rationale": "¡Los astros apuntan a la victoria local! El 4-1 es el resultado favorito."
+        "rationale": "Favorito: Países Bajos. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
       "date": "20 de Junio 2026",
       "time": "13:00",
@@ -903,11 +903,11 @@
         "homeScore": 3,
         "awayScore": 0,
         "probability": {
-          "home": 80,
-          "draw": 15,
-          "away": 5
+          "home": 65,
+          "draw": 26,
+          "away": 9
         },
-        "rationale": "El local tiene todas las de ganar en el papel. Un 3-0 suena bastante razonable."
+        "rationale": "Alemania llega con todo el hambre del mundo. El 3-0 es el resultado que más se repite en partidos con este nivel de poderío."
       },
       "date": "20 de Junio 2026",
       "time": "16:00",
@@ -930,11 +930,11 @@
         "homeScore": 4,
         "awayScore": 1,
         "probability": {
-          "home": 81,
-          "draw": 14,
-          "away": 5
+          "home": 55,
+          "draw": 26,
+          "away": 19
         },
-        "rationale": "¡Los astros apuntan a la victoria local! El 4-1 es el resultado favorito."
+        "rationale": "Difícil que Curazao saque algo de acá. El local maneja los hilos y un 4-1 es el desenlace más lógico."
       },
       "date": "20 de Junio 2026",
       "time": "20:00",
@@ -957,11 +957,11 @@
         "homeScore": 0,
         "awayScore": 1,
         "probability": {
-          "home": 12,
-          "draw": 20,
-          "away": 68
+          "home": 27,
+          "draw": 24,
+          "away": 49
         },
-        "rationale": "Pinta mal para los dueños de casa. El 0-1 visitante es la opción más atractiva."
+        "rationale": "Túnez lo intentará, pero la diferencia de nivel habla. El 0-1 a favor de la visita es la tendencia."
       },
       "date": "21 de Junio 2026",
       "time": "00:00",
@@ -984,11 +984,11 @@
         "homeScore": 4,
         "awayScore": 0,
         "probability": {
-          "home": 75,
-          "draw": 17,
-          "away": 8
+          "home": 56,
+          "draw": 25,
+          "away": 19
         },
-        "rationale": "La visita la tendrá muy difícil. Todo indica que el local se impondrá por 4-0."
+        "rationale": "Difícil que Arabia Saudita saque algo de acá. El local maneja los hilos y un 4-0 es el desenlace más lógico."
       },
       "date": "21 de Junio 2026",
       "time": "12:00",
@@ -1011,11 +1011,11 @@
         "homeScore": 4,
         "awayScore": 1,
         "probability": {
-          "home": 79,
-          "draw": 19,
-          "away": 2
+          "home": 54,
+          "draw": 22,
+          "away": 24
         },
-        "rationale": "La visita la tendrá muy difícil. Todo indica que el local se impondrá por 4-1."
+        "rationale": "Bélgica llega con todo el hambre del mundo. El 4-1 es el resultado que más se repite en partidos con este nivel de poderío."
       },
       "date": "21 de Junio 2026",
       "time": "15:00",
@@ -1038,11 +1038,11 @@
         "homeScore": 3,
         "awayScore": 1,
         "probability": {
-          "home": 75,
-          "draw": 16,
-          "away": 9
+          "home": 45,
+          "draw": 28,
+          "away": 27
         },
-        "rationale": "¡Los astros apuntan a la victoria local! El 3-1 es el resultado favorito."
+        "rationale": "Favorito: Uruguay. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
       "date": "21 de Junio 2026",
       "time": "18:00",
@@ -1065,11 +1065,11 @@
         "homeScore": 0,
         "awayScore": 0,
         "probability": {
-          "home": 33,
-          "draw": 27,
-          "away": 40
+          "home": 35,
+          "draw": 34,
+          "away": 31
         },
-        "rationale": "Dos defensas de hierro. Un empate sin goles es la jugada más conservadora."
+        "rationale": "Huele a empate cerrado. Ninguno tiene suficiente ventaja para garantizar un gol."
       },
       "date": "21 de Junio 2026",
       "time": "21:00",
@@ -1092,11 +1092,11 @@
         "homeScore": 4,
         "awayScore": 1,
         "probability": {
-          "home": 81,
-          "draw": 12,
-          "away": 7
+          "home": 55,
+          "draw": 22,
+          "away": 23
         },
-        "rationale": "¡Los astros apuntan a la victoria local! El 4-1 es el resultado favorito."
+        "rationale": "Difícil que Austria saque algo de acá. El local maneja los hilos y un 4-1 es el desenlace más lógico."
       },
       "date": "22 de Junio 2026",
       "time": "13:00",
@@ -1119,11 +1119,11 @@
         "homeScore": 3,
         "awayScore": 0,
         "probability": {
-          "home": 88,
-          "draw": 10,
-          "away": 2
+          "home": 63,
+          "draw": 27,
+          "away": 10
         },
-        "rationale": "El local tiene todas las de ganar en el papel. Un 3-0 suena bastante razonable."
+        "rationale": "Difícil que Irak saque algo de acá. El local maneja los hilos y un 3-0 es el desenlace más lógico."
       },
       "date": "22 de Junio 2026",
       "time": "17:00",
@@ -1146,11 +1146,11 @@
         "homeScore": 1,
         "awayScore": 4,
         "probability": {
-          "home": 3,
-          "draw": 20,
-          "away": 77
+          "home": 25,
+          "draw": 21,
+          "away": 54
         },
-        "rationale": "Pinta mal para los dueños de casa. El 1-4 visitante es la opción más atractiva."
+        "rationale": "Noruega lo intentará, pero la diferencia de nivel habla. El 1-4 a favor de la visita es la tendencia."
       },
       "date": "22 de Junio 2026",
       "time": "20:00",
@@ -1173,11 +1173,11 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 17,
-          "draw": 27,
-          "away": 56
+          "home": 31,
+          "draw": 40,
+          "away": 29
         },
-        "rationale": "Fuerzas súper parejas. ¡Un empate 1-1 dejaría a todos contentos!"
+        "rationale": "Aquí no hay claro favorito. Un 1-1 con goles de por medio sería el resultado más justo."
       },
       "date": "22 de Junio 2026",
       "time": "23:00",
@@ -1200,11 +1200,11 @@
         "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 86,
-          "draw": 10,
-          "away": 4
+          "home": 60,
+          "draw": 25,
+          "away": 15
         },
-        "rationale": "El local tiene todas las de ganar en el papel. Un 2-1 suena bastante razonable."
+        "rationale": "Favorito: Portugal. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
       "date": "23 de Junio 2026",
       "time": "13:00",
@@ -1227,11 +1227,11 @@
         "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 86,
-          "draw": 12,
-          "away": 2
+          "home": 64,
+          "draw": 26,
+          "away": 10
         },
-        "rationale": "Con el apoyo de su hinchada y buen momento, un 2-1 se perfila como la apuesta segura."
+        "rationale": "Con su hinchada empujando, Inglaterra tiene todas las condiciones para cerrar este partido con un 2-1 convincente."
       },
       "date": "23 de Junio 2026",
       "time": "16:00",
@@ -1254,11 +1254,11 @@
         "homeScore": 1,
         "awayScore": 2,
         "probability": {
-          "home": 9,
-          "draw": 10,
-          "away": 81
+          "home": 31,
+          "draw": 20,
+          "away": 49
         },
-        "rationale": "¡Ojo con la sorpresa visitante! Un 1-2 podría dar el batacazo."
+        "rationale": "El local juega en casa, pero el papel no miente: Croacia es claramente el favorito. El 1-2 tiene sentido."
       },
       "date": "23 de Junio 2026",
       "time": "19:00",
@@ -1281,11 +1281,11 @@
         "homeScore": 3,
         "awayScore": 1,
         "probability": {
-          "home": 81,
-          "draw": 15,
-          "away": 4
+          "home": 58,
+          "draw": 20,
+          "away": 22
         },
-        "rationale": "El local tiene todas las de ganar en el papel. Un 3-1 suena bastante razonable."
+        "rationale": "Con su hinchada empujando, Colombia tiene todas las condiciones para cerrar este partido con un 3-1 convincente."
       },
       "date": "23 de Junio 2026",
       "time": "22:00",
@@ -1308,11 +1308,11 @@
         "homeScore": 2,
         "awayScore": 0,
         "probability": {
-          "home": 52,
-          "draw": 29,
-          "away": 19
+          "home": 53,
+          "draw": 20,
+          "away": 27
         },
-        "rationale": "El local tiene todas las de ganar en el papel. Un 2-0 suena bastante razonable."
+        "rationale": "Favorito: Suiza. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
       "date": "24 de Junio 2026",
       "time": "15:00",
@@ -1335,11 +1335,11 @@
         "homeScore": 2,
         "awayScore": 2,
         "probability": {
-          "home": 25,
-          "draw": 36,
-          "away": 39
+          "home": 38,
+          "draw": 32,
+          "away": 30
         },
-        "rationale": "Ambos tienen mucho que perder. Un empate a 2 goles suena súper lógico."
+        "rationale": "Dos potencias muy igualadas. El 2-2 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
       "date": "24 de Junio 2026",
       "time": "15:00",
@@ -1362,11 +1362,11 @@
         "homeScore": 1,
         "awayScore": 4,
         "probability": {
-          "home": 6,
-          "draw": 17,
-          "away": 77
+          "home": 22,
+          "draw": 26,
+          "away": 52
         },
-        "rationale": "La visita llega encendida y los números respaldan un triunfo por 1-4."
+        "rationale": "¡Ojo! Brasil llega con un nivel claramente superior. Un 1-4 para los visitantes es la apuesta más razonada."
       },
       "date": "24 de Junio 2026",
       "time": "18:00",
@@ -1389,11 +1389,11 @@
         "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 71,
-          "draw": 19,
-          "away": 10
+          "home": 54,
+          "draw": 22,
+          "away": 24
         },
-        "rationale": "Con el apoyo de su hinchada y buen momento, un 2-1 se perfila como la apuesta segura."
+        "rationale": "Difícil que Haití saque algo de acá. El local maneja los hilos y un 2-1 es el desenlace más lógico."
       },
       "date": "24 de Junio 2026",
       "time": "18:00",
@@ -1416,11 +1416,11 @@
         "homeScore": 0,
         "awayScore": 1,
         "probability": {
-          "home": 13,
-          "draw": 27,
-          "away": 60
+          "home": 29,
+          "draw": 20,
+          "away": 51
         },
-        "rationale": "El local sufrirá bastante. Un 0-1 para los visitantes es la tendencia."
+        "rationale": "¡Ojo! México llega con un nivel claramente superior. Un 0-1 para los visitantes es la apuesta más razonada."
       },
       "date": "24 de Junio 2026",
       "time": "21:00",
@@ -1443,11 +1443,11 @@
         "homeScore": 1,
         "awayScore": 2,
         "probability": {
-          "home": 14,
-          "draw": 27,
-          "away": 59
+          "home": 16,
+          "draw": 28,
+          "away": 56
         },
-        "rationale": "La visita llega encendida y los números respaldan un triunfo por 1-2."
+        "rationale": "¡Ojo! Corea del Sur llega con un nivel claramente superior. Un 1-2 para los visitantes es la apuesta más razonada."
       },
       "date": "24 de Junio 2026",
       "time": "21:00",
@@ -1470,11 +1470,11 @@
         "homeScore": 1,
         "awayScore": 3,
         "probability": {
-          "home": 9,
-          "draw": 12,
-          "away": 79
+          "home": 12,
+          "draw": 27,
+          "away": 61
         },
-        "rationale": "Pinta mal para los dueños de casa. El 1-3 visitante es la opción más atractiva."
+        "rationale": "Ecuador lo intentará, pero la diferencia de nivel habla. El 1-3 a favor de la visita es la tendencia."
       },
       "date": "25 de Junio 2026",
       "time": "16:00",
@@ -1497,11 +1497,11 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 58,
-          "draw": 28,
-          "away": 14
+          "home": 53,
+          "draw": 21,
+          "away": 26
         },
-        "rationale": "La visita la tendrá muy difícil. Todo indica que el local se impondrá por 1-0."
+        "rationale": "Con su hinchada empujando, Costa de Marfil tiene todas las condiciones para cerrar este partido con un 1-0 convincente."
       },
       "date": "25 de Junio 2026",
       "time": "16:00",
@@ -1524,11 +1524,11 @@
         "homeScore": 0,
         "awayScore": 4,
         "probability": {
-          "home": 7,
-          "draw": 17,
-          "away": 76
+          "home": 26,
+          "draw": 28,
+          "away": 46
         },
-        "rationale": "¡Ojo con la sorpresa visitante! Un 0-4 podría dar el batacazo."
+        "rationale": "Túnez lo intentará, pero la diferencia de nivel habla. El 0-4 a favor de la visita es la tendencia."
       },
       "date": "25 de Junio 2026",
       "time": "19:00",
@@ -1551,11 +1551,11 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 60,
-          "draw": 20,
-          "away": 20
+          "home": 62,
+          "draw": 28,
+          "away": 10
         },
-        "rationale": "La visita la tendrá muy difícil. Todo indica que el local se impondrá por 1-0."
+        "rationale": "Japón llega con todo el hambre del mundo. El 1-0 es el resultado que más se repite en partidos con este nivel de poderío."
       },
       "date": "25 de Junio 2026",
       "time": "19:00",
@@ -1578,11 +1578,11 @@
         "homeScore": 0,
         "awayScore": 0,
         "probability": {
-          "home": 32,
-          "draw": 38,
+          "home": 28,
+          "draw": 42,
           "away": 30
         },
-        "rationale": "Dos defensas de hierro. Un empate sin goles es la jugada más conservadora."
+        "rationale": "Huele a empate cerrado. Ninguno tiene suficiente ventaja para garantizar un gol."
       },
       "date": "25 de Junio 2026",
       "time": "22:00",
@@ -1605,11 +1605,11 @@
         "homeScore": 0,
         "awayScore": 0,
         "probability": {
-          "home": 38,
-          "draw": 22,
-          "away": 40
+          "home": 31,
+          "draw": 32,
+          "away": 37
         },
-        "rationale": "Pólvora mojada en ambos lados. El 0-0 es el resultado más probable."
+        "rationale": "Huele a empate cerrado. Ninguno tiene suficiente ventaja para garantizar un gol."
       },
       "date": "25 de Junio 2026",
       "time": "22:00",
@@ -1632,11 +1632,11 @@
         "homeScore": 0,
         "awayScore": 3,
         "probability": {
-          "home": 7,
-          "draw": 20,
-          "away": 73
+          "home": 18,
+          "draw": 27,
+          "away": 55
         },
-        "rationale": "La visita llega encendida y los números respaldan un triunfo por 0-3."
+        "rationale": "El local juega en casa, pero el papel no miente: Francia es claramente el favorito. El 0-3 tiene sentido."
       },
       "date": "26 de Junio 2026",
       "time": "15:00",
@@ -1659,11 +1659,11 @@
         "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 82,
-          "draw": 13,
-          "away": 5
+          "home": 48,
+          "draw": 22,
+          "away": 30
         },
-        "rationale": "¡Los astros apuntan a la victoria local! El 2-1 es el resultado favorito."
+        "rationale": "Favorito: Senegal. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
       "date": "26 de Junio 2026",
       "time": "15:00",
@@ -1686,11 +1686,11 @@
         "homeScore": 0,
         "awayScore": 2,
         "probability": {
-          "home": 11,
-          "draw": 23,
-          "away": 66
+          "home": 26,
+          "draw": 27,
+          "away": 47
         },
-        "rationale": "¡Ojo con la sorpresa visitante! Un 0-2 podría dar el batacazo."
+        "rationale": "Uruguay lo intentará, pero la diferencia de nivel habla. El 0-2 a favor de la visita es la tendencia."
       },
       "date": "26 de Junio 2026",
       "time": "20:00",
@@ -1713,11 +1713,11 @@
         "homeScore": 2,
         "awayScore": 0,
         "probability": {
-          "home": 65,
-          "draw": 21,
-          "away": 14
+          "home": 51,
+          "draw": 25,
+          "away": 24
         },
-        "rationale": "El local tiene todas las de ganar en el papel. Un 2-0 suena bastante razonable."
+        "rationale": "Con su hinchada empujando, Arabia Saudita tiene todas las condiciones para cerrar este partido con un 2-0 convincente."
       },
       "date": "26 de Junio 2026",
       "time": "20:00",
@@ -1740,11 +1740,11 @@
         "homeScore": 0,
         "awayScore": 4,
         "probability": {
-          "home": 6,
-          "draw": 12,
-          "away": 82
+          "home": 17,
+          "draw": 28,
+          "away": 55
         },
-        "rationale": "¡Ojo con la sorpresa visitante! Un 0-4 podría dar el batacazo."
+        "rationale": "Sorpresa entre comillas: Bélgica debería manejar este partido sin apuros. Un 0-4 visitante es lo más probable."
       },
       "date": "26 de Junio 2026",
       "time": "23:00",
@@ -1767,11 +1767,11 @@
         "homeScore": 0,
         "awayScore": 0,
         "probability": {
-          "home": 34,
-          "draw": 34,
-          "away": 32
+          "home": 31,
+          "draw": 40,
+          "away": 29
         },
-        "rationale": "Dos defensas de hierro. Un empate sin goles es la jugada más conservadora."
+        "rationale": "Huele a empate cerrado. Ninguno tiene suficiente ventaja para garantizar un gol."
       },
       "date": "26 de Junio 2026",
       "time": "23:00",
@@ -1794,11 +1794,11 @@
         "homeScore": 1,
         "awayScore": 4,
         "probability": {
-          "home": 10,
-          "draw": 17,
-          "away": 73
+          "home": 32,
+          "draw": 23,
+          "away": 45
         },
-        "rationale": "Pinta mal para los dueños de casa. El 1-4 visitante es la opción más atractiva."
+        "rationale": "Panamá lo intentará, pero la diferencia de nivel habla. El 1-4 a favor de la visita es la tendencia."
       },
       "date": "27 de Junio 2026",
       "time": "17:00",
@@ -1821,11 +1821,11 @@
         "homeScore": 4,
         "awayScore": 1,
         "probability": {
-          "home": 73,
-          "draw": 17,
-          "away": 10
+          "home": 64,
+          "draw": 27,
+          "away": 9
         },
-        "rationale": "¡Los astros apuntan a la victoria local! El 4-1 es el resultado favorito."
+        "rationale": "Favorito: Croacia. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
       "date": "27 de Junio 2026",
       "time": "17:00",
@@ -1848,11 +1848,11 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 42,
-          "draw": 29,
-          "away": 29
+          "home": 37,
+          "draw": 32,
+          "away": 31
         },
-        "rationale": "Ambos tienen mucho que perder. Un empate a 1 goles suena súper lógico."
+        "rationale": "Partido de pronóstico complicado — ambos equipos están muy parejos. Un empate 1-1 tiene mucho sentido."
       },
       "date": "27 de Junio 2026",
       "time": "19:30",
@@ -1875,11 +1875,11 @@
         "homeScore": 2,
         "awayScore": 2,
         "probability": {
-          "home": 37,
-          "draw": 28,
-          "away": 35
+          "home": 31,
+          "draw": 42,
+          "away": 27
         },
-        "rationale": "Ambos tienen mucho que perder. Un empate a 2 goles suena súper lógico."
+        "rationale": "Aquí no hay claro favorito. Un 2-2 con goles de por medio sería el resultado más justo."
       },
       "date": "27 de Junio 2026",
       "time": "19:30",
@@ -1902,11 +1902,11 @@
         "homeScore": 1,
         "awayScore": 2,
         "probability": {
-          "home": 3,
-          "draw": 17,
-          "away": 80
+          "home": 19,
+          "draw": 20,
+          "away": 61
         },
-        "rationale": "Pinta mal para los dueños de casa. El 1-2 visitante es la opción más atractiva."
+        "rationale": "¡Ojo! Argentina llega con un nivel claramente superior. Un 1-2 para los visitantes es la apuesta más razonada."
       },
       "date": "27 de Junio 2026",
       "time": "22:00",
@@ -1929,11 +1929,11 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 30,
-          "draw": 39,
-          "away": 31
+          "home": 28,
+          "draw": 40,
+          "away": 32
         },
-        "rationale": "Ambos tienen mucho que perder. Un empate a 1 goles suena súper lógico."
+        "rationale": "¡Electrizante partido en perspectiva! Nivel tan parejo que un empate a 1 es la apuesta más equilibrada."
       },
       "date": "27 de Junio 2026",
       "time": "22:00",
@@ -1959,11 +1959,11 @@
         "homeScore": 0,
         "awayScore": 2,
         "probability": {
-          "home": 22,
-          "draw": 28,
-          "away": 50
+          "home": 20,
+          "draw": 21,
+          "away": 59
         },
-        "rationale": "El local sufrirá bastante. Un 0-2 para los visitantes es la tendencia."
+        "rationale": "Sudáfrica lo intentará, pero la diferencia de nivel habla. El 0-2 a favor de la visita es la tendencia."
       },
       "utcDate": "2026-06-28T19:00Z",
       "homeFlagCode": "za",
@@ -1986,11 +1986,11 @@
         "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 52,
-          "draw": 25,
-          "away": 23
+          "home": 46,
+          "draw": 21,
+          "away": 33
         },
-        "rationale": "La visita la tendrá muy difícil. Todo indica que el local se impondrá por 2-1."
+        "rationale": "Favorito: Brasil. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
       "utcDate": "2026-06-29T17:00Z",
       "homeFlagCode": "br",
@@ -2013,11 +2013,11 @@
         "homeScore": 2,
         "awayScore": 0,
         "probability": {
-          "home": 58,
-          "draw": 23,
-          "away": 19
+          "home": 48,
+          "draw": 20,
+          "away": 32
         },
-        "rationale": "Con el apoyo de su hinchada y buen momento, un 2-0 se perfila como la apuesta segura."
+        "rationale": "Difícil que Paraguay saque algo de acá. El local maneja los hilos y un 2-0 es el desenlace más lógico."
       },
       "utcDate": "2026-06-29T20:30Z",
       "homeFlagCode": "de",
@@ -2040,11 +2040,11 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 45,
-          "draw": 30,
-          "away": 25
+          "home": 62,
+          "draw": 24,
+          "away": 14
         },
-        "rationale": "La visita la tendrá muy difícil. Todo indica que el local se impondrá por 1-0."
+        "rationale": "Favorito: Países Bajos. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
       "utcDate": "2026-06-30T01:00Z",
       "homeFlagCode": "nl",
@@ -2067,11 +2067,11 @@
         "homeScore": 1,
         "awayScore": 2,
         "probability": {
-          "home": 28,
+          "home": 26,
           "draw": 27,
-          "away": 45
+          "away": 47
         },
-        "rationale": "La visita llega encendida y los números respaldan un triunfo por 1-2."
+        "rationale": "Sorpresa entre comillas: Noruega debería manejar este partido sin apuros. Un 1-2 visitante es lo más probable."
       },
       "utcDate": "2026-06-30T17:00Z",
       "homeFlagCode": "ci",
@@ -2095,10 +2095,10 @@
         "awayScore": 1,
         "probability": {
           "home": 60,
-          "draw": 22,
-          "away": 18
+          "draw": 24,
+          "away": 16
         },
-        "rationale": "La visita la tendrá muy difícil. Todo indica que el local se impondrá por 3-1."
+        "rationale": "Francia llega con todo el hambre del mundo. El 3-1 es el resultado que más se repite en partidos con este nivel de poderío."
       },
       "utcDate": "2026-06-30T21:00Z",
       "homeFlagCode": "fr",
@@ -2122,10 +2122,10 @@
         "awayScore": 1,
         "probability": {
           "home": 35,
-          "draw": 31,
-          "away": 34
+          "draw": 35,
+          "away": 30
         },
-        "rationale": "Fuerzas súper parejas. ¡Un empate 1-1 dejaría a todos contentos!"
+        "rationale": "Dos potencias muy igualadas. El 1-1 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
       "utcDate": "2026-07-01T01:00Z",
       "homeFlagCode": "mx",
@@ -2148,11 +2148,11 @@
         "homeScore": 2,
         "awayScore": 0,
         "probability": {
-          "home": 62,
+          "home": 51,
           "draw": 21,
-          "away": 17
+          "away": 28
         },
-        "rationale": "¡Los astros apuntan a la victoria local! El 2-0 es el resultado favorito."
+        "rationale": "Con su hinchada empujando, Inglaterra tiene todas las condiciones para cerrar este partido con un 2-0 convincente."
       },
       "utcDate": "2026-07-01T16:00Z",
       "homeFlagCode": "gb-eng",
@@ -2175,11 +2175,11 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 42,
-          "draw": 29,
-          "away": 29
+          "home": 54,
+          "draw": 26,
+          "away": 20
         },
-        "rationale": "La visita la tendrá muy difícil. Todo indica que el local se impondrá por 1-0."
+        "rationale": "Bélgica llega con todo el hambre del mundo. El 1-0 es el resultado que más se repite en partidos con este nivel de poderío."
       },
       "utcDate": "2026-07-01T20:00Z",
       "homeFlagCode": "be",
@@ -2202,11 +2202,11 @@
         "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 48,
-          "draw": 27,
-          "away": 25
+          "home": 61,
+          "draw": 23,
+          "away": 16
         },
-        "rationale": "El local tiene todas las de ganar en el papel. Un 2-1 suena bastante razonable."
+        "rationale": "Favorito: EE.UU.. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
       "utcDate": "2026-07-02T00:00Z",
       "homeFlagCode": "us",
@@ -2229,11 +2229,11 @@
         "homeScore": 2,
         "awayScore": 0,
         "probability": {
-          "home": 58,
-          "draw": 24,
-          "away": 18
+          "home": 56,
+          "draw": 27,
+          "away": 17
         },
-        "rationale": "¡Los astros apuntan a la victoria local! El 2-0 es el resultado favorito."
+        "rationale": "Difícil que Austria saque algo de acá. El local maneja los hilos y un 2-0 es el desenlace más lógico."
       },
       "utcDate": "2026-07-02T19:00Z",
       "homeFlagCode": "es",
@@ -2256,11 +2256,11 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 43,
-          "draw": 30,
-          "away": 27
+          "home": 65,
+          "draw": 22,
+          "away": 13
         },
-        "rationale": "Con el apoyo de su hinchada y buen momento, un 1-0 se perfila como la apuesta segura."
+        "rationale": "Difícil que Croacia saque algo de acá. El local maneja los hilos y un 1-0 es el desenlace más lógico."
       },
       "utcDate": "2026-07-02T23:00Z",
       "homeFlagCode": "pt",
@@ -2283,11 +2283,11 @@
         "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 45,
-          "draw": 28,
-          "away": 27
+          "home": 61,
+          "draw": 25,
+          "away": 14
         },
-        "rationale": "¡Los astros apuntan a la victoria local! El 2-1 es el resultado favorito."
+        "rationale": "Con su hinchada empujando, Suiza tiene todas las condiciones para cerrar este partido con un 2-1 convincente."
       },
       "utcDate": "2026-07-03T03:00Z",
       "homeFlagCode": "ch",
@@ -2310,11 +2310,11 @@
         "homeScore": 0,
         "awayScore": 1,
         "probability": {
-          "home": 30,
-          "draw": 29,
-          "away": 41
+          "home": 16,
+          "draw": 27,
+          "away": 57
         },
-        "rationale": "El local sufrirá bastante. Un 0-1 para los visitantes es la tendencia."
+        "rationale": "El local juega en casa, pero el papel no miente: Egipto es claramente el favorito. El 0-1 tiene sentido."
       },
       "utcDate": "2026-07-03T18:00Z",
       "homeFlagCode": "au",
@@ -2337,11 +2337,11 @@
         "homeScore": 3,
         "awayScore": 0,
         "probability": {
-          "home": 78,
-          "draw": 14,
-          "away": 8
+          "home": 59,
+          "draw": 22,
+          "away": 19
         },
-        "rationale": "La visita la tendrá muy difícil. Todo indica que el local se impondrá por 3-0."
+        "rationale": "Argentina llega con todo el hambre del mundo. El 3-0 es el resultado que más se repite en partidos con este nivel de poderío."
       },
       "utcDate": "2026-07-03T22:00Z",
       "homeFlagCode": "ar",
@@ -2365,10 +2365,10 @@
         "awayScore": 1,
         "probability": {
           "home": 48,
-          "draw": 27,
-          "away": 25
+          "draw": 24,
+          "away": 28
         },
-        "rationale": "Con el apoyo de su hinchada y buen momento, un 2-1 se perfila como la apuesta segura."
+        "rationale": "Con su hinchada empujando, Colombia tiene todas las condiciones para cerrar este partido con un 2-1 convincente."
       },
       "utcDate": "2026-07-04T01:30Z",
       "homeFlagCode": "co",
@@ -2391,11 +2391,11 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 31,
-          "draw": 36,
-          "away": 33
+          "home": 29,
+          "draw": 35,
+          "away": 36
         },
-        "rationale": "Ambos tienen mucho que perder. Un empate a 1 goles suena súper lógico."
+        "rationale": "¡Electrizante partido en perspectiva! Nivel tan parejo que un empate a 1 es la apuesta más equilibrada."
       },
       "utcDate": "2026-07-04T17:00:00Z",
       "homeFlagCode": "ca",
@@ -2418,11 +2418,11 @@
         "homeScore": 2,
         "awayScore": 2,
         "probability": {
-          "home": 39,
-          "draw": 23,
-          "away": 38
+          "home": 29,
+          "draw": 35,
+          "away": 36
         },
-        "rationale": "Ambos tienen mucho que perder. Un empate a 2 goles suena súper lógico."
+        "rationale": "¡Electrizante partido en perspectiva! Nivel tan parejo que un empate a 2 es la apuesta más equilibrada."
       },
       "utcDate": "2026-07-04T21:00:00Z",
       "homeFlagCode": "py",
@@ -2445,11 +2445,11 @@
         "homeScore": 0,
         "awayScore": 0,
         "probability": {
-          "home": 38,
-          "draw": 28,
-          "away": 34
+          "home": 30,
+          "draw": 35,
+          "away": 35
         },
-        "rationale": "Dos defensas de hierro. Un empate sin goles es la jugada más conservadora."
+        "rationale": "Dos equipos muy parejos que cuidan mucho el arco. Un 0-0 de trincheras es perfectamente posible."
       },
       "utcDate": "2026-07-05T23:00:00Z",
       "homeFlagCode": "br",
@@ -2473,10 +2473,10 @@
         "awayScore": 2,
         "probability": {
           "home": 31,
-          "draw": 35,
-          "away": 34
+          "draw": 32,
+          "away": 37
         },
-        "rationale": "Ninguno va a regalar nada. El 2-2 parece estar escrito en las estrellas."
+        "rationale": "Dos potencias muy igualadas. El 2-2 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
       "utcDate": "2026-07-06T03:00:00Z",
       "homeFlagCode": "mx",
@@ -2500,10 +2500,10 @@
         "awayScore": 1,
         "probability": {
           "home": 30,
-          "draw": 35,
-          "away": 35
+          "draw": 42,
+          "away": 28
         },
-        "rationale": "Fuerzas súper parejas. ¡Un empate 1-1 dejaría a todos contentos!"
+        "rationale": "¡Electrizante partido en perspectiva! Nivel tan parejo que un empate a 1 es la apuesta más equilibrada."
       },
       "utcDate": "2026-07-06T17:00:00Z",
       "homeFlagCode": "pt",
@@ -2527,10 +2527,10 @@
         "awayScore": 0,
         "probability": {
           "home": 33,
-          "draw": 40,
-          "away": 27
+          "draw": 35,
+          "away": 32
         },
-        "rationale": "Dos defensas de hierro. Un empate sin goles es la jugada más conservadora."
+        "rationale": "Partido de alto riesgo en defensa para ambos. Si nadie se anima, el 0-0 sería el resultado más probable."
       },
       "utcDate": "2026-07-06T22:00:00Z",
       "homeFlagCode": "us",
@@ -2551,11 +2551,11 @@
         "homeScore": 2,
         "awayScore": 2,
         "probability": {
-          "home": 31,
-          "draw": 31,
-          "away": 38
+          "home": 28,
+          "draw": 40,
+          "away": 32
         },
-        "rationale": "Ninguno va a regalar nada. El 2-2 parece estar escrito en las estrellas."
+        "rationale": "Aquí no hay claro favorito. Un 2-2 con goles de por medio sería el resultado más justo."
       },
       "utcDate": "2026-07-08T00:00:00Z",
       "homeFlagCode": "ar",
@@ -2576,11 +2576,11 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 27,
-          "draw": 35,
-          "away": 38
+          "home": 33,
+          "draw": 33,
+          "away": 34
         },
-        "rationale": "Ambos tienen mucho que perder. Un empate a 1 goles suena súper lógico."
+        "rationale": "Partido de pronóstico complicado — ambos equipos están muy parejos. Un empate 1-1 tiene mucho sentido."
       },
       "utcDate": "2026-07-08T02:00:00Z",
       "homeFlagCode": "ch",
@@ -2601,11 +2601,11 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 36,
-          "draw": 28,
-          "away": 36
+          "home": 33,
+          "draw": 34,
+          "away": 33
         },
-        "rationale": "Fuerzas súper parejas. ¡Un empate 1-1 dejaría a todos contentos!"
+        "rationale": "Aquí no hay claro favorito. Un 1-1 con goles de por medio sería el resultado más justo."
       },
       "utcDate": "2026-07-09T17:00:00Z",
       "homeFlagCode": "fr",
@@ -2626,11 +2626,11 @@
         "homeScore": 0,
         "awayScore": 0,
         "probability": {
-          "home": 33,
+          "home": 35,
           "draw": 35,
-          "away": 32
+          "away": 30
         },
-        "rationale": "Un partido para bostezar o morderse las uñas. Huele a 0-0 clavado."
+        "rationale": "Dos equipos muy parejos que cuidan mucho el arco. Un 0-0 de trincheras es perfectamente posible."
       },
       "utcDate": "2026-07-10T23:00:00Z",
       "homeFlagCode": "es",
@@ -2651,11 +2651,11 @@
         "homeScore": 0,
         "awayScore": 0,
         "probability": {
-          "home": 38,
-          "draw": 24,
-          "away": 38
+          "home": 34,
+          "draw": 34,
+          "away": 32
         },
-        "rationale": "Un partido para bostezar o morderse las uñas. Huele a 0-0 clavado."
+        "rationale": "Dos equipos muy parejos que cuidan mucho el arco. Un 0-0 de trincheras es perfectamente posible."
       },
       "utcDate": "2026-07-10T23:00:00Z",
       "homeFlagCode": "no",
@@ -2676,11 +2676,11 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 37,
-          "draw": 32,
-          "away": 31
+          "home": 30,
+          "draw": 35,
+          "away": 35
         },
-        "rationale": "Fuerzas súper parejas. ¡Un empate 1-1 dejaría a todos contentos!"
+        "rationale": "Aquí no hay claro favorito. Un 1-1 con goles de por medio sería el resultado más justo."
       },
       "utcDate": "2026-07-12T00:00:00Z",
       "homeFlagCode": "un",
@@ -2702,10 +2702,10 @@
         "awayScore": 1,
         "probability": {
           "home": 35,
-          "draw": 28,
-          "away": 37
+          "draw": 34,
+          "away": 31
         },
-        "rationale": "Fuerzas súper parejas. ¡Un empate 1-1 dejaría a todos contentos!"
+        "rationale": "Aquí no hay claro favorito. Un 1-1 con goles de por medio sería el resultado más justo."
       },
       "utcDate": "2026-07-14T17:00:00Z",
       "homeFlagCode": "un",
@@ -2726,11 +2726,11 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 36,
-          "draw": 32,
-          "away": 32
+          "home": 29,
+          "draw": 37,
+          "away": 34
         },
-        "rationale": "Fuerzas súper parejas. ¡Un empate 1-1 dejaría a todos contentos!"
+        "rationale": "Partido de pronóstico complicado — ambos equipos están muy parejos. Un empate 1-1 tiene mucho sentido."
       },
       "utcDate": "2026-07-15T20:00:00Z",
       "homeFlagCode": "un",
@@ -2751,11 +2751,11 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 34,
+          "home": 37,
           "draw": 35,
-          "away": 31
+          "away": 28
         },
-        "rationale": "Fuerzas súper parejas. ¡Un empate 1-1 dejaría a todos contentos!"
+        "rationale": "Dos potencias muy igualadas. El 1-1 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
       "utcDate": "2026-07-19T01:00:00Z",
       "homeFlagCode": "un",
@@ -2780,7 +2780,7 @@
           "draw": 39,
           "away": 30
         },
-        "rationale": "Ambos tienen mucho que perder. Un empate a 1 goles suena súper lógico."
+        "rationale": "Dos potencias muy igualadas. El 1-1 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
       "utcDate": "2026-07-20T03:00:00Z",
       "homeFlagCode": "un",
