@@ -1,0 +1,2790 @@
+{
+  "matches": [
+    {
+      "id": "m1",
+      "homeTeam": "México",
+      "awayTeam": "Sudáfrica",
+      "homeFlag": "🇲🇽",
+      "awayFlag": "🇿🇦",
+      "stage": "Fase de Grupos",
+      "group": "Grupo A",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 1,
+        "probability": {
+          "home": 61,
+          "draw": 23,
+          "away": 16
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-1."
+      },
+      "date": "11 de Junio 2026",
+      "time": "15:00",
+      "stadium": "Estadio Azteca (Ciudad de México)",
+      "utcDate": "2026-06-11T19:00Z",
+      "homeFlagCode": "mx",
+      "awayFlagCode": "za",
+      "realHomeScore": 2,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m4",
+      "homeTeam": "Corea del Sur",
+      "awayTeam": "República Checa",
+      "homeFlag": "🇰🇷",
+      "awayFlag": "🇨🇿",
+      "stage": "Fase de Grupos",
+      "group": "Grupo A",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 0,
+        "probability": {
+          "home": 63,
+          "draw": 22,
+          "away": 15
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-0."
+      },
+      "date": "11 de Junio 2026",
+      "time": "22:00",
+      "stadium": "Estadio Akron (Guadalajara)",
+      "utcDate": "2026-06-12T02:00Z",
+      "homeFlagCode": "kr",
+      "awayFlagCode": "cz",
+      "realHomeScore": 2,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m10",
+      "homeTeam": "Canadá",
+      "awayTeam": "Bosnia y Herzegovina",
+      "homeFlag": "🇨🇦",
+      "awayFlag": "🇧🇦",
+      "stage": "Fase de Grupos",
+      "group": "Grupo B",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 2,
+        "probability": {
+          "home": 37,
+          "draw": 33,
+          "away": 30
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-2."
+      },
+      "date": "12 de Junio 2026",
+      "time": "15:00",
+      "stadium": "BC Place (Vancouver)",
+      "utcDate": "2026-06-12T19:00Z",
+      "homeFlagCode": "ca",
+      "awayFlagCode": "ba",
+      "realHomeScore": 1,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m17",
+      "homeTeam": "EE.UU.",
+      "awayTeam": "Paraguay",
+      "homeFlag": "🇺🇸",
+      "awayFlag": "🇵🇾",
+      "stage": "Fase de Grupos",
+      "group": "Grupo D",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 0,
+        "probability": {
+          "home": 55,
+          "draw": 26,
+          "away": 19
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-0."
+      },
+      "date": "12 de Junio 2026",
+      "time": "21:00",
+      "stadium": "SoFi Stadium (Los Angeles)",
+      "utcDate": "2026-06-13T01:00Z",
+      "homeFlagCode": "us",
+      "awayFlagCode": "py",
+      "realHomeScore": 4,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m18",
+      "homeTeam": "Qatar",
+      "awayTeam": "Suiza",
+      "homeFlag": "🇨🇭",
+      "awayFlag": "🇶🇦",
+      "stage": "Fase de Grupos",
+      "group": "Grupo B",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 2,
+        "probability": {
+          "home": 14,
+          "draw": 27,
+          "away": 59
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-2."
+      },
+      "date": "13 de Junio 2026",
+      "time": "15:00",
+      "stadium": "Mercedes-Benz Stadium (Atlanta)",
+      "utcDate": "2026-06-13T19:00Z",
+      "homeFlagCode": "qa",
+      "awayFlagCode": "ch",
+      "realHomeScore": 1,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m7",
+      "homeTeam": "Brasil",
+      "awayTeam": "Marruecos",
+      "homeFlag": "🇧🇷",
+      "awayFlag": "🇲🇦",
+      "stage": "Fase de Grupos",
+      "group": "Grupo C",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 0,
+        "probability": {
+          "home": 60,
+          "draw": 26,
+          "away": 14
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-0."
+      },
+      "date": "13 de Junio 2026",
+      "time": "18:00",
+      "stadium": "Hard Rock Stadium (Miami)",
+      "utcDate": "2026-06-13T22:00Z",
+      "homeFlagCode": "br",
+      "awayFlagCode": "ma",
+      "realHomeScore": 1,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m15",
+      "homeTeam": "Haití",
+      "awayTeam": "Escocia",
+      "homeFlag": "🇭🇹",
+      "awayFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "stage": "Fase de Grupos",
+      "group": "Grupo C",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 2,
+        "probability": {
+          "home": 17,
+          "draw": 25,
+          "away": 58
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-2."
+      },
+      "date": "13 de Junio 2026",
+      "time": "21:00",
+      "stadium": "Lincoln Financial Field (Philadelphia)",
+      "utcDate": "2026-06-14T01:00Z",
+      "homeFlagCode": "ht",
+      "awayFlagCode": "gb-sct",
+      "realHomeScore": 0,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m23",
+      "homeTeam": "Australia",
+      "awayTeam": "Turquía",
+      "homeFlag": "🇦🇺",
+      "awayFlag": "🇹🇷",
+      "stage": "Fase de Grupos",
+      "group": "Grupo D",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 2,
+        "probability": {
+          "home": 18,
+          "draw": 21,
+          "away": 61
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-2."
+      },
+      "date": "14 de Junio 2026",
+      "time": "00:00",
+      "stadium": "Levi's Stadium (San Francisco)",
+      "utcDate": "2026-06-14T04:00Z",
+      "homeFlagCode": "au",
+      "awayFlagCode": "tr",
+      "realHomeScore": 2,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m26",
+      "homeTeam": "Alemania",
+      "awayTeam": "Curazao",
+      "homeFlag": "🇩🇪",
+      "awayFlag": "🇨🇼",
+      "stage": "Fase de Grupos",
+      "group": "Grupo E",
+      "recommendation": {
+        "homeScore": 3,
+        "awayScore": 0,
+        "probability": {
+          "home": 84,
+          "draw": 13,
+          "away": 3
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 3-0."
+      },
+      "date": "14 de Junio 2026",
+      "time": "13:00",
+      "stadium": "Gillette Stadium (Boston)",
+      "utcDate": "2026-06-14T17:00Z",
+      "homeFlagCode": "de",
+      "awayFlagCode": "cw",
+      "realHomeScore": 7,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m29",
+      "homeTeam": "Países Bajos",
+      "awayTeam": "Japón",
+      "homeFlag": "🇳🇱",
+      "awayFlag": "🇯🇵",
+      "stage": "Fase de Grupos",
+      "group": "Grupo F",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 0,
+        "probability": {
+          "home": 63,
+          "draw": 25,
+          "away": 12
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-0."
+      },
+      "date": "14 de Junio 2026",
+      "time": "16:00",
+      "stadium": "NRG Stadium (Houston)",
+      "utcDate": "2026-06-14T20:00Z",
+      "homeFlagCode": "nl",
+      "awayFlagCode": "jp",
+      "realHomeScore": 2,
+      "realAwayScore": 2
+    },
+    {
+      "id": "m32",
+      "homeTeam": "Costa de Marfil",
+      "awayTeam": "Ecuador",
+      "homeFlag": "🇪🇨",
+      "awayFlag": "🇨🇮",
+      "stage": "Fase de Grupos",
+      "group": "Grupo E",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 1,
+        "probability": {
+          "home": 11,
+          "draw": 20,
+          "away": 69
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-1."
+      },
+      "date": "14 de Junio 2026",
+      "time": "19:00",
+      "stadium": "Arrowhead Stadium (Kansas City)",
+      "utcDate": "2026-06-14T23:00Z",
+      "homeFlagCode": "ci",
+      "awayFlagCode": "ec",
+      "realHomeScore": 1,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m35",
+      "homeTeam": "Suecia",
+      "awayTeam": "Túnez",
+      "homeFlag": "🇹🇳",
+      "awayFlag": "🇸🇪",
+      "stage": "Fase de Grupos",
+      "group": "Grupo F",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 2,
+        "probability": {
+          "home": 32,
+          "draw": 31,
+          "away": 37
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-2."
+      },
+      "date": "14 de Junio 2026",
+      "time": "22:00",
+      "stadium": "BC Place (Vancouver)",
+      "utcDate": "2026-06-15T02:00Z",
+      "homeFlagCode": "se",
+      "awayFlagCode": "tn",
+      "realHomeScore": 5,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m46",
+      "homeTeam": "España",
+      "awayTeam": "Cabo Verde",
+      "homeFlag": "🇪🇸",
+      "awayFlag": "🇨🇻",
+      "stage": "Fase de Grupos",
+      "group": "Grupo H",
+      "recommendation": {
+        "homeScore": 3,
+        "awayScore": 0,
+        "probability": {
+          "home": 85,
+          "draw": 13,
+          "away": 2
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 3-0."
+      },
+      "date": "15 de Junio 2026",
+      "time": "12:00",
+      "stadium": "Estadio BBVA (Monterrey)",
+      "utcDate": "2026-06-15T16:00Z",
+      "homeFlagCode": "es",
+      "awayFlagCode": "cv",
+      "realHomeScore": 0,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m45",
+      "homeTeam": "Bélgica",
+      "awayTeam": "Egipto",
+      "homeFlag": "🇧🇪",
+      "awayFlag": "🇪🇬",
+      "stage": "Fase de Grupos",
+      "group": "Grupo G",
+      "recommendation": {
+        "homeScore": 4,
+        "awayScore": 1,
+        "probability": {
+          "home": 79,
+          "draw": 16,
+          "away": 5
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 4-1."
+      },
+      "date": "15 de Junio 2026",
+      "time": "15:00",
+      "stadium": "Hard Rock Stadium (Miami)",
+      "utcDate": "2026-06-15T19:00Z",
+      "homeFlagCode": "be",
+      "awayFlagCode": "eg",
+      "realHomeScore": 1,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m54",
+      "homeTeam": "Arabia Saudita",
+      "awayTeam": "Uruguay",
+      "homeFlag": "🇺🇾",
+      "awayFlag": "🇸🇦",
+      "stage": "Fase de Grupos",
+      "group": "Grupo H",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 4,
+        "probability": {
+          "home": 6,
+          "draw": 20,
+          "away": 74
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-4."
+      },
+      "date": "15 de Junio 2026",
+      "time": "18:00",
+      "stadium": "Estadio Akron (Guadalajara)",
+      "utcDate": "2026-06-15T22:00Z",
+      "homeFlagCode": "sa",
+      "awayFlagCode": "uy",
+      "realHomeScore": 1,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m36",
+      "homeTeam": "Irán",
+      "awayTeam": "Nueva Zelanda",
+      "homeFlag": "🇮🇷",
+      "awayFlag": "🇳🇿",
+      "stage": "Fase de Grupos",
+      "group": "Grupo G",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 2,
+        "probability": {
+          "home": 32,
+          "draw": 33,
+          "away": 35
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-2."
+      },
+      "date": "15 de Junio 2026",
+      "time": "21:00",
+      "stadium": "Lincoln Financial Field (Philadelphia)",
+      "utcDate": "2026-06-16T01:00Z",
+      "homeFlagCode": "ir",
+      "awayFlagCode": "nz",
+      "realHomeScore": 2,
+      "realAwayScore": 2
+    },
+    {
+      "id": "m43",
+      "homeTeam": "Francia",
+      "awayTeam": "Senegal",
+      "homeFlag": "🇫🇷",
+      "awayFlag": "🇸🇳",
+      "stage": "Fase de Grupos",
+      "group": "Grupo I",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 1,
+        "probability": {
+          "home": 57,
+          "draw": 25,
+          "away": 18
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-1."
+      },
+      "date": "16 de Junio 2026",
+      "time": "15:00",
+      "stadium": "MetLife Stadium (New York/New Jersey)",
+      "utcDate": "2026-06-16T19:00Z",
+      "homeFlagCode": "fr",
+      "awayFlagCode": "sn",
+      "realHomeScore": 3,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m51",
+      "homeTeam": "Irak",
+      "awayTeam": "Noruega",
+      "homeFlag": "🇳🇴",
+      "awayFlag": "🇮🇶",
+      "stage": "Fase de Grupos",
+      "group": "Grupo I",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 0,
+        "probability": {
+          "home": 30,
+          "draw": 40,
+          "away": 30
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-0."
+      },
+      "date": "16 de Junio 2026",
+      "time": "18:00",
+      "stadium": "SoFi Stadium (Los Angeles)",
+      "utcDate": "2026-06-16T22:00Z",
+      "homeFlagCode": "iq",
+      "awayFlagCode": "no",
+      "realHomeScore": 1,
+      "realAwayScore": 4
+    },
+    {
+      "id": "m53",
+      "homeTeam": "Argentina",
+      "awayTeam": "Argelia",
+      "homeFlag": "🇦🇷",
+      "awayFlag": "🇩🇿",
+      "stage": "Fase de Grupos",
+      "group": "Grupo J",
+      "recommendation": {
+        "homeScore": 3,
+        "awayScore": 1,
+        "probability": {
+          "home": 78,
+          "draw": 19,
+          "away": 3
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 3-1."
+      },
+      "date": "16 de Junio 2026",
+      "time": "21:00",
+      "stadium": "AT&T Stadium (Dallas)",
+      "utcDate": "2026-06-17T01:00Z",
+      "homeFlagCode": "ar",
+      "awayFlagCode": "dz",
+      "realHomeScore": 3,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m59",
+      "homeTeam": "Austria",
+      "awayTeam": "Jordania",
+      "homeFlag": "🇦🇹",
+      "awayFlag": "🇯🇴",
+      "stage": "Fase de Grupos",
+      "group": "Grupo J",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 0,
+        "probability": {
+          "home": 59,
+          "draw": 25,
+          "away": 16
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-0."
+      },
+      "date": "17 de Junio 2026",
+      "time": "00:00",
+      "stadium": "Mercedes-Benz Stadium (Atlanta)",
+      "utcDate": "2026-06-17T04:00Z",
+      "homeFlagCode": "at",
+      "awayFlagCode": "jo",
+      "realHomeScore": 3,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m62",
+      "homeTeam": "Portugal",
+      "awayTeam": "RD Congo",
+      "homeFlag": "🇵🇹",
+      "awayFlag": "🇨🇩",
+      "stage": "Fase de Grupos",
+      "group": "Grupo K",
+      "recommendation": {
+        "homeScore": 3,
+        "awayScore": 1,
+        "probability": {
+          "home": 88,
+          "draw": 2,
+          "away": 10
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 3-1."
+      },
+      "date": "17 de Junio 2026",
+      "time": "13:00",
+      "stadium": "Hard Rock Stadium (Miami)",
+      "utcDate": "2026-06-17T17:00Z",
+      "homeFlagCode": "pt",
+      "awayFlagCode": "cd",
+      "realHomeScore": 1,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m65",
+      "homeTeam": "Inglaterra",
+      "awayTeam": "Croacia",
+      "homeFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "awayFlag": "🇭🇷",
+      "stage": "Fase de Grupos",
+      "group": "Grupo L",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 0,
+        "probability": {
+          "home": 60,
+          "draw": 23,
+          "away": 17
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-0."
+      },
+      "date": "17 de Junio 2026",
+      "time": "16:00",
+      "stadium": "Lumen Field (Seattle)",
+      "utcDate": "2026-06-17T20:00Z",
+      "homeFlagCode": "gb-eng",
+      "awayFlagCode": "hr",
+      "realHomeScore": 4,
+      "realAwayScore": 2
+    },
+    {
+      "id": "m70",
+      "homeTeam": "Ghana",
+      "awayTeam": "Panamá",
+      "homeFlag": "🇬🇭",
+      "awayFlag": "🇵🇦",
+      "stage": "Fase de Grupos",
+      "group": "Grupo L",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 0,
+        "probability": {
+          "home": 61,
+          "draw": 26,
+          "away": 13
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-0."
+      },
+      "date": "17 de Junio 2026",
+      "time": "19:00",
+      "stadium": "Levi's Stadium (San Francisco)",
+      "utcDate": "2026-06-17T23:00Z",
+      "homeFlagCode": "gh",
+      "awayFlagCode": "pa",
+      "realHomeScore": 1,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m67",
+      "homeTeam": "Uzbekistán",
+      "awayTeam": "Colombia",
+      "homeFlag": "🇨🇴",
+      "awayFlag": "🇺🇿",
+      "stage": "Fase de Grupos",
+      "group": "Grupo K",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 4,
+        "probability": {
+          "home": 6,
+          "draw": 17,
+          "away": 77
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-4."
+      },
+      "date": "17 de Junio 2026",
+      "time": "22:00",
+      "stadium": "Lincoln Financial Field (Philadelphia)",
+      "utcDate": "2026-06-18T02:00Z",
+      "homeFlagCode": "uz",
+      "awayFlagCode": "co",
+      "realHomeScore": 1,
+      "realAwayScore": 3
+    },
+    {
+      "id": "m2",
+      "homeTeam": "República Checa",
+      "awayTeam": "Sudáfrica",
+      "homeFlag": "🇿🇦",
+      "awayFlag": "🇨🇿",
+      "stage": "Fase de Grupos",
+      "group": "Grupo A",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 0,
+        "probability": {
+          "home": 35,
+          "draw": 28,
+          "away": 37
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-0."
+      },
+      "date": "18 de Junio 2026",
+      "time": "12:00",
+      "stadium": "Arrowhead Stadium (Kansas City)",
+      "utcDate": "2026-06-18T16:00Z",
+      "homeFlagCode": "cz",
+      "awayFlagCode": "za",
+      "realHomeScore": 1,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m5",
+      "homeTeam": "Suiza",
+      "awayTeam": "Bosnia y Herzegovina",
+      "homeFlag": "🇨🇭",
+      "awayFlag": "🇧🇦",
+      "stage": "Fase de Grupos",
+      "group": "Grupo B",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 0,
+        "probability": {
+          "home": 62,
+          "draw": 20,
+          "away": 18
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-0."
+      },
+      "date": "18 de Junio 2026",
+      "time": "15:00",
+      "stadium": "BC Place (Vancouver)",
+      "utcDate": "2026-06-18T19:00Z",
+      "homeFlagCode": "ch",
+      "awayFlagCode": "ba",
+      "realHomeScore": 4,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m13",
+      "homeTeam": "Canadá",
+      "awayTeam": "Qatar",
+      "homeFlag": "🇨🇦",
+      "awayFlag": "🇶🇦",
+      "stage": "Fase de Grupos",
+      "group": "Grupo B",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 1,
+        "probability": {
+          "home": 36,
+          "draw": 30,
+          "away": 34
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-1."
+      },
+      "date": "18 de Junio 2026",
+      "time": "18:00",
+      "stadium": "BC Place (Vancouver)",
+      "utcDate": "2026-06-18T22:00Z",
+      "homeFlagCode": "ca",
+      "awayFlagCode": "qa",
+      "realHomeScore": 6,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m9",
+      "homeTeam": "México",
+      "awayTeam": "Corea del Sur",
+      "homeFlag": "🇲🇽",
+      "awayFlag": "🇰🇷",
+      "stage": "Fase de Grupos",
+      "group": "Grupo A",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 2,
+        "probability": {
+          "home": 40,
+          "draw": 25,
+          "away": 35
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-2."
+      },
+      "date": "18 de Junio 2026",
+      "time": "21:00",
+      "stadium": "Estadio Azteca (Ciudad de México)",
+      "utcDate": "2026-06-19T01:00Z",
+      "homeFlagCode": "mx",
+      "awayFlagCode": "kr",
+      "realHomeScore": 1,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m25",
+      "homeTeam": "EE.UU.",
+      "awayTeam": "Australia",
+      "homeFlag": "🇺🇸",
+      "awayFlag": "🇦🇺",
+      "stage": "Fase de Grupos",
+      "group": "Grupo D",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 1,
+        "probability": {
+          "home": 63,
+          "draw": 26,
+          "away": 11
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-1."
+      },
+      "date": "19 de Junio 2026",
+      "time": "15:00",
+      "stadium": "SoFi Stadium (Los Angeles)",
+      "utcDate": "2026-06-19T19:00Z",
+      "homeFlagCode": "us",
+      "awayFlagCode": "au",
+      "realHomeScore": 2,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m12",
+      "homeTeam": "Escocia",
+      "awayTeam": "Marruecos",
+      "homeFlag": "🇲🇦",
+      "awayFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "stage": "Fase de Grupos",
+      "group": "Grupo C",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 4,
+        "probability": {
+          "home": 5,
+          "draw": 10,
+          "away": 85
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-4."
+      },
+      "date": "19 de Junio 2026",
+      "time": "18:00",
+      "stadium": "Estadio Azteca (Ciudad de México)",
+      "utcDate": "2026-06-19T22:00Z",
+      "homeFlagCode": "gb-sct",
+      "awayFlagCode": "ma",
+      "realHomeScore": 0,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m21",
+      "homeTeam": "Brasil",
+      "awayTeam": "Haití",
+      "homeFlag": "🇧🇷",
+      "awayFlag": "🇭🇹",
+      "stage": "Fase de Grupos",
+      "group": "Grupo C",
+      "recommendation": {
+        "homeScore": 4,
+        "awayScore": 0,
+        "probability": {
+          "home": 78,
+          "draw": 13,
+          "away": 9
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 4-0."
+      },
+      "date": "19 de Junio 2026",
+      "time": "20:30",
+      "stadium": "BMO Field (Toronto)",
+      "utcDate": "2026-06-20T00:30Z",
+      "homeFlagCode": "br",
+      "awayFlagCode": "ht",
+      "realHomeScore": 3,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m16",
+      "homeTeam": "Turquía",
+      "awayTeam": "Paraguay",
+      "homeFlag": "🇵🇾",
+      "awayFlag": "🇹🇷",
+      "stage": "Fase de Grupos",
+      "group": "Grupo D",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 0,
+        "probability": {
+          "home": 56,
+          "draw": 27,
+          "away": 17
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-0."
+      },
+      "date": "19 de Junio 2026",
+      "time": "23:00",
+      "stadium": "Estadio Akron (Guadalajara)",
+      "utcDate": "2026-06-20T03:00Z",
+      "homeFlagCode": "tr",
+      "awayFlagCode": "py",
+      "realHomeScore": 0,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m34",
+      "homeTeam": "Países Bajos",
+      "awayTeam": "Suecia",
+      "homeFlag": "🇳🇱",
+      "awayFlag": "🇸🇪",
+      "stage": "Fase de Grupos",
+      "group": "Grupo F",
+      "recommendation": {
+        "homeScore": 4,
+        "awayScore": 1,
+        "probability": {
+          "home": 74,
+          "draw": 17,
+          "away": 9
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 4-1."
+      },
+      "date": "20 de Junio 2026",
+      "time": "13:00",
+      "stadium": "NRG Stadium (Houston)",
+      "utcDate": "2026-06-20T17:00Z",
+      "homeFlagCode": "nl",
+      "awayFlagCode": "se",
+      "realHomeScore": 5,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m33",
+      "homeTeam": "Alemania",
+      "awayTeam": "Costa de Marfil",
+      "homeFlag": "🇩🇪",
+      "awayFlag": "🇨🇮",
+      "stage": "Fase de Grupos",
+      "group": "Grupo E",
+      "recommendation": {
+        "homeScore": 3,
+        "awayScore": 0,
+        "probability": {
+          "home": 80,
+          "draw": 15,
+          "away": 5
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 3-0."
+      },
+      "date": "20 de Junio 2026",
+      "time": "16:00",
+      "stadium": "MetLife Stadium (New York/New Jersey)",
+      "utcDate": "2026-06-20T20:00Z",
+      "homeFlagCode": "de",
+      "awayFlagCode": "ci",
+      "realHomeScore": 2,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m24",
+      "homeTeam": "Ecuador",
+      "awayTeam": "Curazao",
+      "homeFlag": "🇪🇨",
+      "awayFlag": "🇨🇼",
+      "stage": "Fase de Grupos",
+      "group": "Grupo E",
+      "recommendation": {
+        "homeScore": 4,
+        "awayScore": 1,
+        "probability": {
+          "home": 81,
+          "draw": 14,
+          "away": 5
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 4-1."
+      },
+      "date": "20 de Junio 2026",
+      "time": "20:00",
+      "stadium": "SoFi Stadium (Los Angeles)",
+      "utcDate": "2026-06-21T00:00Z",
+      "homeFlagCode": "ec",
+      "awayFlagCode": "cw",
+      "realHomeScore": 0,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m42",
+      "homeTeam": "Túnez",
+      "awayTeam": "Japón",
+      "homeFlag": "🇯🇵",
+      "awayFlag": "🇹🇳",
+      "stage": "Fase de Grupos",
+      "group": "Grupo F",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 1,
+        "probability": {
+          "home": 12,
+          "draw": 20,
+          "away": 68
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-1."
+      },
+      "date": "21 de Junio 2026",
+      "time": "00:00",
+      "stadium": "BC Place (Vancouver)",
+      "utcDate": "2026-06-21T04:00Z",
+      "homeFlagCode": "tn",
+      "awayFlagCode": "jp",
+      "realHomeScore": 0,
+      "realAwayScore": 4
+    },
+    {
+      "id": "m49",
+      "homeTeam": "España",
+      "awayTeam": "Arabia Saudita",
+      "homeFlag": "🇪🇸",
+      "awayFlag": "🇸🇦",
+      "stage": "Fase de Grupos",
+      "group": "Grupo H",
+      "recommendation": {
+        "homeScore": 4,
+        "awayScore": 0,
+        "probability": {
+          "home": 75,
+          "draw": 17,
+          "away": 8
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 4-0."
+      },
+      "date": "21 de Junio 2026",
+      "time": "12:00",
+      "stadium": "Lumen Field (Seattle)",
+      "utcDate": "2026-06-21T16:00Z",
+      "homeFlagCode": "es",
+      "awayFlagCode": "sa",
+      "realHomeScore": 4,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m31",
+      "homeTeam": "Bélgica",
+      "awayTeam": "Irán",
+      "homeFlag": "🇧🇪",
+      "awayFlag": "🇮🇷",
+      "stage": "Fase de Grupos",
+      "group": "Grupo G",
+      "recommendation": {
+        "homeScore": 4,
+        "awayScore": 1,
+        "probability": {
+          "home": 79,
+          "draw": 19,
+          "away": 2
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 4-1."
+      },
+      "date": "21 de Junio 2026",
+      "time": "15:00",
+      "stadium": "BMO Field (Toronto)",
+      "utcDate": "2026-06-21T19:00Z",
+      "homeFlagCode": "be",
+      "awayFlagCode": "ir",
+      "realHomeScore": 0,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m40",
+      "homeTeam": "Uruguay",
+      "awayTeam": "Cabo Verde",
+      "homeFlag": "🇺🇾",
+      "awayFlag": "🇨🇻",
+      "stage": "Fase de Grupos",
+      "group": "Grupo H",
+      "recommendation": {
+        "homeScore": 3,
+        "awayScore": 1,
+        "probability": {
+          "home": 75,
+          "draw": 16,
+          "away": 9
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 3-1."
+      },
+      "date": "21 de Junio 2026",
+      "time": "18:00",
+      "stadium": "Levi's Stadium (San Francisco)",
+      "utcDate": "2026-06-21T22:00Z",
+      "homeFlagCode": "uy",
+      "awayFlagCode": "cv",
+      "realHomeScore": 2,
+      "realAwayScore": 2
+    },
+    {
+      "id": "m39",
+      "homeTeam": "Nueva Zelanda",
+      "awayTeam": "Egipto",
+      "homeFlag": "🇪🇬",
+      "awayFlag": "🇳🇿",
+      "stage": "Fase de Grupos",
+      "group": "Grupo G",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 0,
+        "probability": {
+          "home": 33,
+          "draw": 27,
+          "away": 40
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-0."
+      },
+      "date": "21 de Junio 2026",
+      "time": "21:00",
+      "stadium": "Estadio Azteca (Ciudad de México)",
+      "utcDate": "2026-06-22T01:00Z",
+      "homeFlagCode": "nz",
+      "awayFlagCode": "eg",
+      "realHomeScore": 1,
+      "realAwayScore": 3
+    },
+    {
+      "id": "m61",
+      "homeTeam": "Argentina",
+      "awayTeam": "Austria",
+      "homeFlag": "🇦🇷",
+      "awayFlag": "🇦🇹",
+      "stage": "Fase de Grupos",
+      "group": "Grupo J",
+      "recommendation": {
+        "homeScore": 4,
+        "awayScore": 1,
+        "probability": {
+          "home": 81,
+          "draw": 12,
+          "away": 7
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 4-1."
+      },
+      "date": "22 de Junio 2026",
+      "time": "13:00",
+      "stadium": "NRG Stadium (Houston)",
+      "utcDate": "2026-06-22T17:00Z",
+      "homeFlagCode": "ar",
+      "awayFlagCode": "at",
+      "realHomeScore": 2,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m50",
+      "homeTeam": "Francia",
+      "awayTeam": "Irak",
+      "homeFlag": "🇫🇷",
+      "awayFlag": "🇮🇶",
+      "stage": "Fase de Grupos",
+      "group": "Grupo I",
+      "recommendation": {
+        "homeScore": 3,
+        "awayScore": 0,
+        "probability": {
+          "home": 88,
+          "draw": 10,
+          "away": 2
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 3-0."
+      },
+      "date": "22 de Junio 2026",
+      "time": "17:00",
+      "stadium": "MetLife Stadium (New York/New Jersey)",
+      "utcDate": "2026-06-22T21:00Z",
+      "homeFlagCode": "fr",
+      "awayFlagCode": "iq",
+      "realHomeScore": 3,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m56",
+      "homeTeam": "Noruega",
+      "awayTeam": "Senegal",
+      "homeFlag": "🇸🇳",
+      "awayFlag": "🇳🇴",
+      "stage": "Fase de Grupos",
+      "group": "Grupo I",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 4,
+        "probability": {
+          "home": 3,
+          "draw": 20,
+          "away": 77
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-4."
+      },
+      "date": "22 de Junio 2026",
+      "time": "20:00",
+      "stadium": "SoFi Stadium (Los Angeles)",
+      "utcDate": "2026-06-23T00:00Z",
+      "homeFlagCode": "no",
+      "awayFlagCode": "sn",
+      "realHomeScore": 3,
+      "realAwayScore": 2
+    },
+    {
+      "id": "m52",
+      "homeTeam": "Jordania",
+      "awayTeam": "Argelia",
+      "homeFlag": "🇩🇿",
+      "awayFlag": "🇯🇴",
+      "stage": "Fase de Grupos",
+      "group": "Grupo J",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 1,
+        "probability": {
+          "home": 17,
+          "draw": 27,
+          "away": 56
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-1."
+      },
+      "date": "22 de Junio 2026",
+      "time": "23:00",
+      "stadium": "BC Place (Vancouver)",
+      "utcDate": "2026-06-23T03:00Z",
+      "homeFlagCode": "jo",
+      "awayFlagCode": "dz",
+      "realHomeScore": 1,
+      "realAwayScore": 2
+    },
+    {
+      "id": "m68",
+      "homeTeam": "Portugal",
+      "awayTeam": "Uzbekistán",
+      "homeFlag": "🇵🇹",
+      "awayFlag": "🇺🇿",
+      "stage": "Fase de Grupos",
+      "group": "Grupo K",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 1,
+        "probability": {
+          "home": 86,
+          "draw": 10,
+          "away": 4
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-1."
+      },
+      "date": "23 de Junio 2026",
+      "time": "13:00",
+      "stadium": "BMO Field (Toronto)",
+      "utcDate": "2026-06-23T17:00Z",
+      "homeFlagCode": "pt",
+      "awayFlagCode": "uz",
+      "realHomeScore": 5,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m71",
+      "homeTeam": "Inglaterra",
+      "awayTeam": "Ghana",
+      "homeFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "awayFlag": "🇬🇭",
+      "stage": "Fase de Grupos",
+      "group": "Grupo L",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 1,
+        "probability": {
+          "home": 86,
+          "draw": 12,
+          "away": 2
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-1."
+      },
+      "date": "23 de Junio 2026",
+      "time": "16:00",
+      "stadium": "Estadio BBVA (Monterrey)",
+      "utcDate": "2026-06-23T20:00Z",
+      "homeFlagCode": "gb-eng",
+      "awayFlagCode": "gh",
+      "realHomeScore": 0,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m64",
+      "homeTeam": "Panamá",
+      "awayTeam": "Croacia",
+      "homeFlag": "🇭🇷",
+      "awayFlag": "🇵🇦",
+      "stage": "Fase de Grupos",
+      "group": "Grupo L",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 2,
+        "probability": {
+          "home": 9,
+          "draw": 10,
+          "away": 81
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-2."
+      },
+      "date": "23 de Junio 2026",
+      "time": "19:00",
+      "stadium": "Estadio Akron (Guadalajara)",
+      "utcDate": "2026-06-23T23:00Z",
+      "homeFlagCode": "pa",
+      "awayFlagCode": "hr",
+      "realHomeScore": 0,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m60",
+      "homeTeam": "Colombia",
+      "awayTeam": "RD Congo",
+      "homeFlag": "🇨🇴",
+      "awayFlag": "🇨🇩",
+      "stage": "Fase de Grupos",
+      "group": "Grupo K",
+      "recommendation": {
+        "homeScore": 3,
+        "awayScore": 1,
+        "probability": {
+          "home": 81,
+          "draw": 15,
+          "away": 4
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 3-1."
+      },
+      "date": "23 de Junio 2026",
+      "time": "22:00",
+      "stadium": "Estadio Azteca (Ciudad de México)",
+      "utcDate": "2026-06-24T02:00Z",
+      "homeFlagCode": "co",
+      "awayFlagCode": "cd",
+      "realHomeScore": 1,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m6",
+      "homeTeam": "Suiza",
+      "awayTeam": "Canadá",
+      "homeFlag": "🇨🇦",
+      "awayFlag": "🇨🇭",
+      "stage": "Fase de Grupos",
+      "group": "Grupo B",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 0,
+        "probability": {
+          "home": 52,
+          "draw": 29,
+          "away": 19
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-0."
+      },
+      "date": "24 de Junio 2026",
+      "time": "15:00",
+      "stadium": "BC Place (Vancouver)",
+      "utcDate": "2026-06-24T19:00Z",
+      "homeFlagCode": "ch",
+      "awayFlagCode": "ca",
+      "realHomeScore": 2,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m11",
+      "homeTeam": "Qatar",
+      "awayTeam": "Bosnia y Herzegovina",
+      "homeFlag": "🇶🇦",
+      "awayFlag": "🇧🇦",
+      "stage": "Fase de Grupos",
+      "group": "Grupo B",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 2,
+        "probability": {
+          "home": 25,
+          "draw": 36,
+          "away": 39
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-2."
+      },
+      "date": "24 de Junio 2026",
+      "time": "15:00",
+      "stadium": "Mercedes-Benz Stadium (Atlanta)",
+      "utcDate": "2026-06-24T19:00Z",
+      "homeFlagCode": "qa",
+      "awayFlagCode": "ba",
+      "realHomeScore": 1,
+      "realAwayScore": 3
+    },
+    {
+      "id": "m14",
+      "homeTeam": "Escocia",
+      "awayTeam": "Brasil",
+      "homeFlag": "🇧🇷",
+      "awayFlag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "stage": "Fase de Grupos",
+      "group": "Grupo C",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 4,
+        "probability": {
+          "home": 6,
+          "draw": 17,
+          "away": 77
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-4."
+      },
+      "date": "24 de Junio 2026",
+      "time": "18:00",
+      "stadium": "Hard Rock Stadium (Miami)",
+      "utcDate": "2026-06-24T22:00Z",
+      "homeFlagCode": "gb-sct",
+      "awayFlagCode": "br",
+      "realHomeScore": 0,
+      "realAwayScore": 3
+    },
+    {
+      "id": "m20",
+      "homeTeam": "Marruecos",
+      "awayTeam": "Haití",
+      "homeFlag": "🇲🇦",
+      "awayFlag": "🇭🇹",
+      "stage": "Fase de Grupos",
+      "group": "Grupo C",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 1,
+        "probability": {
+          "home": 71,
+          "draw": 19,
+          "away": 10
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-1."
+      },
+      "date": "24 de Junio 2026",
+      "time": "18:00",
+      "stadium": "Lincoln Financial Field (Philadelphia)",
+      "utcDate": "2026-06-24T22:00Z",
+      "homeFlagCode": "ma",
+      "awayFlagCode": "ht",
+      "realHomeScore": 4,
+      "realAwayScore": 2
+    },
+    {
+      "id": "m3",
+      "homeTeam": "República Checa",
+      "awayTeam": "México",
+      "homeFlag": "🇲🇽",
+      "awayFlag": "🇨🇿",
+      "stage": "Fase de Grupos",
+      "group": "Grupo A",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 1,
+        "probability": {
+          "home": 13,
+          "draw": 27,
+          "away": 60
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-1."
+      },
+      "date": "24 de Junio 2026",
+      "time": "21:00",
+      "stadium": "Estadio Azteca (Ciudad de México)",
+      "utcDate": "2026-06-25T01:00Z",
+      "homeFlagCode": "cz",
+      "awayFlagCode": "mx",
+      "realHomeScore": 0,
+      "realAwayScore": 3
+    },
+    {
+      "id": "m8",
+      "homeTeam": "Sudáfrica",
+      "awayTeam": "Corea del Sur",
+      "homeFlag": "🇿🇦",
+      "awayFlag": "🇰🇷",
+      "stage": "Fase de Grupos",
+      "group": "Grupo A",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 2,
+        "probability": {
+          "home": 14,
+          "draw": 27,
+          "away": 59
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-2."
+      },
+      "date": "24 de Junio 2026",
+      "time": "21:00",
+      "stadium": "SoFi Stadium (Los Angeles)",
+      "utcDate": "2026-06-25T01:00Z",
+      "homeFlagCode": "za",
+      "awayFlagCode": "kr",
+      "realHomeScore": 1,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m19",
+      "homeTeam": "Ecuador",
+      "awayTeam": "Alemania",
+      "homeFlag": "🇩🇪",
+      "awayFlag": "🇪🇨",
+      "stage": "Fase de Grupos",
+      "group": "Grupo E",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 3,
+        "probability": {
+          "home": 9,
+          "draw": 12,
+          "away": 79
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-3."
+      },
+      "date": "25 de Junio 2026",
+      "time": "16:00",
+      "stadium": "Gillette Stadium (Boston)",
+      "utcDate": "2026-06-25T20:00Z",
+      "homeFlagCode": "ec",
+      "awayFlagCode": "de",
+      "realHomeScore": 2,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m27",
+      "homeTeam": "Costa de Marfil",
+      "awayTeam": "Curazao",
+      "homeFlag": "🇨🇮",
+      "awayFlag": "🇨🇼",
+      "stage": "Fase de Grupos",
+      "group": "Grupo E",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 0,
+        "probability": {
+          "home": 58,
+          "draw": 28,
+          "away": 14
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-0."
+      },
+      "date": "25 de Junio 2026",
+      "time": "16:00",
+      "stadium": "Arrowhead Stadium (Kansas City)",
+      "utcDate": "2026-06-25T20:00Z",
+      "homeFlagCode": "ci",
+      "awayFlagCode": "cw",
+      "realHomeScore": 2,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m37",
+      "homeTeam": "Túnez",
+      "awayTeam": "Países Bajos",
+      "homeFlag": "🇳🇱",
+      "awayFlag": "🇹🇳",
+      "stage": "Fase de Grupos",
+      "group": "Grupo F",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 4,
+        "probability": {
+          "home": 7,
+          "draw": 17,
+          "away": 76
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-4."
+      },
+      "date": "25 de Junio 2026",
+      "time": "19:00",
+      "stadium": "AT&T Stadium (Dallas)",
+      "utcDate": "2026-06-25T23:00Z",
+      "homeFlagCode": "tn",
+      "awayFlagCode": "nl",
+      "realHomeScore": 1,
+      "realAwayScore": 3
+    },
+    {
+      "id": "m28",
+      "homeTeam": "Japón",
+      "awayTeam": "Suecia",
+      "homeFlag": "🇯🇵",
+      "awayFlag": "🇸🇪",
+      "stage": "Fase de Grupos",
+      "group": "Grupo F",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 0,
+        "probability": {
+          "home": 60,
+          "draw": 20,
+          "away": 20
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-0."
+      },
+      "date": "25 de Junio 2026",
+      "time": "19:00",
+      "stadium": "Mercedes-Benz Stadium (Atlanta)",
+      "utcDate": "2026-06-25T23:00Z",
+      "homeFlagCode": "jp",
+      "awayFlagCode": "se",
+      "realHomeScore": 1,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m22",
+      "homeTeam": "Turquía",
+      "awayTeam": "EE.UU.",
+      "homeFlag": "🇺🇸",
+      "awayFlag": "🇹🇷",
+      "stage": "Fase de Grupos",
+      "group": "Grupo D",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 0,
+        "probability": {
+          "home": 32,
+          "draw": 38,
+          "away": 30
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-0."
+      },
+      "date": "25 de Junio 2026",
+      "time": "22:00",
+      "stadium": "SoFi Stadium (Los Angeles)",
+      "utcDate": "2026-06-26T02:00Z",
+      "homeFlagCode": "tr",
+      "awayFlagCode": "us",
+      "realHomeScore": 3,
+      "realAwayScore": 2
+    },
+    {
+      "id": "m30",
+      "homeTeam": "Paraguay",
+      "awayTeam": "Australia",
+      "homeFlag": "🇵🇾",
+      "awayFlag": "🇦🇺",
+      "stage": "Fase de Grupos",
+      "group": "Grupo D",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 0,
+        "probability": {
+          "home": 38,
+          "draw": 22,
+          "away": 40
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-0."
+      },
+      "date": "25 de Junio 2026",
+      "time": "22:00",
+      "stadium": "Levi's Stadium (San Francisco)",
+      "utcDate": "2026-06-26T02:00Z",
+      "homeFlagCode": "py",
+      "awayFlagCode": "au",
+      "realHomeScore": 0,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m57",
+      "homeTeam": "Noruega",
+      "awayTeam": "Francia",
+      "homeFlag": "🇫🇷",
+      "awayFlag": "🇳🇴",
+      "stage": "Fase de Grupos",
+      "group": "Grupo I",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 3,
+        "probability": {
+          "home": 7,
+          "draw": 20,
+          "away": 73
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-3."
+      },
+      "date": "26 de Junio 2026",
+      "time": "15:00",
+      "stadium": "Gillette Stadium (Boston)",
+      "utcDate": "2026-06-26T19:00Z",
+      "homeFlagCode": "no",
+      "awayFlagCode": "fr",
+      "realHomeScore": 1,
+      "realAwayScore": 4
+    },
+    {
+      "id": "m48",
+      "homeTeam": "Senegal",
+      "awayTeam": "Irak",
+      "homeFlag": "🇸🇳",
+      "awayFlag": "🇮🇶",
+      "stage": "Fase de Grupos",
+      "group": "Grupo I",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 1,
+        "probability": {
+          "home": 82,
+          "draw": 13,
+          "away": 5
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-1."
+      },
+      "date": "26 de Junio 2026",
+      "time": "15:00",
+      "stadium": "Arrowhead Stadium (Kansas City)",
+      "utcDate": "2026-06-26T19:00Z",
+      "homeFlagCode": "sn",
+      "awayFlagCode": "iq",
+      "realHomeScore": 5,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m41",
+      "homeTeam": "Uruguay",
+      "awayTeam": "España",
+      "homeFlag": "🇪🇸",
+      "awayFlag": "🇺🇾",
+      "stage": "Fase de Grupos",
+      "group": "Grupo H",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 2,
+        "probability": {
+          "home": 11,
+          "draw": 23,
+          "away": 66
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-2."
+      },
+      "date": "26 de Junio 2026",
+      "time": "20:00",
+      "stadium": "Estadio BBVA (Monterrey)",
+      "utcDate": "2026-06-27T00:00Z",
+      "homeFlagCode": "uy",
+      "awayFlagCode": "es",
+      "realHomeScore": 0,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m47",
+      "homeTeam": "Arabia Saudita",
+      "awayTeam": "Cabo Verde",
+      "homeFlag": "🇸🇦",
+      "awayFlag": "🇨🇻",
+      "stage": "Fase de Grupos",
+      "group": "Grupo H",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 0,
+        "probability": {
+          "home": 65,
+          "draw": 21,
+          "away": 14
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-0."
+      },
+      "date": "26 de Junio 2026",
+      "time": "20:00",
+      "stadium": "Estadio Akron (Guadalajara)",
+      "utcDate": "2026-06-27T00:00Z",
+      "homeFlagCode": "sa",
+      "awayFlagCode": "cv",
+      "realHomeScore": 0,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m38",
+      "homeTeam": "Nueva Zelanda",
+      "awayTeam": "Bélgica",
+      "homeFlag": "🇧🇪",
+      "awayFlag": "🇳🇿",
+      "stage": "Fase de Grupos",
+      "group": "Grupo G",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 4,
+        "probability": {
+          "home": 6,
+          "draw": 12,
+          "away": 82
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-4."
+      },
+      "date": "26 de Junio 2026",
+      "time": "23:00",
+      "stadium": "BMO Field (Toronto)",
+      "utcDate": "2026-06-27T03:00Z",
+      "homeFlagCode": "nz",
+      "awayFlagCode": "be",
+      "realHomeScore": 1,
+      "realAwayScore": 5
+    },
+    {
+      "id": "m44",
+      "homeTeam": "Irán",
+      "awayTeam": "Egipto",
+      "homeFlag": "🇮🇷",
+      "awayFlag": "🇪🇬",
+      "stage": "Fase de Grupos",
+      "group": "Grupo G",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 0,
+        "probability": {
+          "home": 34,
+          "draw": 34,
+          "away": 32
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-0."
+      },
+      "date": "26 de Junio 2026",
+      "time": "23:00",
+      "stadium": "Estadio Azteca (Ciudad de México)",
+      "utcDate": "2026-06-27T03:00Z",
+      "homeFlagCode": "ir",
+      "awayFlagCode": "eg",
+      "realHomeScore": 1,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m69",
+      "homeTeam": "Panamá",
+      "awayTeam": "Inglaterra",
+      "homeFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "awayFlag": "🇵🇦",
+      "stage": "Fase de Grupos",
+      "group": "Grupo L",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 4,
+        "probability": {
+          "home": 10,
+          "draw": 17,
+          "away": 73
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-4."
+      },
+      "date": "27 de Junio 2026",
+      "time": "17:00",
+      "stadium": "Lumen Field (Seattle)",
+      "utcDate": "2026-06-27T21:00Z",
+      "homeFlagCode": "pa",
+      "awayFlagCode": "gb-eng",
+      "realHomeScore": 0,
+      "realAwayScore": 2
+    },
+    {
+      "id": "m72",
+      "homeTeam": "Croacia",
+      "awayTeam": "Ghana",
+      "homeFlag": "🇭🇷",
+      "awayFlag": "🇬🇭",
+      "stage": "Fase de Grupos",
+      "group": "Grupo L",
+      "recommendation": {
+        "homeScore": 4,
+        "awayScore": 1,
+        "probability": {
+          "home": 73,
+          "draw": 17,
+          "away": 10
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 4-1."
+      },
+      "date": "27 de Junio 2026",
+      "time": "17:00",
+      "stadium": "Levi's Stadium (San Francisco)",
+      "utcDate": "2026-06-27T21:00Z",
+      "homeFlagCode": "hr",
+      "awayFlagCode": "gh",
+      "realHomeScore": 2,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m55",
+      "homeTeam": "Portugal",
+      "awayTeam": "Colombia",
+      "homeFlag": "🇵🇹",
+      "awayFlag": "🇨🇴",
+      "stage": "Fase de Grupos",
+      "group": "Grupo K",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 1,
+        "probability": {
+          "home": 42,
+          "draw": 29,
+          "away": 29
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-1."
+      },
+      "date": "27 de Junio 2026",
+      "time": "19:30",
+      "stadium": "Hard Rock Stadium (Miami)",
+      "utcDate": "2026-06-27T23:30Z",
+      "homeFlagCode": "pt",
+      "awayFlagCode": "co",
+      "realHomeScore": 0,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m63",
+      "homeTeam": "Uzbekistán",
+      "awayTeam": "RD Congo",
+      "homeFlag": "🇺🇿",
+      "awayFlag": "🇨🇩",
+      "stage": "Fase de Grupos",
+      "group": "Grupo K",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 2,
+        "probability": {
+          "home": 37,
+          "draw": 28,
+          "away": 35
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-2."
+      },
+      "date": "27 de Junio 2026",
+      "time": "19:30",
+      "stadium": "Lincoln Financial Field (Philadelphia)",
+      "utcDate": "2026-06-27T23:30Z",
+      "homeFlagCode": "uz",
+      "awayFlagCode": "cd",
+      "realHomeScore": 1,
+      "realAwayScore": 3
+    },
+    {
+      "id": "m58",
+      "homeTeam": "Jordania",
+      "awayTeam": "Argentina",
+      "homeFlag": "🇦🇷",
+      "awayFlag": "🇯🇴",
+      "stage": "Fase de Grupos",
+      "group": "Grupo J",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 2,
+        "probability": {
+          "home": 3,
+          "draw": 17,
+          "away": 80
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-2."
+      },
+      "date": "27 de Junio 2026",
+      "time": "22:00",
+      "stadium": "AT&T Stadium (Dallas)",
+      "utcDate": "2026-06-28T02:00Z",
+      "homeFlagCode": "jo",
+      "awayFlagCode": "ar",
+      "realHomeScore": 1,
+      "realAwayScore": 3
+    },
+    {
+      "id": "m66",
+      "homeTeam": "Argelia",
+      "awayTeam": "Austria",
+      "homeFlag": "🇩🇿",
+      "awayFlag": "🇦🇹",
+      "stage": "Fase de Grupos",
+      "group": "Grupo J",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 1,
+        "probability": {
+          "home": 30,
+          "draw": 39,
+          "away": 31
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-1."
+      },
+      "date": "27 de Junio 2026",
+      "time": "22:00",
+      "stadium": "Mercedes-Benz Stadium (Atlanta)",
+      "utcDate": "2026-06-28T02:00Z",
+      "homeFlagCode": "dz",
+      "awayFlagCode": "at",
+      "realHomeScore": 3,
+      "realAwayScore": 3
+    },
+    {
+      "id": "m73",
+      "homeTeam": "Sudáfrica",
+      "awayTeam": "Canadá",
+      "homeFlag": "🇿🇦",
+      "awayFlag": "🇨🇦",
+      "stage": "Dieciseisavos de Final",
+      "group": null,
+      "date": "28 de Junio 2026",
+      "time": "15:00",
+      "stadium": "Gillette Stadium (Boston)",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 2,
+        "probability": {
+          "home": 22,
+          "draw": 28,
+          "away": 50
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-2."
+      },
+      "utcDate": "2026-06-28T19:00Z",
+      "homeFlagCode": "za",
+      "awayFlagCode": "ca",
+      "realHomeScore": 0,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m77",
+      "homeTeam": "Brasil",
+      "awayTeam": "Japón",
+      "homeFlag": "🇧🇷",
+      "awayFlag": "🇯🇵",
+      "stage": "Dieciseisavos de Final",
+      "group": null,
+      "date": "29 de Junio 2026",
+      "time": "13:00",
+      "stadium": "Arrowhead Stadium (Kansas City)",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 1,
+        "probability": {
+          "home": 52,
+          "draw": 25,
+          "away": 23
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-1."
+      },
+      "utcDate": "2026-06-29T17:00Z",
+      "homeFlagCode": "br",
+      "awayFlagCode": "jp",
+      "realHomeScore": 2,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m85",
+      "homeTeam": "Alemania",
+      "awayTeam": "Paraguay",
+      "homeFlag": "🇩🇪",
+      "awayFlag": "🇵🇾",
+      "stage": "Dieciseisavos de Final",
+      "group": null,
+      "date": "29 de Junio 2026",
+      "time": "16:30",
+      "stadium": "BC Place (Vancouver)",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 0,
+        "probability": {
+          "home": 58,
+          "draw": 23,
+          "away": 19
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-0."
+      },
+      "utcDate": "2026-06-29T20:30Z",
+      "homeFlagCode": "de",
+      "awayFlagCode": "py",
+      "realHomeScore": 1,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m81",
+      "homeTeam": "Países Bajos",
+      "awayTeam": "Marruecos",
+      "homeFlag": "🇳🇱",
+      "awayFlag": "🇲🇦",
+      "stage": "Dieciseisavos de Final",
+      "group": null,
+      "date": "29 de Junio 2026",
+      "time": "21:00",
+      "stadium": "NRG Stadium (Houston)",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 0,
+        "probability": {
+          "home": 45,
+          "draw": 30,
+          "away": 25
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-0."
+      },
+      "utcDate": "2026-06-30T01:00Z",
+      "homeFlagCode": "nl",
+      "awayFlagCode": "ma",
+      "realHomeScore": 1,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m74",
+      "homeTeam": "Costa de Marfil",
+      "awayTeam": "Noruega",
+      "homeFlag": "🇨🇮",
+      "awayFlag": "🇳🇴",
+      "stage": "Dieciseisavos de Final",
+      "group": null,
+      "date": "30 de Junio 2026",
+      "time": "13:00",
+      "stadium": "BMO Field (Toronto)",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 2,
+        "probability": {
+          "home": 28,
+          "draw": 27,
+          "away": 45
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-2."
+      },
+      "utcDate": "2026-06-30T17:00Z",
+      "homeFlagCode": "ci",
+      "awayFlagCode": "no",
+      "realHomeScore": 1,
+      "realAwayScore": 2
+    },
+    {
+      "id": "m78",
+      "homeTeam": "Francia",
+      "awayTeam": "Suecia",
+      "homeFlag": "🇫🇷",
+      "awayFlag": "🇸🇪",
+      "stage": "Dieciseisavos de Final",
+      "group": null,
+      "date": "30 de Junio 2026",
+      "time": "17:00",
+      "stadium": "Estadio Azteca (Ciudad de México)",
+      "recommendation": {
+        "homeScore": 3,
+        "awayScore": 1,
+        "probability": {
+          "home": 60,
+          "draw": 22,
+          "away": 18
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 3-1."
+      },
+      "utcDate": "2026-06-30T21:00Z",
+      "homeFlagCode": "fr",
+      "awayFlagCode": "se",
+      "realHomeScore": 3,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m82",
+      "homeTeam": "México",
+      "awayTeam": "Ecuador",
+      "homeFlag": "🇲🇽",
+      "awayFlag": "🇩🇪",
+      "stage": "Dieciseisavos de Final",
+      "group": null,
+      "date": "30 de Junio 2026",
+      "time": "21:00",
+      "stadium": "Estadio BBVA (Monterrey)",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 1,
+        "probability": {
+          "home": 35,
+          "draw": 31,
+          "away": 34
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-1."
+      },
+      "utcDate": "2026-07-01T01:00Z",
+      "homeFlagCode": "mx",
+      "awayFlagCode": "ec",
+      "realHomeScore": 2,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m79",
+      "homeTeam": "Inglaterra",
+      "awayTeam": "RD Congo",
+      "homeFlag": "🇵🇦",
+      "awayFlag": "🇨🇩",
+      "stage": "Dieciseisavos de Final",
+      "group": null,
+      "date": "1 de Julio 2026",
+      "time": "12:00",
+      "stadium": "SoFi Stadium (Los Angeles)",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 0,
+        "probability": {
+          "home": 62,
+          "draw": 21,
+          "away": 17
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-0."
+      },
+      "utcDate": "2026-07-01T16:00Z",
+      "homeFlagCode": "gb-eng",
+      "awayFlagCode": "cd",
+      "realHomeScore": 2,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m86",
+      "homeTeam": "Bélgica",
+      "awayTeam": "Senegal",
+      "homeFlag": "🇳🇿",
+      "awayFlag": "🇸🇳",
+      "stage": "Dieciseisavos de Final",
+      "group": null,
+      "date": "1 de Julio 2026",
+      "time": "16:00",
+      "stadium": "Estadio Akron (Guadalajara)",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 0,
+        "probability": {
+          "home": 42,
+          "draw": 29,
+          "away": 29
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-0."
+      },
+      "utcDate": "2026-07-01T20:00Z",
+      "homeFlagCode": "be",
+      "awayFlagCode": "sn",
+      "realHomeScore": 3,
+      "realAwayScore": 2
+    },
+    {
+      "id": "m75",
+      "homeTeam": "EE.UU.",
+      "awayTeam": "Bosnia y Herzegovina",
+      "homeFlag": "🇺🇸",
+      "awayFlag": "🇧🇦",
+      "stage": "Dieciseisavos de Final",
+      "group": null,
+      "date": "1 de Julio 2026",
+      "time": "20:00",
+      "stadium": "MetLife Stadium (New York/New Jersey)",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 1,
+        "probability": {
+          "home": 48,
+          "draw": 27,
+          "away": 25
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-1."
+      },
+      "utcDate": "2026-07-02T00:00Z",
+      "homeFlagCode": "us",
+      "awayFlagCode": "ba",
+      "realHomeScore": 2,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m76",
+      "homeTeam": "España",
+      "awayTeam": "Austria",
+      "homeFlag": "🇺🇾",
+      "awayFlag": "🇦🇹",
+      "stage": "Dieciseisavos de Final",
+      "group": null,
+      "date": "2 de Julio 2026",
+      "time": "15:00",
+      "stadium": "Hard Rock Stadium (Miami)",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 0,
+        "probability": {
+          "home": 58,
+          "draw": 24,
+          "away": 18
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-0."
+      },
+      "utcDate": "2026-07-02T19:00Z",
+      "homeFlagCode": "es",
+      "awayFlagCode": "at",
+      "realHomeScore": 3,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m83",
+      "homeTeam": "Portugal",
+      "awayTeam": "Croacia",
+      "homeFlag": "🇵🇹",
+      "awayFlag": "🇭🇷",
+      "stage": "Dieciseisavos de Final",
+      "group": null,
+      "date": "2 de Julio 2026",
+      "time": "19:00",
+      "stadium": "AT&T Stadium (Dallas)",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 0,
+        "probability": {
+          "home": 43,
+          "draw": 30,
+          "away": 27
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-0."
+      },
+      "utcDate": "2026-07-02T23:00Z",
+      "homeFlagCode": "pt",
+      "awayFlagCode": "hr",
+      "realHomeScore": 2,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m87",
+      "homeTeam": "Suiza",
+      "awayTeam": "Argelia",
+      "homeFlag": "🇨🇦",
+      "awayFlag": "🇩🇿",
+      "stage": "Dieciseisavos de Final",
+      "group": null,
+      "date": "2 de Julio 2026",
+      "time": "23:00",
+      "stadium": "Mercedes-Benz Stadium (Atlanta)",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 1,
+        "probability": {
+          "home": 45,
+          "draw": 28,
+          "away": 27
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-1."
+      },
+      "utcDate": "2026-07-03T03:00Z",
+      "homeFlagCode": "ch",
+      "awayFlagCode": "dz",
+      "realHomeScore": 2,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m80",
+      "homeTeam": "Australia",
+      "awayTeam": "Egipto",
+      "homeFlag": "🇦🇺",
+      "awayFlag": "🇪🇬",
+      "stage": "Dieciseisavos de Final",
+      "group": null,
+      "date": "3 de Julio 2026",
+      "time": "14:00",
+      "stadium": "Lincoln Financial Field (Philadelphia)",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 1,
+        "probability": {
+          "home": 30,
+          "draw": 29,
+          "away": 41
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-1."
+      },
+      "utcDate": "2026-07-03T18:00Z",
+      "homeFlagCode": "au",
+      "awayFlagCode": "eg",
+      "realHomeScore": 1,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m84",
+      "homeTeam": "Argentina",
+      "awayTeam": "Cabo Verde",
+      "homeFlag": "🇯🇴",
+      "awayFlag": "🇨🇻",
+      "stage": "Dieciseisavos de Final",
+      "group": null,
+      "date": "3 de Julio 2026",
+      "time": "18:00",
+      "stadium": "Lumen Field (Seattle)",
+      "recommendation": {
+        "homeScore": 3,
+        "awayScore": 0,
+        "probability": {
+          "home": 78,
+          "draw": 14,
+          "away": 8
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 3-0."
+      },
+      "utcDate": "2026-07-03T22:00Z",
+      "homeFlagCode": "ar",
+      "awayFlagCode": "cv",
+      "realHomeScore": 3,
+      "realAwayScore": 2
+    },
+    {
+      "id": "m88",
+      "homeTeam": "Colombia",
+      "awayTeam": "Ghana",
+      "homeFlag": "🇨🇴",
+      "awayFlag": "🇬🇭",
+      "stage": "Dieciseisavos de Final",
+      "group": null,
+      "date": "3 de Julio 2026",
+      "time": "21:30",
+      "stadium": "Levi's Stadium (San Francisco)",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 1,
+        "probability": {
+          "home": 48,
+          "draw": 27,
+          "away": 25
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-1."
+      },
+      "utcDate": "2026-07-04T01:30Z",
+      "homeFlagCode": "co",
+      "awayFlagCode": "gh",
+      "realHomeScore": 1,
+      "realAwayScore": 0
+    },
+    {
+      "id": "m89",
+      "homeTeam": "Canadá",
+      "awayTeam": "Marruecos",
+      "homeFlag": "🇨🇦",
+      "awayFlag": "🇲🇦",
+      "stage": "Octavos de Final",
+      "group": null,
+      "date": "4 de Julio 2026",
+      "time": "13:00",
+      "stadium": "Gillette Stadium (Boston)",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 1,
+        "probability": {
+          "home": 31,
+          "draw": 36,
+          "away": 33
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-1."
+      },
+      "utcDate": "2026-07-04T17:00:00Z",
+      "homeFlagCode": "ca",
+      "awayFlagCode": "ma",
+      "realHomeScore": 0,
+      "realAwayScore": 3
+    },
+    {
+      "id": "m91",
+      "homeTeam": "Paraguay",
+      "awayTeam": "Francia",
+      "homeFlag": "🇵🇾",
+      "awayFlag": "🇫🇷",
+      "stage": "Octavos de Final",
+      "group": null,
+      "date": "4 de Julio 2026",
+      "time": "16:00",
+      "stadium": "Arrowhead Stadium (Kansas City)",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 2,
+        "probability": {
+          "home": 39,
+          "draw": 23,
+          "away": 38
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-2."
+      },
+      "utcDate": "2026-07-04T21:00:00Z",
+      "homeFlagCode": "py",
+      "awayFlagCode": "fr",
+      "realHomeScore": 0,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m93",
+      "homeTeam": "Brasil",
+      "awayTeam": "Noruega",
+      "homeFlag": "🇧🇷",
+      "awayFlag": "🇳🇴",
+      "stage": "Octavos de Final",
+      "group": null,
+      "date": "5 de Julio 2026",
+      "time": "18:00",
+      "stadium": "NRG Stadium (Houston)",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 0,
+        "probability": {
+          "home": 38,
+          "draw": 28,
+          "away": 34
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-0."
+      },
+      "utcDate": "2026-07-05T23:00:00Z",
+      "homeFlagCode": "br",
+      "awayFlagCode": "no",
+      "realHomeScore": 1,
+      "realAwayScore": 2
+    },
+    {
+      "id": "m95",
+      "homeTeam": "México",
+      "awayTeam": "Inglaterra",
+      "homeFlag": "🇲🇽",
+      "awayFlag": "🇵🇦",
+      "stage": "Octavos de Final",
+      "group": null,
+      "date": "5 de Julio 2026",
+      "time": "20:00",
+      "stadium": "BC Place (Vancouver)",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 2,
+        "probability": {
+          "home": 31,
+          "draw": 35,
+          "away": 34
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-2."
+      },
+      "utcDate": "2026-07-06T03:00:00Z",
+      "homeFlagCode": "mx",
+      "awayFlagCode": "gb-eng",
+      "realHomeScore": 2,
+      "realAwayScore": 3
+    },
+    {
+      "id": "m90",
+      "homeTeam": "Portugal",
+      "awayTeam": "España",
+      "homeFlag": "🇵🇹",
+      "awayFlag": "🇺🇾",
+      "stage": "Octavos de Final",
+      "group": null,
+      "date": "6 de Julio 2026",
+      "time": "13:00",
+      "stadium": "BMO Field (Toronto)",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 1,
+        "probability": {
+          "home": 30,
+          "draw": 35,
+          "away": 35
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-1."
+      },
+      "utcDate": "2026-07-06T17:00:00Z",
+      "homeFlagCode": "pt",
+      "awayFlagCode": "es",
+      "realHomeScore": 0,
+      "realAwayScore": 1
+    },
+    {
+      "id": "m92",
+      "homeTeam": "EE.UU.",
+      "awayTeam": "Bélgica",
+      "homeFlag": "🇺🇸",
+      "awayFlag": "🇳🇿",
+      "stage": "Octavos de Final",
+      "group": null,
+      "date": "6 de Julio 2026",
+      "time": "16:00",
+      "stadium": "Estadio Azteca (Ciudad de México)",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 0,
+        "probability": {
+          "home": 33,
+          "draw": 40,
+          "away": 27
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-0."
+      },
+      "utcDate": "2026-07-06T22:00:00Z",
+      "homeFlagCode": "us",
+      "awayFlagCode": "be"
+    },
+    {
+      "id": "m94",
+      "homeTeam": "Argentina",
+      "awayTeam": "Egipto",
+      "homeFlag": "🇦🇷",
+      "awayFlag": "🇪🇬",
+      "stage": "Octavos de Final",
+      "group": null,
+      "date": "7 de Julio 2026",
+      "time": "18:00",
+      "stadium": "Estadio BBVA (Monterrey)",
+      "recommendation": {
+        "homeScore": 2,
+        "awayScore": 2,
+        "probability": {
+          "home": 31,
+          "draw": 31,
+          "away": 38
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 2-2."
+      },
+      "utcDate": "2026-07-08T00:00:00Z",
+      "homeFlagCode": "ar",
+      "awayFlagCode": "eg"
+    },
+    {
+      "id": "m96",
+      "homeTeam": "Suiza",
+      "awayTeam": "Colombia",
+      "homeFlag": "🇶🇦",
+      "awayFlag": "🇺🇿",
+      "stage": "Octavos de Final",
+      "group": null,
+      "date": "7 de Julio 2026",
+      "time": "20:00",
+      "stadium": "Estadio Akron (Guadalajara)",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 1,
+        "probability": {
+          "home": 27,
+          "draw": 35,
+          "away": 38
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-1."
+      },
+      "utcDate": "2026-07-08T02:00:00Z",
+      "homeFlagCode": "ch",
+      "awayFlagCode": "co"
+    },
+    {
+      "id": "m97",
+      "homeTeam": "Francia",
+      "awayTeam": "Marruecos",
+      "homeFlag": "🇫🇷",
+      "awayFlag": "🇲🇦",
+      "stage": "Cuartos de Final",
+      "group": null,
+      "date": "9 de Julio 2026",
+      "time": "13:00",
+      "stadium": "MetLife Stadium (New York/New Jersey)",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 1,
+        "probability": {
+          "home": 36,
+          "draw": 28,
+          "away": 36
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-1."
+      },
+      "utcDate": "2026-07-09T17:00:00Z",
+      "homeFlagCode": "fr",
+      "awayFlagCode": "ma"
+    },
+    {
+      "id": "m99",
+      "homeTeam": "España",
+      "awayTeam": "Ganador 16vos 6",
+      "homeFlag": "🇪🇸",
+      "awayFlag": "⭐",
+      "stage": "Cuartos de Final",
+      "group": null,
+      "date": "10 de Julio 2026",
+      "time": "16:00",
+      "stadium": "SoFi Stadium (Los Angeles)",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 0,
+        "probability": {
+          "home": 33,
+          "draw": 35,
+          "away": 32
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-0."
+      },
+      "utcDate": "2026-07-10T23:00:00Z",
+      "homeFlagCode": "es",
+      "awayFlagCode": "un"
+    },
+    {
+      "id": "m98",
+      "homeTeam": "Noruega",
+      "awayTeam": "Inglaterra",
+      "homeFlag": "🇮🇶",
+      "awayFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "stage": "Cuartos de Final",
+      "group": null,
+      "date": "10 de Julio 2026",
+      "time": "18:00",
+      "stadium": "AT&T Stadium (Dallas)",
+      "recommendation": {
+        "homeScore": 0,
+        "awayScore": 0,
+        "probability": {
+          "home": 38,
+          "draw": 24,
+          "away": 38
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 0-0."
+      },
+      "utcDate": "2026-07-10T23:00:00Z",
+      "homeFlagCode": "no",
+      "awayFlagCode": "gb-eng"
+    },
+    {
+      "id": "m100",
+      "homeTeam": "Ganador 16vos 7",
+      "awayTeam": "Ganador 16vos 8",
+      "homeFlag": "⭐",
+      "awayFlag": "⭐",
+      "stage": "Cuartos de Final",
+      "group": null,
+      "date": "11 de Julio 2026",
+      "time": "20:00",
+      "stadium": "Mercedes-Benz Stadium (Atlanta)",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 1,
+        "probability": {
+          "home": 37,
+          "draw": 32,
+          "away": 31
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-1."
+      },
+      "utcDate": "2026-07-12T00:00:00Z",
+      "homeFlagCode": "un",
+      "awayFlagCode": "un"
+    },
+    {
+      "id": "m101",
+      "homeTeam": "Ganador Cuartos 1",
+      "awayTeam": "Ganador Cuartos 2",
+      "homeFlag": "🌟",
+      "awayFlag": "🌟",
+      "stage": "Semifinal",
+      "group": null,
+      "date": "14 de Julio 2026",
+      "time": "13:00",
+      "stadium": "Hard Rock Stadium (Miami)",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 1,
+        "probability": {
+          "home": 35,
+          "draw": 28,
+          "away": 37
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-1."
+      },
+      "utcDate": "2026-07-14T17:00:00Z",
+      "homeFlagCode": "un",
+      "awayFlagCode": "un"
+    },
+    {
+      "id": "m102",
+      "homeTeam": "Ganador Cuartos 3",
+      "awayTeam": "Ganador Cuartos 4",
+      "homeFlag": "🌟",
+      "awayFlag": "🌟",
+      "stage": "Semifinal",
+      "group": null,
+      "date": "15 de Julio 2026",
+      "time": "16:00",
+      "stadium": "Lincoln Financial Field (Philadelphia)",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 1,
+        "probability": {
+          "home": 36,
+          "draw": 32,
+          "away": 32
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-1."
+      },
+      "utcDate": "2026-07-15T20:00:00Z",
+      "homeFlagCode": "un",
+      "awayFlagCode": "un"
+    },
+    {
+      "id": "m103",
+      "homeTeam": "Perdedor Semifinal 1",
+      "awayTeam": "Perdedor Semifinal 2",
+      "homeFlag": "🥉",
+      "awayFlag": "🥉",
+      "stage": "Tercer Lugar",
+      "group": null,
+      "date": "18 de Julio 2026",
+      "time": "18:00",
+      "stadium": "Lumen Field (Seattle)",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 1,
+        "probability": {
+          "home": 34,
+          "draw": 35,
+          "away": 31
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-1."
+      },
+      "utcDate": "2026-07-19T01:00:00Z",
+      "homeFlagCode": "un",
+      "awayFlagCode": "un"
+    },
+    {
+      "id": "m104",
+      "homeTeam": "Ganador Semifinal 1",
+      "awayTeam": "Ganador Semifinal 2",
+      "homeFlag": "👑",
+      "awayFlag": "👑",
+      "stage": "Gran Final",
+      "group": null,
+      "date": "19 de Julio 2026",
+      "time": "20:00",
+      "stadium": "Levi's Stadium (San Francisco)",
+      "recommendation": {
+        "homeScore": 1,
+        "awayScore": 1,
+        "probability": {
+          "home": 31,
+          "draw": 39,
+          "away": 30
+        },
+        "rationale": "Análisis algorítmico basado en el historial reciente y métricas de desempeño. La proyección matemática sugiere un resultado de 1-1."
+      },
+      "utcDate": "2026-07-20T03:00:00Z",
+      "homeFlagCode": "un",
+      "awayFlagCode": "un"
+    }
+  ]
+}
