@@ -12,8 +12,8 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 31,
-          "draw": 41,
+          "home": 24,
+          "draw": 48,
           "away": 28
         },
         "rationale": "Aquí no hay claro favorito. Un 1-1 con goles de por medio sería el resultado más justo."
@@ -39,9 +39,9 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 49,
-          "draw": 27,
-          "away": 24
+          "home": 64,
+          "draw": 23,
+          "away": 13
         },
         "rationale": "Con su hinchada empujando, Corea del Sur tiene todas las condiciones para cerrar este partido con un 1-0 convincente."
       },
@@ -67,8 +67,8 @@
         "awayScore": 2,
         "probability": {
           "home": 28,
-          "draw": 38,
-          "away": 34
+          "draw": 39,
+          "away": 33
         },
         "rationale": "Dos potencias muy igualadas. El 2-2 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
@@ -93,9 +93,9 @@
         "homeScore": 2,
         "awayScore": 0,
         "probability": {
-          "home": 48,
-          "draw": 28,
-          "away": 24
+          "home": 52,
+          "draw": 18,
+          "away": 30
         },
         "rationale": "Difícil que Paraguay saque algo de acá. El local maneja los hilos y un 2-0 es el desenlace más lógico."
       },
@@ -120,9 +120,9 @@
         "homeScore": 1,
         "awayScore": 2,
         "probability": {
-          "home": 24,
-          "draw": 24,
-          "away": 52
+          "home": 27,
+          "draw": 19,
+          "away": 54
         },
         "rationale": "¡Ojo! Suiza llega con un nivel claramente superior. Un 1-2 para los visitantes es la apuesta más razonada."
       },
@@ -147,9 +147,9 @@
         "homeScore": 2,
         "awayScore": 0,
         "probability": {
-          "home": 47,
-          "draw": 20,
-          "away": 33
+          "home": 63,
+          "draw": 25,
+          "away": 12
         },
         "rationale": "Brasil llega con todo el hambre del mundo. El 2-0 es el resultado que más se repite en partidos con este nivel de poderío."
       },
@@ -174,9 +174,9 @@
         "homeScore": 0,
         "awayScore": 2,
         "probability": {
-          "home": 32,
-          "draw": 23,
-          "away": 45
+          "home": 16,
+          "draw": 18,
+          "away": 66
         },
         "rationale": "Sorpresa entre comillas: Escocia debería manejar este partido sin apuros. Un 0-2 visitante es lo más probable."
       },
@@ -201,9 +201,9 @@
         "homeScore": 0,
         "awayScore": 2,
         "probability": {
-          "home": 21,
-          "draw": 26,
-          "away": 53
+          "home": 20,
+          "draw": 19,
+          "away": 61
         },
         "rationale": "Sorpresa entre comillas: Turquía debería manejar este partido sin apuros. Un 0-2 visitante es lo más probable."
       },
@@ -228,9 +228,9 @@
         "homeScore": 3,
         "awayScore": 0,
         "probability": {
-          "home": 47,
-          "draw": 27,
-          "away": 26
+          "home": 53,
+          "draw": 25,
+          "away": 22
         },
         "rationale": "Difícil que Curazao saque algo de acá. El local maneja los hilos y un 3-0 es el desenlace más lógico."
       },
@@ -255,9 +255,9 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 52,
-          "draw": 27,
-          "away": 21
+          "home": 60,
+          "draw": 24,
+          "away": 16
         },
         "rationale": "Favorito: Países Bajos. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
@@ -282,9 +282,9 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 36,
-          "draw": 38,
-          "away": 26
+          "home": 24,
+          "draw": 47,
+          "away": 29
         },
         "rationale": "¡Electrizante partido en perspectiva! Nivel tan parejo que un empate a 1 es la apuesta más equilibrada."
       },
@@ -309,9 +309,9 @@
         "homeScore": 2,
         "awayScore": 2,
         "probability": {
-          "home": 29,
-          "draw": 32,
-          "away": 39
+          "home": 28,
+          "draw": 43,
+          "away": 29
         },
         "rationale": "Dos potencias muy igualadas. El 2-2 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
@@ -336,9 +336,9 @@
         "homeScore": 3,
         "awayScore": 0,
         "probability": {
-          "home": 49,
-          "draw": 26,
-          "away": 25
+          "home": 68,
+          "draw": 18,
+          "away": 14
         },
         "rationale": "Con su hinchada empujando, España tiene todas las condiciones para cerrar este partido con un 3-0 convincente."
       },
@@ -363,9 +363,9 @@
         "homeScore": 4,
         "awayScore": 1,
         "probability": {
-          "home": 53,
+          "home": 52,
           "draw": 22,
-          "away": 25
+          "away": 26
         },
         "rationale": "Bélgica llega con todo el hambre del mundo. El 4-1 es el resultado que más se repite en partidos con este nivel de poderío."
       },
@@ -390,9 +390,9 @@
         "homeScore": 0,
         "awayScore": 4,
         "probability": {
-          "home": 26,
-          "draw": 24,
-          "away": 50
+          "home": 16,
+          "draw": 22,
+          "away": 62
         },
         "rationale": "¡Ojo! Uruguay llega con un nivel claramente superior. Un 0-4 para los visitantes es la apuesta más razonada."
       },
@@ -417,9 +417,9 @@
         "homeScore": 2,
         "awayScore": 2,
         "probability": {
-          "home": 29,
-          "draw": 37,
-          "away": 34
+          "home": 23,
+          "draw": 45,
+          "away": 32
         },
         "rationale": "Partido de pronóstico complicado — ambos equipos están muy parejos. Un empate 2-2 tiene mucho sentido."
       },
@@ -444,9 +444,9 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 33,
-          "draw": 36,
-          "away": 31
+          "home": 26,
+          "draw": 41,
+          "away": 33
         },
         "rationale": "Dos potencias muy igualadas. El 1-1 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
@@ -471,9 +471,9 @@
         "homeScore": 0,
         "awayScore": 0,
         "probability": {
-          "home": 30,
-          "draw": 40,
-          "away": 30
+          "home": 27,
+          "draw": 44,
+          "away": 29
         },
         "rationale": "Partido de alto riesgo en defensa para ambos. Si nadie se anima, el 0-0 sería el resultado más probable."
       },
@@ -498,9 +498,9 @@
         "homeScore": 3,
         "awayScore": 1,
         "probability": {
-          "home": 47,
-          "draw": 22,
-          "away": 31
+          "home": 63,
+          "draw": 24,
+          "away": 13
         },
         "rationale": "Difícil que Argelia saque algo de acá. El local maneja los hilos y un 3-1 es el desenlace más lógico."
       },
@@ -525,9 +525,9 @@
         "homeScore": 2,
         "awayScore": 0,
         "probability": {
-          "home": 59,
-          "draw": 27,
-          "away": 14
+          "home": 64,
+          "draw": 20,
+          "away": 16
         },
         "rationale": "Con su hinchada empujando, Austria tiene todas las condiciones para cerrar este partido con un 2-0 convincente."
       },
@@ -552,9 +552,9 @@
         "homeScore": 3,
         "awayScore": 1,
         "probability": {
-          "home": 57,
-          "draw": 20,
-          "away": 23
+          "home": 61,
+          "draw": 19,
+          "away": 20
         },
         "rationale": "Portugal llega con todo el hambre del mundo. El 3-1 es el resultado que más se repite en partidos con este nivel de poderío."
       },
@@ -579,9 +579,9 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 60,
-          "draw": 26,
-          "away": 14
+          "home": 54,
+          "draw": 19,
+          "away": 27
         },
         "rationale": "Con su hinchada empujando, Inglaterra tiene todas las condiciones para cerrar este partido con un 1-0 convincente."
       },
@@ -606,9 +606,9 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 48,
-          "draw": 20,
-          "away": 32
+          "home": 52,
+          "draw": 18,
+          "away": 30
         },
         "rationale": "Con su hinchada empujando, Ghana tiene todas las condiciones para cerrar este partido con un 1-0 convincente."
       },
@@ -633,9 +633,9 @@
         "homeScore": 0,
         "awayScore": 4,
         "probability": {
-          "home": 17,
-          "draw": 27,
-          "away": 56
+          "home": 26,
+          "draw": 20,
+          "away": 54
         },
         "rationale": "El local juega en casa, pero el papel no miente: Colombia es claramente el favorito. El 0-4 tiene sentido."
       },
@@ -660,9 +660,9 @@
         "homeScore": 0,
         "awayScore": 0,
         "probability": {
-          "home": 33,
-          "draw": 42,
-          "away": 25
+          "home": 34,
+          "draw": 39,
+          "away": 27
         },
         "rationale": "Partido de alto riesgo en defensa para ambos. Si nadie se anima, el 0-0 sería el resultado más probable."
       },
@@ -687,9 +687,9 @@
         "homeScore": 2,
         "awayScore": 0,
         "probability": {
-          "home": 58,
-          "draw": 27,
-          "away": 15
+          "home": 68,
+          "draw": 24,
+          "away": 8
         },
         "rationale": "Difícil que Bosnia y Herzegovina saque algo de acá. El local maneja los hilos y un 2-0 es el desenlace más lógico."
       },
@@ -714,9 +714,9 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 32,
-          "draw": 42,
-          "away": 26
+          "home": 25,
+          "draw": 45,
+          "away": 30
         },
         "rationale": "Dos potencias muy igualadas. El 1-1 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
@@ -741,9 +741,9 @@
         "homeScore": 2,
         "awayScore": 2,
         "probability": {
-          "home": 31,
-          "draw": 33,
-          "away": 36
+          "home": 27,
+          "draw": 44,
+          "away": 29
         },
         "rationale": "Dos potencias muy igualadas. El 2-2 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
@@ -768,9 +768,9 @@
         "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 51,
-          "draw": 25,
-          "away": 24
+          "home": 53,
+          "draw": 22,
+          "away": 25
         },
         "rationale": "EE.UU. llega con todo el hambre del mundo. El 2-1 es el resultado que más se repite en partidos con este nivel de poderío."
       },
@@ -795,9 +795,9 @@
         "homeScore": 0,
         "awayScore": 4,
         "probability": {
-          "home": 19,
-          "draw": 26,
-          "away": 55
+          "home": 11,
+          "draw": 24,
+          "away": 65
         },
         "rationale": "Escocia lo intentará, pero la diferencia de nivel habla. El 0-4 a favor de la visita es la tendencia."
       },
@@ -822,9 +822,9 @@
         "homeScore": 4,
         "awayScore": 0,
         "probability": {
-          "home": 56,
-          "draw": 27,
-          "away": 17
+          "home": 55,
+          "draw": 19,
+          "away": 26
         },
         "rationale": "Difícil que Haití saque algo de acá. El local maneja los hilos y un 4-0 es el desenlace más lógico."
       },
@@ -849,9 +849,9 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 61,
-          "draw": 26,
-          "away": 13
+          "home": 59,
+          "draw": 17,
+          "away": 24
         },
         "rationale": "Difícil que Paraguay saque algo de acá. El local maneja los hilos y un 1-0 es el desenlace más lógico."
       },
@@ -876,9 +876,9 @@
         "homeScore": 4,
         "awayScore": 1,
         "probability": {
-          "home": 47,
-          "draw": 22,
-          "away": 31
+          "home": 57,
+          "draw": 19,
+          "away": 24
         },
         "rationale": "Favorito: Países Bajos. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
@@ -903,9 +903,9 @@
         "homeScore": 3,
         "awayScore": 0,
         "probability": {
-          "home": 65,
-          "draw": 26,
-          "away": 9
+          "home": 56,
+          "draw": 20,
+          "away": 24
         },
         "rationale": "Alemania llega con todo el hambre del mundo. El 3-0 es el resultado que más se repite en partidos con este nivel de poderío."
       },
@@ -930,9 +930,9 @@
         "homeScore": 4,
         "awayScore": 1,
         "probability": {
-          "home": 55,
-          "draw": 26,
-          "away": 19
+          "home": 65,
+          "draw": 20,
+          "away": 15
         },
         "rationale": "Difícil que Curazao saque algo de acá. El local maneja los hilos y un 4-1 es el desenlace más lógico."
       },
@@ -957,9 +957,9 @@
         "homeScore": 0,
         "awayScore": 1,
         "probability": {
-          "home": 27,
-          "draw": 24,
-          "away": 49
+          "home": 25,
+          "draw": 17,
+          "away": 58
         },
         "rationale": "Túnez lo intentará, pero la diferencia de nivel habla. El 0-1 a favor de la visita es la tendencia."
       },
@@ -984,9 +984,9 @@
         "homeScore": 4,
         "awayScore": 0,
         "probability": {
-          "home": 56,
-          "draw": 25,
-          "away": 19
+          "home": 53,
+          "draw": 22,
+          "away": 25
         },
         "rationale": "Difícil que Arabia Saudita saque algo de acá. El local maneja los hilos y un 4-0 es el desenlace más lógico."
       },
@@ -1011,9 +1011,9 @@
         "homeScore": 4,
         "awayScore": 1,
         "probability": {
-          "home": 54,
-          "draw": 22,
-          "away": 24
+          "home": 52,
+          "draw": 25,
+          "away": 23
         },
         "rationale": "Bélgica llega con todo el hambre del mundo. El 4-1 es el resultado que más se repite en partidos con este nivel de poderío."
       },
@@ -1038,9 +1038,9 @@
         "homeScore": 3,
         "awayScore": 1,
         "probability": {
-          "home": 45,
-          "draw": 28,
-          "away": 27
+          "home": 64,
+          "draw": 18,
+          "away": 18
         },
         "rationale": "Favorito: Uruguay. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
@@ -1065,9 +1065,9 @@
         "homeScore": 0,
         "awayScore": 0,
         "probability": {
-          "home": 35,
-          "draw": 34,
-          "away": 31
+          "home": 25,
+          "draw": 47,
+          "away": 28
         },
         "rationale": "Huele a empate cerrado. Ninguno tiene suficiente ventaja para garantizar un gol."
       },
@@ -1092,8 +1092,8 @@
         "homeScore": 4,
         "awayScore": 1,
         "probability": {
-          "home": 55,
-          "draw": 22,
+          "home": 53,
+          "draw": 24,
           "away": 23
         },
         "rationale": "Difícil que Austria saque algo de acá. El local maneja los hilos y un 4-1 es el desenlace más lógico."
@@ -1119,9 +1119,9 @@
         "homeScore": 3,
         "awayScore": 0,
         "probability": {
-          "home": 63,
-          "draw": 27,
-          "away": 10
+          "home": 54,
+          "draw": 22,
+          "away": 24
         },
         "rationale": "Difícil que Irak saque algo de acá. El local maneja los hilos y un 3-0 es el desenlace más lógico."
       },
@@ -1146,9 +1146,9 @@
         "homeScore": 1,
         "awayScore": 4,
         "probability": {
-          "home": 25,
+          "home": 21,
           "draw": 21,
-          "away": 54
+          "away": 58
         },
         "rationale": "Noruega lo intentará, pero la diferencia de nivel habla. El 1-4 a favor de la visita es la tendencia."
       },
@@ -1173,9 +1173,9 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 31,
-          "draw": 40,
-          "away": 29
+          "home": 30,
+          "draw": 43,
+          "away": 27
         },
         "rationale": "Aquí no hay claro favorito. Un 1-1 con goles de por medio sería el resultado más justo."
       },
@@ -1200,9 +1200,9 @@
         "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 60,
-          "draw": 25,
-          "away": 15
+          "home": 55,
+          "draw": 18,
+          "away": 27
         },
         "rationale": "Favorito: Portugal. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
@@ -1227,9 +1227,9 @@
         "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 64,
-          "draw": 26,
-          "away": 10
+          "home": 59,
+          "draw": 17,
+          "away": 24
         },
         "rationale": "Con su hinchada empujando, Inglaterra tiene todas las condiciones para cerrar este partido con un 2-1 convincente."
       },
@@ -1254,9 +1254,9 @@
         "homeScore": 1,
         "awayScore": 2,
         "probability": {
-          "home": 31,
-          "draw": 20,
-          "away": 49
+          "home": 23,
+          "draw": 17,
+          "away": 60
         },
         "rationale": "El local juega en casa, pero el papel no miente: Croacia es claramente el favorito. El 1-2 tiene sentido."
       },
@@ -1281,9 +1281,9 @@
         "homeScore": 3,
         "awayScore": 1,
         "probability": {
-          "home": 58,
+          "home": 60,
           "draw": 20,
-          "away": 22
+          "away": 20
         },
         "rationale": "Con su hinchada empujando, Colombia tiene todas las condiciones para cerrar este partido con un 3-1 convincente."
       },
@@ -1308,9 +1308,9 @@
         "homeScore": 2,
         "awayScore": 0,
         "probability": {
-          "home": 53,
-          "draw": 20,
-          "away": 27
+          "home": 57,
+          "draw": 21,
+          "away": 22
         },
         "rationale": "Favorito: Suiza. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
@@ -1335,9 +1335,9 @@
         "homeScore": 2,
         "awayScore": 2,
         "probability": {
-          "home": 38,
-          "draw": 32,
-          "away": 30
+          "home": 34,
+          "draw": 38,
+          "away": 28
         },
         "rationale": "Dos potencias muy igualadas. El 2-2 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
@@ -1362,9 +1362,9 @@
         "homeScore": 1,
         "awayScore": 4,
         "probability": {
-          "home": 22,
-          "draw": 26,
-          "away": 52
+          "home": 18,
+          "draw": 19,
+          "away": 63
         },
         "rationale": "¡Ojo! Brasil llega con un nivel claramente superior. Un 1-4 para los visitantes es la apuesta más razonada."
       },
@@ -1389,9 +1389,9 @@
         "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 54,
-          "draw": 22,
-          "away": 24
+          "home": 56,
+          "draw": 23,
+          "away": 21
         },
         "rationale": "Difícil que Haití saque algo de acá. El local maneja los hilos y un 2-1 es el desenlace más lógico."
       },
@@ -1416,9 +1416,9 @@
         "homeScore": 0,
         "awayScore": 1,
         "probability": {
-          "home": 29,
+          "home": 19,
           "draw": 20,
-          "away": 51
+          "away": 61
         },
         "rationale": "¡Ojo! México llega con un nivel claramente superior. Un 0-1 para los visitantes es la apuesta más razonada."
       },
@@ -1443,9 +1443,9 @@
         "homeScore": 1,
         "awayScore": 2,
         "probability": {
-          "home": 16,
-          "draw": 28,
-          "away": 56
+          "home": 11,
+          "draw": 24,
+          "away": 65
         },
         "rationale": "¡Ojo! Corea del Sur llega con un nivel claramente superior. Un 1-2 para los visitantes es la apuesta más razonada."
       },
@@ -1470,9 +1470,9 @@
         "homeScore": 1,
         "awayScore": 3,
         "probability": {
-          "home": 12,
-          "draw": 27,
-          "away": 61
+          "home": 16,
+          "draw": 21,
+          "away": 63
         },
         "rationale": "Ecuador lo intentará, pero la diferencia de nivel habla. El 1-3 a favor de la visita es la tendencia."
       },
@@ -1497,9 +1497,9 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 53,
-          "draw": 21,
-          "away": 26
+          "home": 60,
+          "draw": 22,
+          "away": 18
         },
         "rationale": "Con su hinchada empujando, Costa de Marfil tiene todas las condiciones para cerrar este partido con un 1-0 convincente."
       },
@@ -1524,9 +1524,9 @@
         "homeScore": 0,
         "awayScore": 4,
         "probability": {
-          "home": 26,
-          "draw": 28,
-          "away": 46
+          "home": 17,
+          "draw": 23,
+          "away": 60
         },
         "rationale": "Túnez lo intentará, pero la diferencia de nivel habla. El 0-4 a favor de la visita es la tendencia."
       },
@@ -1552,8 +1552,8 @@
         "awayScore": 0,
         "probability": {
           "home": 62,
-          "draw": 28,
-          "away": 10
+          "draw": 25,
+          "away": 13
         },
         "rationale": "Japón llega con todo el hambre del mundo. El 1-0 es el resultado que más se repite en partidos con este nivel de poderío."
       },
@@ -1579,8 +1579,8 @@
         "awayScore": 0,
         "probability": {
           "home": 28,
-          "draw": 42,
-          "away": 30
+          "draw": 40,
+          "away": 32
         },
         "rationale": "Huele a empate cerrado. Ninguno tiene suficiente ventaja para garantizar un gol."
       },
@@ -1605,9 +1605,9 @@
         "homeScore": 0,
         "awayScore": 0,
         "probability": {
-          "home": 31,
-          "draw": 32,
-          "away": 37
+          "home": 29,
+          "draw": 48,
+          "away": 23
         },
         "rationale": "Huele a empate cerrado. Ninguno tiene suficiente ventaja para garantizar un gol."
       },
@@ -1632,9 +1632,9 @@
         "homeScore": 0,
         "awayScore": 3,
         "probability": {
-          "home": 18,
-          "draw": 27,
-          "away": 55
+          "home": 22,
+          "draw": 25,
+          "away": 53
         },
         "rationale": "El local juega en casa, pero el papel no miente: Francia es claramente el favorito. El 0-3 tiene sentido."
       },
@@ -1659,8 +1659,8 @@
         "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 48,
-          "draw": 22,
+          "home": 52,
+          "draw": 18,
           "away": 30
         },
         "rationale": "Favorito: Senegal. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
@@ -1687,8 +1687,8 @@
         "awayScore": 2,
         "probability": {
           "home": 26,
-          "draw": 27,
-          "away": 47
+          "draw": 17,
+          "away": 57
         },
         "rationale": "Uruguay lo intentará, pero la diferencia de nivel habla. El 0-2 a favor de la visita es la tendencia."
       },
@@ -1713,9 +1713,9 @@
         "homeScore": 2,
         "awayScore": 0,
         "probability": {
-          "home": 51,
-          "draw": 25,
-          "away": 24
+          "home": 53,
+          "draw": 21,
+          "away": 26
         },
         "rationale": "Con su hinchada empujando, Arabia Saudita tiene todas las condiciones para cerrar este partido con un 2-0 convincente."
       },
@@ -1740,9 +1740,9 @@
         "homeScore": 0,
         "awayScore": 4,
         "probability": {
-          "home": 17,
-          "draw": 28,
-          "away": 55
+          "home": 14,
+          "draw": 22,
+          "away": 64
         },
         "rationale": "Sorpresa entre comillas: Bélgica debería manejar este partido sin apuros. Un 0-4 visitante es lo más probable."
       },
@@ -1767,9 +1767,9 @@
         "homeScore": 0,
         "awayScore": 0,
         "probability": {
-          "home": 31,
+          "home": 26,
           "draw": 40,
-          "away": 29
+          "away": 34
         },
         "rationale": "Huele a empate cerrado. Ninguno tiene suficiente ventaja para garantizar un gol."
       },
@@ -1794,9 +1794,9 @@
         "homeScore": 1,
         "awayScore": 4,
         "probability": {
-          "home": 32,
-          "draw": 23,
-          "away": 45
+          "home": 23,
+          "draw": 17,
+          "away": 60
         },
         "rationale": "Panamá lo intentará, pero la diferencia de nivel habla. El 1-4 a favor de la visita es la tendencia."
       },
@@ -1821,9 +1821,9 @@
         "homeScore": 4,
         "awayScore": 1,
         "probability": {
-          "home": 64,
-          "draw": 27,
-          "away": 9
+          "home": 54,
+          "draw": 19,
+          "away": 27
         },
         "rationale": "Favorito: Croacia. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
@@ -1848,9 +1848,9 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 37,
-          "draw": 32,
-          "away": 31
+          "home": 26,
+          "draw": 40,
+          "away": 34
         },
         "rationale": "Partido de pronóstico complicado — ambos equipos están muy parejos. Un empate 1-1 tiene mucho sentido."
       },
@@ -1875,9 +1875,9 @@
         "homeScore": 2,
         "awayScore": 2,
         "probability": {
-          "home": 31,
-          "draw": 42,
-          "away": 27
+          "home": 27,
+          "draw": 45,
+          "away": 28
         },
         "rationale": "Aquí no hay claro favorito. Un 2-2 con goles de por medio sería el resultado más justo."
       },
@@ -1902,9 +1902,9 @@
         "homeScore": 1,
         "awayScore": 2,
         "probability": {
-          "home": 19,
-          "draw": 20,
-          "away": 61
+          "home": 12,
+          "draw": 25,
+          "away": 63
         },
         "rationale": "¡Ojo! Argentina llega con un nivel claramente superior. Un 1-2 para los visitantes es la apuesta más razonada."
       },
@@ -1930,8 +1930,8 @@
         "awayScore": 1,
         "probability": {
           "home": 28,
-          "draw": 40,
-          "away": 32
+          "draw": 39,
+          "away": 33
         },
         "rationale": "¡Electrizante partido en perspectiva! Nivel tan parejo que un empate a 1 es la apuesta más equilibrada."
       },
@@ -1959,9 +1959,9 @@
         "homeScore": 0,
         "awayScore": 2,
         "probability": {
-          "home": 20,
-          "draw": 21,
-          "away": 59
+          "home": 15,
+          "draw": 18,
+          "away": 67
         },
         "rationale": "Sudáfrica lo intentará, pero la diferencia de nivel habla. El 0-2 a favor de la visita es la tendencia."
       },
@@ -1986,9 +1986,9 @@
         "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 46,
-          "draw": 21,
-          "away": 33
+          "home": 65,
+          "draw": 23,
+          "away": 12
         },
         "rationale": "Favorito: Brasil. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
@@ -2013,9 +2013,9 @@
         "homeScore": 2,
         "awayScore": 0,
         "probability": {
-          "home": 48,
-          "draw": 20,
-          "away": 32
+          "home": 65,
+          "draw": 19,
+          "away": 16
         },
         "rationale": "Difícil que Paraguay saque algo de acá. El local maneja los hilos y un 2-0 es el desenlace más lógico."
       },
@@ -2040,9 +2040,9 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 62,
-          "draw": 24,
-          "away": 14
+          "home": 61,
+          "draw": 23,
+          "away": 16
         },
         "rationale": "Favorito: Países Bajos. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
@@ -2068,8 +2068,8 @@
         "awayScore": 2,
         "probability": {
           "home": 26,
-          "draw": 27,
-          "away": 47
+          "draw": 20,
+          "away": 54
         },
         "rationale": "Sorpresa entre comillas: Noruega debería manejar este partido sin apuros. Un 1-2 visitante es lo más probable."
       },
@@ -2094,9 +2094,9 @@
         "homeScore": 3,
         "awayScore": 1,
         "probability": {
-          "home": 60,
-          "draw": 24,
-          "away": 16
+          "home": 66,
+          "draw": 19,
+          "away": 15
         },
         "rationale": "Francia llega con todo el hambre del mundo. El 3-1 es el resultado que más se repite en partidos con este nivel de poderío."
       },
@@ -2121,9 +2121,9 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 35,
-          "draw": 35,
-          "away": 30
+          "home": 28,
+          "draw": 45,
+          "away": 27
         },
         "rationale": "Dos potencias muy igualadas. El 1-1 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
@@ -2148,9 +2148,9 @@
         "homeScore": 2,
         "awayScore": 0,
         "probability": {
-          "home": 51,
-          "draw": 21,
-          "away": 28
+          "home": 55,
+          "draw": 20,
+          "away": 25
         },
         "rationale": "Con su hinchada empujando, Inglaterra tiene todas las condiciones para cerrar este partido con un 2-0 convincente."
       },
@@ -2175,9 +2175,9 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 54,
-          "draw": 26,
-          "away": 20
+          "home": 62,
+          "draw": 24,
+          "away": 14
         },
         "rationale": "Bélgica llega con todo el hambre del mundo. El 1-0 es el resultado que más se repite en partidos con este nivel de poderío."
       },
@@ -2202,9 +2202,9 @@
         "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 61,
-          "draw": 23,
-          "away": 16
+          "home": 58,
+          "draw": 19,
+          "away": 23
         },
         "rationale": "Favorito: EE.UU.. En el papel, la diferencia de nivel es clara y el local no debería sufrir demasiado."
       },
@@ -2230,8 +2230,8 @@
         "awayScore": 0,
         "probability": {
           "home": 56,
-          "draw": 27,
-          "away": 17
+          "draw": 17,
+          "away": 27
         },
         "rationale": "Difícil que Austria saque algo de acá. El local maneja los hilos y un 2-0 es el desenlace más lógico."
       },
@@ -2256,9 +2256,9 @@
         "homeScore": 1,
         "awayScore": 0,
         "probability": {
-          "home": 65,
-          "draw": 22,
-          "away": 13
+          "home": 61,
+          "draw": 24,
+          "away": 15
         },
         "rationale": "Difícil que Croacia saque algo de acá. El local maneja los hilos y un 1-0 es el desenlace más lógico."
       },
@@ -2283,9 +2283,9 @@
         "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 61,
-          "draw": 25,
-          "away": 14
+          "home": 64,
+          "draw": 21,
+          "away": 15
         },
         "rationale": "Con su hinchada empujando, Suiza tiene todas las condiciones para cerrar este partido con un 2-1 convincente."
       },
@@ -2310,9 +2310,9 @@
         "homeScore": 0,
         "awayScore": 1,
         "probability": {
-          "home": 16,
-          "draw": 27,
-          "away": 57
+          "home": 30,
+          "draw": 18,
+          "away": 52
         },
         "rationale": "El local juega en casa, pero el papel no miente: Egipto es claramente el favorito. El 0-1 tiene sentido."
       },
@@ -2337,9 +2337,9 @@
         "homeScore": 3,
         "awayScore": 0,
         "probability": {
-          "home": 59,
-          "draw": 22,
-          "away": 19
+          "home": 61,
+          "draw": 24,
+          "away": 15
         },
         "rationale": "Argentina llega con todo el hambre del mundo. El 3-0 es el resultado que más se repite en partidos con este nivel de poderío."
       },
@@ -2364,9 +2364,9 @@
         "homeScore": 2,
         "awayScore": 1,
         "probability": {
-          "home": 48,
-          "draw": 24,
-          "away": 28
+          "home": 62,
+          "draw": 18,
+          "away": 20
         },
         "rationale": "Con su hinchada empujando, Colombia tiene todas las condiciones para cerrar este partido con un 2-1 convincente."
       },
@@ -2391,9 +2391,9 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 29,
-          "draw": 35,
-          "away": 36
+          "home": 33,
+          "draw": 39,
+          "away": 28
         },
         "rationale": "¡Electrizante partido en perspectiva! Nivel tan parejo que un empate a 1 es la apuesta más equilibrada."
       },
@@ -2418,9 +2418,9 @@
         "homeScore": 2,
         "awayScore": 2,
         "probability": {
-          "home": 29,
-          "draw": 35,
-          "away": 36
+          "home": 28,
+          "draw": 43,
+          "away": 29
         },
         "rationale": "¡Electrizante partido en perspectiva! Nivel tan parejo que un empate a 2 es la apuesta más equilibrada."
       },
@@ -2445,9 +2445,9 @@
         "homeScore": 0,
         "awayScore": 0,
         "probability": {
-          "home": 30,
-          "draw": 35,
-          "away": 35
+          "home": 25,
+          "draw": 45,
+          "away": 30
         },
         "rationale": "Dos equipos muy parejos que cuidan mucho el arco. Un 0-0 de trincheras es perfectamente posible."
       },
@@ -2472,9 +2472,9 @@
         "homeScore": 2,
         "awayScore": 2,
         "probability": {
-          "home": 31,
-          "draw": 32,
-          "away": 37
+          "home": 29,
+          "draw": 39,
+          "away": 32
         },
         "rationale": "Dos potencias muy igualadas. El 2-2 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
@@ -2499,9 +2499,9 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 30,
-          "draw": 42,
-          "away": 28
+          "home": 28,
+          "draw": 48,
+          "away": 24
         },
         "rationale": "¡Electrizante partido en perspectiva! Nivel tan parejo que un empate a 1 es la apuesta más equilibrada."
       },
@@ -2526,9 +2526,9 @@
         "homeScore": 0,
         "awayScore": 0,
         "probability": {
-          "home": 33,
-          "draw": 35,
-          "away": 32
+          "home": 30,
+          "draw": 46,
+          "away": 24
         },
         "rationale": "Partido de alto riesgo en defensa para ambos. Si nadie se anima, el 0-0 sería el resultado más probable."
       },
@@ -2551,9 +2551,9 @@
         "homeScore": 2,
         "awayScore": 2,
         "probability": {
-          "home": 28,
-          "draw": 40,
-          "away": 32
+          "home": 29,
+          "draw": 45,
+          "away": 26
         },
         "rationale": "Aquí no hay claro favorito. Un 2-2 con goles de por medio sería el resultado más justo."
       },
@@ -2577,8 +2577,8 @@
         "awayScore": 1,
         "probability": {
           "home": 33,
-          "draw": 33,
-          "away": 34
+          "draw": 41,
+          "away": 26
         },
         "rationale": "Partido de pronóstico complicado — ambos equipos están muy parejos. Un empate 1-1 tiene mucho sentido."
       },
@@ -2601,9 +2601,9 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 33,
-          "draw": 34,
-          "away": 33
+          "home": 23,
+          "draw": 45,
+          "away": 32
         },
         "rationale": "Aquí no hay claro favorito. Un 1-1 con goles de por medio sería el resultado más justo."
       },
@@ -2626,9 +2626,9 @@
         "homeScore": 0,
         "awayScore": 0,
         "probability": {
-          "home": 35,
-          "draw": 35,
-          "away": 30
+          "home": 28,
+          "draw": 47,
+          "away": 25
         },
         "rationale": "Dos equipos muy parejos que cuidan mucho el arco. Un 0-0 de trincheras es perfectamente posible."
       },
@@ -2651,9 +2651,9 @@
         "homeScore": 0,
         "awayScore": 0,
         "probability": {
-          "home": 34,
-          "draw": 34,
-          "away": 32
+          "home": 29,
+          "draw": 38,
+          "away": 33
         },
         "rationale": "Dos equipos muy parejos que cuidan mucho el arco. Un 0-0 de trincheras es perfectamente posible."
       },
@@ -2676,9 +2676,9 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 30,
-          "draw": 35,
-          "away": 35
+          "home": 29,
+          "draw": 42,
+          "away": 29
         },
         "rationale": "Aquí no hay claro favorito. Un 1-1 con goles de por medio sería el resultado más justo."
       },
@@ -2701,9 +2701,9 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 35,
-          "draw": 34,
-          "away": 31
+          "home": 31,
+          "draw": 44,
+          "away": 25
         },
         "rationale": "Aquí no hay claro favorito. Un 1-1 con goles de por medio sería el resultado más justo."
       },
@@ -2726,9 +2726,9 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 29,
-          "draw": 37,
-          "away": 34
+          "home": 28,
+          "draw": 42,
+          "away": 30
         },
         "rationale": "Partido de pronóstico complicado — ambos equipos están muy parejos. Un empate 1-1 tiene mucho sentido."
       },
@@ -2751,9 +2751,9 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 37,
-          "draw": 35,
-          "away": 28
+          "home": 28,
+          "draw": 40,
+          "away": 32
         },
         "rationale": "Dos potencias muy igualadas. El 1-1 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
@@ -2776,9 +2776,9 @@
         "homeScore": 1,
         "awayScore": 1,
         "probability": {
-          "home": 31,
-          "draw": 39,
-          "away": 30
+          "home": 30,
+          "draw": 43,
+          "away": 27
         },
         "rationale": "Dos potencias muy igualadas. El 1-1 es el resultado que más veces aparece cuando se cruzan equipos de este calibre."
       },
