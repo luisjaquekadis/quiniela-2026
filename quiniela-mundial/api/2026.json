@@ -2665,9 +2665,9 @@
     },
     {
       "id": "m100",
-      "homeTeam": "Round of 16 7 Winner",
+      "homeTeam": "Argentina",
       "awayTeam": "Round of 16 8 Winner",
-      "homeFlag": "⭐",
+      "homeFlag": "🇦🇷",
       "awayFlag": "⭐",
       "stage": "Cuartos de Final",
       "group": null,
@@ -2685,7 +2685,7 @@
         "rationale": "Choque de estilos muy parejo entre Ganador Octavos 7 y Ganador Octavos 8. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
       },
       "utcDate": "2026-07-12T00:00:00Z",
-      "homeFlagCode": "un",
+      "homeFlagCode": "ar",
       "awayFlagCode": "un"
     },
     {
