@@ -24,6 +24,9 @@ class QuinielaApp {
   getFlagUrl(flagCode) {
     if (!flagCode) return `https://flagcdn.com/w40/un.png`;
     const code = flagCode.toLowerCase();
+    // Serve locally for codes that CDNs and adblockers break
+    const localFlags = ['ar', 'gb-eng', 'gb-sct', 'gb-wls', 'gb-nir', 'at'];
+    if (localFlags.includes(code)) return `img/flags/${code}.png`;
     return `https://flagsapi.com/${code.toUpperCase()}/flat/32.png`;
   }
 
