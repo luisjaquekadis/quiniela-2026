@@ -2534,7 +2534,9 @@
       },
       "utcDate": "2026-07-06T22:00:00Z",
       "homeFlagCode": "us",
-      "awayFlagCode": "be"
+      "awayFlagCode": "be",
+      "realHomeScore": 1,
+      "realAwayScore": 4
     },
     {
       "id": "m94",
@@ -2614,9 +2616,9 @@
     {
       "id": "m99",
       "homeTeam": "España",
-      "awayTeam": "Round of 16 6 Winner",
+      "awayTeam": "Bélgica",
       "homeFlag": "🇪🇸",
-      "awayFlag": "⭐",
+      "awayFlag": "🇧🇪",
       "stage": "Cuartos de Final",
       "group": null,
       "date": "10 de Julio 2026",
@@ -2634,7 +2636,7 @@
       },
       "utcDate": "2026-07-10T23:00:00Z",
       "homeFlagCode": "es",
-      "awayFlagCode": "un"
+      "awayFlagCode": "be"
     },
     {
       "id": "m98",
