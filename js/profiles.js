@@ -1123,7 +1123,7 @@ class QuinielaStorage {
   }
   // --- FUNCIONES DE DUELOS ---
   async getDuels() {
-    const groupId = this.getGroupId();
+    const groupId = localStorage.getItem("quiniela_group_id") || "default";
     if (!groupId) return [];
     try {
       const snap = await this.db.collection("groups").doc(groupId).collection("duels").get();
@@ -1135,7 +1135,7 @@ class QuinielaStorage {
   }
 
   async sendDuel(matchId, challengerId, defenderId) {
-    const groupId = this.getGroupId();
+    const groupId = localStorage.getItem("quiniela_group_id") || "default";
     if (!groupId) return false;
     const duelId = `${matchId}_${challengerId}_${defenderId}`;
     try {
@@ -1154,7 +1154,7 @@ class QuinielaStorage {
   }
 
   async updateDuelStatus(duelId, status) {
-    const groupId = this.getGroupId();
+    const groupId = localStorage.getItem("quiniela_group_id") || "default";
     if (!groupId) return false;
     try {
       await this.db.collection("groups").doc(groupId).collection("duels").doc(duelId).update({
