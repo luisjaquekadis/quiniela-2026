@@ -655,8 +655,9 @@ class QuinielaStorage {
                 ...(cm.homeTeam && { homeTeam: cm.homeTeam }),
                 ...(cm.awayTeam && { awayTeam: cm.awayTeam }),
                 ...(cm.homeFlagCode && { homeFlagCode: cm.homeFlagCode }),
-                ...(cm.awayFlagCode && { awayFlagCode: cm.awayFlagCode }),
-                ...(cm.recommendation && { recommendation: cm.recommendation })
+                ...(cm.awayFlagCode && { awayFlagCode: cm.awayFlagCode })
+                // NOTE: recommendation intentionally NOT taken from Firebase
+                // The JSON file (api/2026.json) is always the source of truth for recommendations
               };
             }
             return lm;
@@ -813,7 +814,7 @@ class QuinielaStorage {
     // Vienen exclusivamente de Firebase (official_matches) vía listenToCloudChanges.
     let matchesFromAPI = [];
     try {
-      const response = await fetch("api/2026.json?v=6");
+      const response = await fetch("api/2026.json?v=7");
       matchesFromAPI = await response.json();
     } catch (e) {
       console.error("Error loading matches:", e);
