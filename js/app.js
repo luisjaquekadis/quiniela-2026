@@ -1696,7 +1696,7 @@ class QuinielaApp {
     if (!this.activeProfileId) return alert("Inicia sesión primero");
     
     // Verificar si el partido ya empezó
-    const match = this.matchesData.find(m => m.id === matchId);
+    const match = qStorage.getMatches().find(m => m.id === matchId);
     if (!match) return;
     const isStarted = this.liveScores && this.liveScores[`${match.homeTeam} vs ${match.awayTeam}`] && this.liveScores[`${match.homeTeam} vs ${match.awayTeam}`].status !== "Scheduled" && this.liveScores[`${match.homeTeam} vs ${match.awayTeam}`].status !== "Postponed";
     if (isStarted || match.isCompleted) return alert("El partido ya empezó o terminó. ¡Demasiado tarde!");
@@ -1748,7 +1748,7 @@ class QuinielaApp {
     let cReceived = 0, cSent = 0, cActive = 0;
     
     duels.forEach(d => {
-      const match = this.matchesData.find(m => m.id === d.matchId);
+      const match = qStorage.getMatches().find(m => m.id === d.matchId);
       if (!match) return;
       
       const isMeChallenger = d.challengerId === this.activeProfileId;
