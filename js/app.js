@@ -1109,8 +1109,8 @@ class QuinielaApp {
           probHtml = `
             <div class="prob-container" style="margin-top: 10px; display: flex; flex-direction: column; gap: 4px; border-top: 1px solid rgba(255, 255, 255, 0.05); padding-top: 8px;">
               <div style="display: flex; justify-content: space-between; font-size: 10px; font-weight: 600; color: var(--text-muted); margin-bottom: 2px;">
-                <span>PROBABILIDADES (POISSON)</span>
-                <span>Moda Matemática</span>
+                <span>📊 TENDENCIA DE APUESTAS</span>
+                <span>🏆 Favorito</span>
               </div>
               <div style="display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: rgba(255,255,255,0.05);">
                 <div style="width: ${prob.home}%; background: linear-gradient(90deg, #3b82f6, #60a5fa);" title="Victoria Local: ${prob.home}%"></div>
