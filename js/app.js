@@ -1103,37 +1103,13 @@ class QuinielaApp {
 
       let recommendationHtml = "";
       if (match.recommendation) {
-        let probHtml = "";
-        if (match.recommendation.probability) {
-          const prob = match.recommendation.probability;
-          probHtml = `
-            <div class="prob-container" style="margin-top: 10px; display: flex; flex-direction: column; gap: 4px; border-top: 1px solid rgba(255, 255, 255, 0.05); padding-top: 8px;">
-              <div style="display: flex; justify-content: space-between; font-size: 10px; font-weight: 600; color: var(--text-muted); margin-bottom: 2px;">
-                <span>📊 TENDENCIA DE APUESTAS</span>
-                <span>🏆 Favorito</span>
-              </div>
-              <div style="display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: rgba(255,255,255,0.05);">
-                <div style="width: ${prob.home}%; background: linear-gradient(90deg, #3b82f6, #60a5fa);" title="Victoria Local: ${prob.home}%"></div>
-                <div style="width: ${prob.draw}%; background: linear-gradient(90deg, #64748b, #94a3b8);" title="Empate: ${prob.draw}%"></div>
-                <div style="width: ${prob.away}%; background: linear-gradient(90deg, #ef4444, #f87171);" title="Victoria Visitante: ${prob.away}%"></div>
-              </div>
-              <div style="display: flex; justify-content: space-between; font-size: 10px; margin-top: 2px;">
-                <span style="color: #60a5fa; font-weight: 500;">🔵 Local: ${prob.home}%</span>
-                <span style="color: #94a3b8; font-weight: 500;">⚪ Empate: ${prob.draw}%</span>
-                <span style="color: #f87171; font-weight: 500;">🔴 Visita: ${prob.away}%</span>
-              </div>
-            </div>
-          `;
-        }
-
         recommendationHtml = `
           <div class="recommendation-box" style="margin-top: 12px; padding: 12px; background: rgba(16, 185, 129, 0.06); border-radius: 8px; border: 1px solid rgba(16, 185, 129, 0.2); font-size: 12px; line-height: 1.4;">
             <div style="font-weight: 600; color: var(--accent-green); margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
               <span>🔥 Pronóstico Sugerido:</span>
               <strong style="background: rgba(16, 185, 129, 0.15); padding: 2px 8px; border-radius: 4px; font-size: 13px; border: 1px solid rgba(16, 185, 129, 0.4);">${match.recommendation.homeScore} - ${match.recommendation.awayScore}</strong>
             </div>
-            <div style="color: var(--text-muted); font-style: italic; margin-bottom: 4px;">"${match.recommendation.rationale}"</div>
-            ${probHtml}
+            <div style="color: var(--text-muted); font-style: italic;">"${match.recommendation.rationale}"</div>
           </div>
         `;
       }
