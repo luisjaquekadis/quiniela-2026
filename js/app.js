@@ -1,4 +1,5 @@
 // Controlador Principal de la Quiniela Mundial Compartida
+const STAGES = ["Todos", "Fase de Grupos", "16avos de Final", "Octavos de Final", "Cuartos de Final", "Semifinal", "Tercer Lugar", "Final"];
 
 class QuinielaApp {
   constructor() {
