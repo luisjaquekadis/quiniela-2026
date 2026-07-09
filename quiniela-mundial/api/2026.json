@@ -2611,7 +2611,9 @@
       },
       "utcDate": "2026-07-09T17:00:00Z",
       "homeFlagCode": "fr",
-      "awayFlagCode": "ma"
+      "awayFlagCode": "ma",
+      "realHomeScore": 2,
+      "realAwayScore": 0
     },
     {
       "id": "m99",
@@ -2690,9 +2692,9 @@
     },
     {
       "id": "m101",
-      "homeTeam": "Ganador Cuartos 1",
+      "homeTeam": "Francia",
       "awayTeam": "Ganador Cuartos 2",
-      "homeFlag": "🌟",
+      "homeFlag": "🇫🇷",
       "awayFlag": "🌟",
       "stage": "Semifinal",
       "group": null,
@@ -2710,7 +2712,7 @@
         "rationale": "Choque de estilos muy parejo entre Ganador Cuartos 1 y Ganador Cuartos 2. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
       },
       "utcDate": "2026-07-14T17:00:00Z",
-      "homeFlagCode": "un",
+      "homeFlagCode": "fr",
       "awayFlagCode": "un"
     },
     {
