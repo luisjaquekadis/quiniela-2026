@@ -2638,7 +2638,9 @@
       },
       "utcDate": "2026-07-10T23:00:00Z",
       "homeFlagCode": "es",
-      "awayFlagCode": "be"
+      "awayFlagCode": "be",
+      "realHomeScore": 2,
+      "realAwayScore": 1
     },
     {
       "id": "m98",
@@ -2693,9 +2695,9 @@
     {
       "id": "m101",
       "homeTeam": "Francia",
-      "awayTeam": "Ganador Cuartos 2",
+      "awayTeam": "España",
       "homeFlag": "🇫🇷",
-      "awayFlag": "🌟",
+      "awayFlag": "🇪🇸",
       "stage": "Semifinal",
       "group": null,
       "date": "14 de Julio 2026",
@@ -2713,7 +2715,7 @@
       },
       "utcDate": "2026-07-14T17:00:00Z",
       "homeFlagCode": "fr",
-      "awayFlagCode": "un"
+      "awayFlagCode": "es"
     },
     {
       "id": "m102",
