@@ -2665,7 +2665,9 @@
       },
       "utcDate": "2026-07-10T23:00:00Z",
       "homeFlagCode": "no",
-      "awayFlagCode": "gb-eng"
+      "awayFlagCode": "gb-eng",
+      "realHomeScore": 1,
+      "realAwayScore": 2
     },
     {
       "id": "m100",
@@ -2719,9 +2721,9 @@
     },
     {
       "id": "m102",
-      "homeTeam": "Ganador Cuartos 3",
+      "homeTeam": "Inglaterra",
       "awayTeam": "Ganador Cuartos 4",
-      "homeFlag": "🌟",
+      "homeFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "awayFlag": "🌟",
       "stage": "Semifinal",
       "group": null,
@@ -2739,7 +2741,7 @@
         "rationale": "Choque de estilos muy parejo entre Ganador Cuartos 3 y Ganador Cuartos 4. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
       },
       "utcDate": "2026-07-15T20:00:00Z",
-      "homeFlagCode": "un",
+      "homeFlagCode": "gb-eng",
       "awayFlagCode": "un"
     },
     {
