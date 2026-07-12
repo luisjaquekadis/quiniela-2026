@@ -2692,7 +2692,9 @@
       },
       "utcDate": "2026-07-12T00:00:00Z",
       "homeFlagCode": "ar",
-      "awayFlagCode": "ch"
+      "awayFlagCode": "ch",
+      "realHomeScore": 3,
+      "realAwayScore": 1
     },
     {
       "id": "m101",
@@ -2722,9 +2724,9 @@
     {
       "id": "m102",
       "homeTeam": "Inglaterra",
-      "awayTeam": "Ganador Cuartos 4",
+      "awayTeam": "Argentina",
       "homeFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "awayFlag": "🌟",
+      "awayFlag": "🇦🇷",
       "stage": "Semifinal",
       "group": null,
       "date": "15 de Julio 2026",
@@ -2742,7 +2744,7 @@
       },
       "utcDate": "2026-07-15T20:00:00Z",
       "homeFlagCode": "gb-eng",
-      "awayFlagCode": "un"
+      "awayFlagCode": "ar"
     },
     {
       "id": "m103",
