@@ -2719,7 +2719,9 @@
       },
       "utcDate": "2026-07-14T17:00:00Z",
       "homeFlagCode": "fr",
-      "awayFlagCode": "es"
+      "awayFlagCode": "es",
+      "realHomeScore": 0,
+      "realAwayScore": 2
     },
     {
       "id": "m102",
