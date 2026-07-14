@@ -2750,9 +2750,9 @@
     },
     {
       "id": "m103",
-      "homeTeam": "Perdedor Semifinal 1",
+      "homeTeam": "Francia",
       "awayTeam": "Perdedor Semifinal 2",
-      "homeFlag": "🥉",
+      "homeFlag": "🇫🇷",
       "awayFlag": "🥉",
       "stage": "Tercer Lugar",
       "group": null,
@@ -2770,14 +2770,14 @@
         "rationale": "Choque de estilos muy parejo entre Perdedor Semifinal 1 y Perdedor Semifinal 2. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
       },
       "utcDate": "2026-07-19T01:00:00Z",
-      "homeFlagCode": "un",
+      "homeFlagCode": "fr",
       "awayFlagCode": "un"
     },
     {
       "id": "m104",
-      "homeTeam": "Ganador Semifinal 1",
+      "homeTeam": "España",
       "awayTeam": "Ganador Semifinal 2",
-      "homeFlag": "👑",
+      "homeFlag": "🇪🇸",
       "awayFlag": "👑",
       "stage": "Gran Final",
       "group": null,
@@ -2795,7 +2795,7 @@
         "rationale": "Choque de estilos muy parejo entre Ganador Semifinal 1 y Ganador Semifinal 2. El modelo prevé un empate táctico. El algoritmo asigna mayor peso a torneos continentales y amistosos recientes que a la historia ultra pasada."
       },
       "utcDate": "2026-07-20T03:00:00Z",
-      "homeFlagCode": "un",
+      "homeFlagCode": "es",
       "awayFlagCode": "un"
     }
   ]
