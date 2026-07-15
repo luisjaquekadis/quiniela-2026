@@ -2746,14 +2746,16 @@
       },
       "utcDate": "2026-07-15T20:00:00Z",
       "homeFlagCode": "gb-eng",
-      "awayFlagCode": "ar"
+      "awayFlagCode": "ar",
+      "realHomeScore": 1,
+      "realAwayScore": 2
     },
     {
       "id": "m103",
       "homeTeam": "Francia",
-      "awayTeam": "Perdedor Semifinal 2",
+      "awayTeam": "Inglaterra",
       "homeFlag": "🇫🇷",
-      "awayFlag": "🥉",
+      "awayFlag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "stage": "Tercer Lugar",
       "group": null,
       "date": "18 de Julio 2026",
@@ -2771,14 +2773,14 @@
       },
       "utcDate": "2026-07-19T01:00:00Z",
       "homeFlagCode": "fr",
-      "awayFlagCode": "un"
+      "awayFlagCode": "gb-eng"
     },
     {
       "id": "m104",
       "homeTeam": "España",
-      "awayTeam": "Ganador Semifinal 2",
+      "awayTeam": "Argentina",
       "homeFlag": "🇪🇸",
-      "awayFlag": "👑",
+      "awayFlag": "🇦🇷",
       "stage": "Gran Final",
       "group": null,
       "date": "19 de Julio 2026",
@@ -2796,7 +2798,7 @@
       },
       "utcDate": "2026-07-20T03:00:00Z",
       "homeFlagCode": "es",
-      "awayFlagCode": "un"
+      "awayFlagCode": "ar"
     }
   ]
 }
