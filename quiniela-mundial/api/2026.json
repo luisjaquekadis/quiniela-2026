@@ -2800,7 +2800,9 @@
       },
       "utcDate": "2026-07-20T03:00:00Z",
       "homeFlagCode": "es",
-      "awayFlagCode": "ar"
+      "awayFlagCode": "ar",
+      "realHomeScore": 1,
+      "realAwayScore": 0
     }
   ]
 }
